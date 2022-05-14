@@ -1,0 +1,2632 @@
+route_id;route_long_name;stop_times.stop_sequence;stop_times.stop_id;stops.stop_name
+R1;Bergamo-Brescia;1;734;BRESCIA
+R1;Bergamo-Brescia;3;1974;OSPITALETTO TRAVAGLIATO
+R1;Bergamo-Brescia;4;2437;ROVATO
+R1;Bergamo-Brescia;5;1128;COCCAGLIO
+R1;Bergamo-Brescia;6;1151;COLOGNE
+R1;Bergamo-Brescia;7;2015;PALAZZOLO SULL'OGLIO
+R1;Bergamo-Brescia;8;1473;GRUMELLO DEL MONTE
+R1;Bergamo-Brescia;9;1099;CHIUDUNO
+R1;Bergamo-Brescia;10;1808;MONTELLO GORLAGO
+R1;Bergamo-Brescia;11;397;ALBANO S.ALESSANDRO
+R1;Bergamo-Brescia;12;2697;SERIATE
+R1;Bergamo-Brescia;13;632;BERGAMO
+R1;Bergamo-Brescia;1;632;BERGAMO
+R1;Bergamo-Brescia;2;2697;SERIATE
+R1;Bergamo-Brescia;3;397;ALBANO S.ALESSANDRO
+R1;Bergamo-Brescia;4;1808;MONTELLO GORLAGO
+R1;Bergamo-Brescia;5;1099;CHIUDUNO
+R1;Bergamo-Brescia;6;1473;GRUMELLO DEL MONTE
+R1;Bergamo-Brescia;8;1151;COLOGNE
+R1;Bergamo-Brescia;9;1128;COCCAGLIO
+R1;Bergamo-Brescia;10;2437;ROVATO
+R1;Bergamo-Brescia;11;1974;OSPITALETTO TRAVAGLIATO
+R1;Bergamo-Brescia;13;734;BRESCIA
+R1;Bergamo-Brescia;1;2015;PALAZZOLO SULL'OGLIO
+R1;Bergamo-Brescia;2;1151;COLOGNE
+R1;Bergamo-Brescia;3;1128;COCCAGLIO
+R1;Bergamo-Brescia;5;1974;OSPITALETTO TRAVAGLIATO
+R1;Bergamo-Brescia;7;734;BRESCIA
+R1;Bergamo-Brescia;1;2697;SERIATE
+R1;Bergamo-Brescia;2;397;ALBANO S.ALESSANDRO
+R1;Bergamo-Brescia;3;1808;MONTELLO GORLAGO
+R1;Bergamo-Brescia;5;1473;GRUMELLO DEL MONTE
+R1;Bergamo-Brescia;6;2015;PALAZZOLO SULL'OGLIO
+R1;Bergamo-Brescia;8;1128;COCCAGLIO
+R1;Bergamo-Brescia;9;2437;ROVATO
+R1;Bergamo-Brescia;10;1974;OSPITALETTO TRAVAGLIATO
+R1;Bergamo-Brescia;12;734;BRESCIA
+R11;Colico-Chiavenna;1;1089;CHIAVENNA
+R11;Colico-Chiavenna;2;2275;PRATA CAMPORTACCIO
+R11;Colico-Chiavenna;3;2477;S.CASSIANO VALCHIAVENNA
+R11;Colico-Chiavenna;4;2632;SAMOLACO
+R11;Colico-Chiavenna;5;1919;NOVATE-MEZZOLA
+R11;Colico-Chiavenna;6;3013;VERCEIA
+R11;Colico-Chiavenna;7;1263;DUBINO
+R11;Colico-Chiavenna;8;1139;COLICO
+R11;Colico-Chiavenna;1;1139;COLICO
+R11;Colico-Chiavenna;2;1263;DUBINO
+R11;Colico-Chiavenna;3;3013;VERCEIA
+R11;Colico-Chiavenna;4;1919;NOVATE-MEZZOLA
+R11;Colico-Chiavenna;5;2632;SAMOLACO
+R11;Colico-Chiavenna;6;2477;S.CASSIANO VALCHIAVENNA
+R11;Colico-Chiavenna;7;2275;PRATA CAMPORTACCIO
+R11;Colico-Chiavenna;8;1089;CHIAVENNA
+R12;Sondrio-Tirano;1;2760;SONDRIO
+R12;Sondrio-Tirano;2;2195;POGGIRIDENTI-TRESIVIO-PIATEDA
+R12;Sondrio-Tirano;3;2218;PONTE IN VALTELLINA
+R12;Sondrio-Tirano;6;2916;TRESENDA-APRICA-TEGLIO
+R12;Sondrio-Tirano;7;641;BIANZONE
+R12;Sondrio-Tirano;9;2850;TIRANO
+R12;Sondrio-Tirano;1;2850;TIRANO
+R12;Sondrio-Tirano;2;3071;VILLA DI TIRANO
+R12;Sondrio-Tirano;3;641;BIANZONE
+R12;Sondrio-Tirano;4;2916;TRESENDA-APRICA-TEGLIO
+R12;Sondrio-Tirano;5;2504;S.GIACOMO DI TEGLIO
+R12;Sondrio-Tirano;6;1100;CHIURO
+R12;Sondrio-Tirano;7;2218;PONTE IN VALTELLINA
+R12;Sondrio-Tirano;8;2195;POGGIRIDENTI-TRESIVIO-PIATEDA
+R12;Sondrio-Tirano;9;2760;SONDRIO
+R12;Sondrio-Tirano;4;1100;CHIURO
+R12;Sondrio-Tirano;8;3071;VILLA DI TIRANO
+R13;Lecco-Colico-Sondrio;1;2760;SONDRIO
+R13;Lecco-Colico-Sondrio;3;2573;S.PIETRO BERBENNO
+R13;Lecco-Colico-Sondrio;4;455;ARDENNO MASINO
+R13;Lecco-Colico-Sondrio;5;2808;TALAMONA
+R13;Lecco-Colico-Sondrio;6;1846;MORBEGNO
+R13;Lecco-Colico-Sondrio;7;1189;COSIO TRAONA
+R13;Lecco-Colico-Sondrio;8;1225;DELEBIO
+R13;Lecco-Colico-Sondrio;9;1139;COLICO
+R13;Lecco-Colico-Sondrio;10;2151;PIONA
+R13;Lecco-Colico-Sondrio;11;1258;DORIO
+R13;Lecco-Colico-Sondrio;12;1228;DERVIO
+R13;Lecco-Colico-Sondrio;13;618;BELLANO TARTAVALLE TERME
+R13;Lecco-Colico-Sondrio;14;2993;VARENNA ESINO
+R13;Lecco-Colico-Sondrio;15;1329;FIUMELATTE
+R13;Lecco-Colico-Sondrio;16;1575;LIERNA
+R13;Lecco-Colico-Sondrio;17;1934;OLCIO
+R13;Lecco-Colico-Sondrio;18;1632;MANDELLO DEL LARIO
+R13;Lecco-Colico-Sondrio;19;365;ABBADIA LARIANA
+R13;Lecco-Colico-Sondrio;20;1550;LECCO
+R13;Lecco-Colico-Sondrio;1;1550;LECCO
+R13;Lecco-Colico-Sondrio;2;365;ABBADIA LARIANA
+R13;Lecco-Colico-Sondrio;3;1632;MANDELLO DEL LARIO
+R13;Lecco-Colico-Sondrio;4;1934;OLCIO
+R13;Lecco-Colico-Sondrio;5;1575;LIERNA
+R13;Lecco-Colico-Sondrio;6;1329;FIUMELATTE
+R13;Lecco-Colico-Sondrio;7;2993;VARENNA ESINO
+R13;Lecco-Colico-Sondrio;8;618;BELLANO TARTAVALLE TERME
+R13;Lecco-Colico-Sondrio;9;1228;DERVIO
+R13;Lecco-Colico-Sondrio;10;1258;DORIO
+R13;Lecco-Colico-Sondrio;11;2151;PIONA
+R13;Lecco-Colico-Sondrio;12;1139;COLICO
+R13;Lecco-Colico-Sondrio;13;1225;DELEBIO
+R13;Lecco-Colico-Sondrio;14;1189;COSIO TRAONA
+R13;Lecco-Colico-Sondrio;15;1846;MORBEGNO
+R13;Lecco-Colico-Sondrio;16;2808;TALAMONA
+R13;Lecco-Colico-Sondrio;17;455;ARDENNO MASINO
+R13;Lecco-Colico-Sondrio;18;2573;S.PIETRO BERBENNO
+R13;Lecco-Colico-Sondrio;20;2760;SONDRIO
+R13;Lecco-Colico-Sondrio;1;1139;COLICO
+R13;Lecco-Colico-Sondrio;2;1225;DELEBIO
+R13;Lecco-Colico-Sondrio;3;1189;COSIO TRAONA
+R13;Lecco-Colico-Sondrio;4;1846;MORBEGNO
+R13;Lecco-Colico-Sondrio;6;455;ARDENNO MASINO
+R13;Lecco-Colico-Sondrio;7;2573;S.PIETRO BERBENNO
+R13;Lecco-Colico-Sondrio;9;2760;SONDRIO
+R13;Lecco-Colico-Sondrio;2;2151;PIONA
+R13;Lecco-Colico-Sondrio;3;1258;DORIO
+R13;Lecco-Colico-Sondrio;4;1228;DERVIO
+R13;Lecco-Colico-Sondrio;5;618;BELLANO TARTAVALLE TERME
+R13;Lecco-Colico-Sondrio;6;2993;VARENNA ESINO
+R13;Lecco-Colico-Sondrio;7;1329;FIUMELATTE
+R13;Lecco-Colico-Sondrio;8;1575;LIERNA
+R13;Lecco-Colico-Sondrio;9;1934;OLCIO
+R13;Lecco-Colico-Sondrio;10;1632;MANDELLO DEL LARIO
+R13;Lecco-Colico-Sondrio;11;365;ABBADIA LARIANA
+R13;Lecco-Colico-Sondrio;12;1550;LECCO
+R13;Lecco-Colico-Sondrio;2;1025;CASTIONE ANDEVENNO
+R14;Bergamo-Carnate-Milano;1;632;BERGAMO
+R14;Bergamo-Carnate-Milano;2;3183;BERGAMO OSPEDALE
+R14;Bergamo-Carnate-Milano;3;2223;PONTE S.PIETRO
+R14;Bergamo-Carnate-Milano;4;2836;TERNO
+R14;Bergamo-Carnate-Milano;5;811;CALUSCO
+R14;Bergamo-Carnate-Milano;6;1998;PADERNO ROBBIATE
+R14;Bergamo-Carnate-Milano;7;905;CARNATE USMATE
+R14;Bergamo-Carnate-Milano;8;453;ARCORE
+R14;Bergamo-Carnate-Milano;9;1841;MONZA
+R14;Bergamo-Carnate-Milano;10;2716;SESTO S.GIOVANNI
+R14;Bergamo-Carnate-Milano;11;1711;MILANO GRECO PIRELLI
+R14;Bergamo-Carnate-Milano;13;1715;MILANO PORTA GARIBALDI
+R14;Bergamo-Carnate-Milano;1;1715;MILANO PORTA GARIBALDI
+R14;Bergamo-Carnate-Milano;3;1711;MILANO GRECO PIRELLI
+R14;Bergamo-Carnate-Milano;4;2716;SESTO S.GIOVANNI
+R14;Bergamo-Carnate-Milano;5;1841;MONZA
+R14;Bergamo-Carnate-Milano;6;453;ARCORE
+R14;Bergamo-Carnate-Milano;8;1998;PADERNO ROBBIATE
+R14;Bergamo-Carnate-Milano;9;811;CALUSCO
+R14;Bergamo-Carnate-Milano;10;2836;TERNO
+R14;Bergamo-Carnate-Milano;11;2223;PONTE S.PIETRO
+R14;Bergamo-Carnate-Milano;12;3183;BERGAMO OSPEDALE
+R14;Bergamo-Carnate-Milano;13;632;BERGAMO
+R14;Bergamo-Carnate-Milano;1;1841;MONZA
+R14;Bergamo-Carnate-Milano;2;453;ARCORE
+R14;Bergamo-Carnate-Milano;3;905;CARNATE USMATE
+R14;Bergamo-Carnate-Milano;4;1998;PADERNO ROBBIATE
+R14;Bergamo-Carnate-Milano;6;2836;TERNO
+R14;Bergamo-Carnate-Milano;7;2223;PONTE S.PIETRO
+R14;Bergamo-Carnate-Milano;8;3183;BERGAMO OSPEDALE
+R14;Bergamo-Carnate-Milano;9;632;BERGAMO
+R14;Bergamo-Carnate-Milano;1;905;CARNATE USMATE
+R14;Bergamo-Carnate-Milano;3;1841;MONZA
+R14;Bergamo-Carnate-Milano;5;1711;MILANO GRECO PIRELLI
+R14;Bergamo-Carnate-Milano;7;1715;MILANO PORTA GARIBALDI
+R14;Bergamo-Carnate-Milano;1;1711;MILANO GRECO PIRELLI
+R14;Bergamo-Carnate-Milano;2;2716;SESTO S.GIOVANNI
+R14;Bergamo-Carnate-Milano;4;453;ARCORE
+R14;Bergamo-Carnate-Milano;5;905;CARNATE USMATE
+R14;Bergamo-Carnate-Milano;7;811;CALUSCO
+R14;Bergamo-Carnate-Milano;8;2836;TERNO
+R14;Bergamo-Carnate-Milano;9;2223;PONTE S.PIETRO
+R14;Bergamo-Carnate-Milano;10;3183;BERGAMO OSPEDALE
+R14;Bergamo-Carnate-Milano;11;632;BERGAMO
+R16;Asso-Milano;1;5053;MILANO CADORNA
+R16;Asso-Milano;2;5054;MILANO DOMODOSSOLA
+R16;Asso-Milano;3;1707;MILANO BOVISA FNM
+R16;Asso-Milano;4;5065;MILANO AFFORI
+R16;Asso-Milano;11;5073;CESANO MADERNO
+R16;Asso-Milano;12;5046;SEVESO
+R16;Asso-Milano;13;5086;MEDA
+R16;Asso-Milano;14;5087;CABIATE
+R16;Asso-Milano;15;5088;MARIANO COMENSE
+R16;Asso-Milano;16;5089;CARUGO-GIUSSANO
+R16;Asso-Milano;17;5090;AROSIO
+R16;Asso-Milano;18;5091;INVERIGO
+R16;Asso-Milano;19;5092;LAMBRUGO-LURAGO
+R16;Asso-Milano;20;1698;MERONE
+R16;Asso-Milano;21;5094;ERBA
+R16;Asso-Milano;23;5095;PONTELAMBRO-CASTELMARTE
+R16;Asso-Milano;25;5097;CANZO
+R16;Asso-Milano;26;5098;CANZO-ASSO
+R16;Asso-Milano;1;5098;CANZO-ASSO
+R16;Asso-Milano;2;5097;CANZO
+R16;Asso-Milano;3;5096;CASLINO D'ERBA
+R16;Asso-Milano;4;5095;PONTELAMBRO-CASTELMARTE
+R16;Asso-Milano;6;5094;ERBA
+R16;Asso-Milano;7;1698;MERONE
+R16;Asso-Milano;8;5092;LAMBRUGO-LURAGO
+R16;Asso-Milano;9;5091;INVERIGO
+R16;Asso-Milano;10;5090;AROSIO
+R16;Asso-Milano;11;5089;CARUGO-GIUSSANO
+R16;Asso-Milano;12;5088;MARIANO COMENSE
+R16;Asso-Milano;13;5087;CABIATE
+R16;Asso-Milano;14;5086;MEDA
+R16;Asso-Milano;15;5046;SEVESO
+R16;Asso-Milano;16;5073;CESANO MADERNO
+R16;Asso-Milano;23;5065;MILANO AFFORI
+R16;Asso-Milano;24;1707;MILANO BOVISA FNM
+R16;Asso-Milano;25;5054;MILANO DOMODOSSOLA
+R16;Asso-Milano;26;5053;MILANO CADORNA
+R16;Asso-Milano;24;5096;CASLINO D'ERBA
+R16;Asso-Milano;1;5094;ERBA
+R16;Asso-Milano;2;1698;MERONE
+R16;Asso-Milano;3;5092;LAMBRUGO-LURAGO
+R16;Asso-Milano;4;5091;INVERIGO
+R16;Asso-Milano;5;5090;AROSIO
+R16;Asso-Milano;6;5089;CARUGO-GIUSSANO
+R16;Asso-Milano;7;5088;MARIANO COMENSE
+R16;Asso-Milano;8;5087;CABIATE
+R16;Asso-Milano;9;5086;MEDA
+R16;Asso-Milano;10;5046;SEVESO
+R16;Asso-Milano;18;5065;MILANO AFFORI
+R16;Asso-Milano;19;1707;MILANO BOVISA FNM
+R16;Asso-Milano;20;5054;MILANO DOMODOSSOLA
+R16;Asso-Milano;21;5053;MILANO CADORNA
+R17;Como-Saronno-Milano;1;5053;MILANO CADORNA
+R17;Como-Saronno-Milano;2;5054;MILANO DOMODOSSOLA
+R17;Como-Saronno-Milano;3;1707;MILANO BOVISA FNM
+R17;Como-Saronno-Milano;13;5048;SARONNO
+R17;Como-Saronno-Milano;14;5336;ROVELLO PORRO
+R17;Como-Saronno-Milano;15;5337;ROVELLASCA-MANERA
+R17;Como-Saronno-Milano;16;5338;LOMAZZO
+R17;Como-Saronno-Milano;17;5339;CASLINO AL PIANO
+R17;Como-Saronno-Milano;18;5340;CADORAGO
+R17;Como-Saronno-Milano;19;5341;FINO MORNASCO
+R17;Como-Saronno-Milano;20;5342;PORTICHETTO-LUISAGO
+R17;Como-Saronno-Milano;21;5343;GRANDATE-BRECCIA
+R17;Como-Saronno-Milano;22;5344;COMO CAMERLATA (FNM)
+R17;Como-Saronno-Milano;23;5345;COMO BORGHI
+R17;Como-Saronno-Milano;24;5346;COMO LAGO
+R17;Como-Saronno-Milano;1;5346;COMO LAGO
+R17;Como-Saronno-Milano;2;5345;COMO BORGHI
+R17;Como-Saronno-Milano;3;5344;COMO CAMERLATA (FNM)
+R17;Como-Saronno-Milano;4;5343;GRANDATE-BRECCIA
+R17;Como-Saronno-Milano;5;5342;PORTICHETTO-LUISAGO
+R17;Como-Saronno-Milano;6;5341;FINO MORNASCO
+R17;Como-Saronno-Milano;7;5340;CADORAGO
+R17;Como-Saronno-Milano;8;5339;CASLINO AL PIANO
+R17;Como-Saronno-Milano;9;5338;LOMAZZO
+R17;Como-Saronno-Milano;10;5337;ROVELLASCA-MANERA
+R17;Como-Saronno-Milano;11;5336;ROVELLO PORRO
+R17;Como-Saronno-Milano;12;5048;SARONNO
+R17;Como-Saronno-Milano;22;1707;MILANO BOVISA FNM
+R17;Como-Saronno-Milano;23;5054;MILANO DOMODOSSOLA
+R17;Como-Saronno-Milano;24;5053;MILANO CADORNA
+R17;Como-Saronno-Milano;1;5344;COMO CAMERLATA (FNM)
+R17;Como-Saronno-Milano;2;5343;GRANDATE-BRECCIA
+R17;Como-Saronno-Milano;3;5342;PORTICHETTO-LUISAGO
+R17;Como-Saronno-Milano;4;5341;FINO MORNASCO
+R17;Como-Saronno-Milano;5;5340;CADORAGO
+R17;Como-Saronno-Milano;6;5339;CASLINO AL PIANO
+R17;Como-Saronno-Milano;7;5338;LOMAZZO
+R17;Como-Saronno-Milano;8;5337;ROVELLASCA-MANERA
+R17;Como-Saronno-Milano;9;5336;ROVELLO PORRO
+R17;Como-Saronno-Milano;10;5048;SARONNO
+R17;Como-Saronno-Milano;20;1707;MILANO BOVISA FNM
+R17;Como-Saronno-Milano;21;5054;MILANO DOMODOSSOLA
+R17;Como-Saronno-Milano;22;5053;MILANO CADORNA
+R18;Como-Molteno-Lecco;1;1761;MOLTENO
+R18;Como-Molteno-Lecco;2;947;CASLETTO-ROGENO
+R18;Como-Molteno-Lecco;3;1754;MOIANA
+R18;Como-Molteno-Lecco;4;1698;MERONE
+R18;Como-Molteno-Lecco;5;438;ANZANO DEL PARCO
+R18;Como-Molteno-Lecco;6;731;BRENNA-ALZATE
+R18;Como-Molteno-Lecco;7;872;CANTU'
+R18;Como-Molteno-Lecco;8;401;ALBATE-TRECALLO
+R18;Como-Molteno-Lecco;10;3222;COMO CAMERLATA
+R18;Como-Molteno-Lecco;11;1158;COMO S.GIOVANNI
+R18;Como-Molteno-Lecco;1;1158;COMO S.GIOVANNI
+R18;Como-Molteno-Lecco;2;3222;COMO CAMERLATA
+R18;Como-Molteno-Lecco;5;872;CANTU'
+R18;Como-Molteno-Lecco;8;1698;MERONE
+R18;Como-Molteno-Lecco;11;1761;MOLTENO
+R18;Como-Molteno-Lecco;16;1550;LECCO
+R18;Como-Molteno-Lecco;4;401;ALBATE-TRECALLO
+R18;Como-Molteno-Lecco;7;438;ANZANO DEL PARCO
+R18;Como-Molteno-Lecco;9;1754;MOIANA
+R18;Como-Molteno-Lecco;10;947;CASLETTO-ROGENO
+R18;Como-Molteno-Lecco;12;1930;OGGIONO
+R18;Como-Molteno-Lecco;13;2612;SALA AL BARRO-GALBIATE
+R18;Como-Molteno-Lecco;15;2982;VALMADRERA
+R18;Como-Molteno-Lecco;1;1550;LECCO
+R18;Como-Molteno-Lecco;5;1930;OGGIONO
+R18;Como-Molteno-Lecco;6;1761;MOLTENO
+R18;Como-Molteno-Lecco;7;947;CASLETTO-ROGENO
+R18;Como-Molteno-Lecco;8;1754;MOIANA
+R18;Como-Molteno-Lecco;9;1698;MERONE
+R18;Como-Molteno-Lecco;10;438;ANZANO DEL PARCO
+R18;Como-Molteno-Lecco;11;731;BRENNA-ALZATE
+R18;Como-Molteno-Lecco;12;872;CANTU'
+R18;Como-Molteno-Lecco;13;401;ALBATE-TRECALLO
+R18;Como-Molteno-Lecco;15;3222;COMO CAMERLATA
+R18;Como-Molteno-Lecco;16;1158;COMO S.GIOVANNI
+R18;Como-Molteno-Lecco;3;400;ALBATE CAMERLATA
+R18;Como-Molteno-Lecco;2;2982;VALMADRERA
+R2;Bergamo-Treviglio;1;632;BERGAMO
+R2;Bergamo-Treviglio;2;3596;STEZZANO
+R2;Bergamo-Treviglio;3;3595;LEVATE
+R2;Bergamo-Treviglio;4;3016;VERDELLO DALMINE
+R2;Bergamo-Treviglio;5;3594;ARCENE
+R2;Bergamo-Treviglio;6;2920;TREVIGLIO OVEST
+R2;Bergamo-Treviglio;7;2919;TREVIGLIO
+R2;Bergamo-Treviglio;1;2919;TREVIGLIO
+R2;Bergamo-Treviglio;2;2920;TREVIGLIO OVEST
+R2;Bergamo-Treviglio;3;3594;ARCENE
+R2;Bergamo-Treviglio;5;3595;LEVATE
+R2;Bergamo-Treviglio;6;3596;STEZZANO
+R2;Bergamo-Treviglio;7;632;BERGAMO
+R2;Bergamo-Treviglio;1;3016;VERDELLO DALMINE
+R2;Bergamo-Treviglio;2;3594;ARCENE
+R2;Bergamo-Treviglio;3;2920;TREVIGLIO OVEST
+R2;Bergamo-Treviglio;4;2919;TREVIGLIO
+R21;Luino-Gallarate-Milano;1;1593;LUINO
+R21;Luino-Gallarate-Milano;2;2260;PORTO VALTRAVAGLIA
+R21;Luino-Gallarate-Milano;3;801;CALDE'
+R21;Luino-Gallarate-Milano;4;1542;LAVENO MOMBELLO
+R21;Luino-Gallarate-Milano;5;2636;SANGIANO
+R21;Luino-Gallarate-Milano;6;636;BESOZZO
+R21;Luino-Gallarate-Milano;7;2906;TRAVEDONA BIANDRONNO
+R21;Luino-Gallarate-Milano;8;2833;TERNATE VARANO BORGHI
+R21;Luino-Gallarate-Milano;9;1853;MORNAGO CIMBRO
+R21;Luino-Gallarate-Milano;10;635;BESNATE
+R21;Luino-Gallarate-Milano;11;1393;GALLARATE
+R21;Luino-Gallarate-Milano;1;1393;GALLARATE
+R21;Luino-Gallarate-Milano;2;635;BESNATE
+R21;Luino-Gallarate-Milano;3;1853;MORNAGO CIMBRO
+R21;Luino-Gallarate-Milano;4;2833;TERNATE VARANO BORGHI
+R21;Luino-Gallarate-Milano;5;2906;TRAVEDONA BIANDRONNO
+R21;Luino-Gallarate-Milano;7;2636;SANGIANO
+R21;Luino-Gallarate-Milano;8;1542;LAVENO MOMBELLO
+R21;Luino-Gallarate-Milano;9;801;CALDE'
+R21;Luino-Gallarate-Milano;10;2260;PORTO VALTRAVAGLIA
+R21;Luino-Gallarate-Milano;11;1593;LUINO
+R21;Luino-Gallarate-Milano;19;3098;RHO FIERA
+R21;Luino-Gallarate-Milano;23;1715;MILANO PORTA GARIBALDI
+R21;Luino-Gallarate-Milano;1;1715;MILANO PORTA GARIBALDI
+R21;Luino-Gallarate-Milano;5;3098;RHO FIERA
+R21;Luino-Gallarate-Milano;12;1554;LEGNANO
+R21;Luino-Gallarate-Milano;14;1393;GALLARATE
+R21;Luino-Gallarate-Milano;15;635;BESNATE
+R21;Luino-Gallarate-Milano;16;1853;MORNAGO CIMBRO
+R21;Luino-Gallarate-Milano;17;2833;TERNATE VARANO BORGHI
+R21;Luino-Gallarate-Milano;18;2906;TRAVEDONA BIANDRONNO
+R21;Luino-Gallarate-Milano;19;636;BESOZZO
+R21;Luino-Gallarate-Milano;20;2636;SANGIANO
+R21;Luino-Gallarate-Milano;21;1542;LAVENO MOMBELLO
+R21;Luino-Gallarate-Milano;22;801;CALDE'
+R21;Luino-Gallarate-Milano;23;2260;PORTO VALTRAVAGLIA
+R21;Luino-Gallarate-Milano;24;1593;LUINO
+R21;Luino-Gallarate-Milano;15;2033;PARABIAGO
+R21;Luino-Gallarate-Milano;20;3098;RHO FIERA
+R21;Luino-Gallarate-Milano;24;1715;MILANO PORTA GARIBALDI
+R21;Luino-Gallarate-Milano;13;1554;LEGNANO
+R21;Luino-Gallarate-Milano;14;858;CANEGRATE
+R21;Luino-Gallarate-Milano;12;766;BUSTO ARSIZIO
+R22;Varese-Saronno-Milano;1;5053;MILANO CADORNA
+R22;Varese-Saronno-Milano;2;5054;MILANO DOMODOSSOLA
+R22;Varese-Saronno-Milano;3;1707;MILANO BOVISA FNM
+R22;Varese-Saronno-Milano;13;5048;SARONNO
+R22;Varese-Saronno-Milano;14;5309;GERENZANO TURATE
+R22;Varese-Saronno-Milano;15;5310;CISLAGO
+R22;Varese-Saronno-Milano;16;5311;MOZZATE
+R22;Varese-Saronno-Milano;17;5312;LOCATE VARESINO-CARBONATE
+R22;Varese-Saronno-Milano;18;5313;TRADATE-ABBIATE-GUAZZONE
+R22;Varese-Saronno-Milano;19;5314;TRADATE
+R22;Varese-Saronno-Milano;20;5315;VENEGONO INFERIORE
+R22;Varese-Saronno-Milano;21;5316;VENEGONO SUPERIORE-CASTIGLIONE
+R22;Varese-Saronno-Milano;22;5317;VEDANO OLONA
+R22;Varese-Saronno-Milano;23;5318;MALNATE
+R22;Varese-Saronno-Milano;24;5319;VARESE FN
+R22;Varese-Saronno-Milano;25;5320;VARESE CASBENO
+R22;Varese-Saronno-Milano;26;5321;MOROSOLO-CASCIAGO
+R22;Varese-Saronno-Milano;27;5322;BARASSO-COMERIO
+R22;Varese-Saronno-Milano;28;5323;GAVIRATE
+R22;Varese-Saronno-Milano;29;5324;GAVIRATE VERBANO
+R22;Varese-Saronno-Milano;30;5325;COCQUIO-TREVISAGO
+R22;Varese-Saronno-Milano;31;5326;GEMONIO
+R22;Varese-Saronno-Milano;32;5327;CITTIGLIO
+R22;Varese-Saronno-Milano;33;5328;LAVENO MOMBELLO FN
+R22;Varese-Saronno-Milano;1;5319;VARESE FN
+R22;Varese-Saronno-Milano;2;5318;MALNATE
+R22;Varese-Saronno-Milano;3;5317;VEDANO OLONA
+R22;Varese-Saronno-Milano;4;5316;VENEGONO SUPERIORE-CASTIGLIONE
+R22;Varese-Saronno-Milano;5;5315;VENEGONO INFERIORE
+R22;Varese-Saronno-Milano;6;5314;TRADATE
+R22;Varese-Saronno-Milano;7;5313;TRADATE-ABBIATE-GUAZZONE
+R22;Varese-Saronno-Milano;8;5312;LOCATE VARESINO-CARBONATE
+R22;Varese-Saronno-Milano;9;5311;MOZZATE
+R22;Varese-Saronno-Milano;10;5310;CISLAGO
+R22;Varese-Saronno-Milano;11;5309;GERENZANO TURATE
+R22;Varese-Saronno-Milano;12;5048;SARONNO
+R22;Varese-Saronno-Milano;22;1707;MILANO BOVISA FNM
+R22;Varese-Saronno-Milano;23;5054;MILANO DOMODOSSOLA
+R22;Varese-Saronno-Milano;24;5053;MILANO CADORNA
+R22;Varese-Saronno-Milano;1;5328;LAVENO MOMBELLO FN
+R22;Varese-Saronno-Milano;2;5327;CITTIGLIO
+R22;Varese-Saronno-Milano;3;5326;GEMONIO
+R22;Varese-Saronno-Milano;4;5325;COCQUIO-TREVISAGO
+R22;Varese-Saronno-Milano;5;5324;GAVIRATE VERBANO
+R22;Varese-Saronno-Milano;6;5323;GAVIRATE
+R22;Varese-Saronno-Milano;7;5322;BARASSO-COMERIO
+R22;Varese-Saronno-Milano;8;5321;MOROSOLO-CASCIAGO
+R22;Varese-Saronno-Milano;9;5320;VARESE CASBENO
+R22;Varese-Saronno-Milano;10;5319;VARESE FN
+R22;Varese-Saronno-Milano;11;5318;MALNATE
+R22;Varese-Saronno-Milano;12;5317;VEDANO OLONA
+R22;Varese-Saronno-Milano;13;5316;VENEGONO SUPERIORE-CASTIGLIONE
+R22;Varese-Saronno-Milano;14;5315;VENEGONO INFERIORE
+R22;Varese-Saronno-Milano;15;5314;TRADATE
+R22;Varese-Saronno-Milano;16;5313;TRADATE-ABBIATE-GUAZZONE
+R22;Varese-Saronno-Milano;18;5311;MOZZATE
+R22;Varese-Saronno-Milano;19;5310;CISLAGO
+R22;Varese-Saronno-Milano;20;5309;GERENZANO TURATE
+R22;Varese-Saronno-Milano;21;5048;SARONNO
+R22;Varese-Saronno-Milano;31;1707;MILANO BOVISA FNM
+R22;Varese-Saronno-Milano;32;5054;MILANO DOMODOSSOLA
+R22;Varese-Saronno-Milano;33;5053;MILANO CADORNA
+R22;Varese-Saronno-Milano;1;5320;VARESE CASBENO
+R22;Varese-Saronno-Milano;2;5319;VARESE FN
+R22;Varese-Saronno-Milano;3;5318;MALNATE
+R22;Varese-Saronno-Milano;4;5317;VEDANO OLONA
+R22;Varese-Saronno-Milano;5;5316;VENEGONO SUPERIORE-CASTIGLIONE
+R22;Varese-Saronno-Milano;6;5315;VENEGONO INFERIORE
+R22;Varese-Saronno-Milano;7;5314;TRADATE
+R22;Varese-Saronno-Milano;8;5313;TRADATE-ABBIATE-GUAZZONE
+R22;Varese-Saronno-Milano;9;5312;LOCATE VARESINO-CARBONATE
+R22;Varese-Saronno-Milano;10;5311;MOZZATE
+R22;Varese-Saronno-Milano;11;5310;CISLAGO
+R22;Varese-Saronno-Milano;12;5309;GERENZANO TURATE
+R22;Varese-Saronno-Milano;23;1707;MILANO BOVISA FNM
+R22;Varese-Saronno-Milano;24;5054;MILANO DOMODOSSOLA
+R22;Varese-Saronno-Milano;25;5053;MILANO CADORNA
+R22;Varese-Saronno-Milano;2;5320;VARESE CASBENO
+R22;Varese-Saronno-Milano;3;5321;MOROSOLO-CASCIAGO
+R22;Varese-Saronno-Milano;4;5322;BARASSO-COMERIO
+R22;Varese-Saronno-Milano;5;5323;GAVIRATE
+R22;Varese-Saronno-Milano;6;5324;GAVIRATE VERBANO
+R22;Varese-Saronno-Milano;7;5325;COCQUIO-TREVISAGO
+R22;Varese-Saronno-Milano;8;5326;GEMONIO
+R22;Varese-Saronno-Milano;9;5327;CITTIGLIO
+R22;Varese-Saronno-Milano;10;5328;LAVENO MOMBELLO FN
+R23;Domodossola - Arona - Gallarate - Milano;1;461;ARONA
+R23;Domodossola - Arona - Gallarate - Milano;2;1259;DORMELLETTO
+R23;Domodossola - Arona - Gallarate - Milano;3;2713;SESTO CALENDE
+R23;Domodossola - Arona - Gallarate - Milano;4;3018;VERGIATE
+R23;Domodossola - Arona - Gallarate - Milano;5;2757;SOMMA LOMBARDO
+R23;Domodossola - Arona - Gallarate - Milano;6;948;CASORATE SEMPIONE
+R23;Domodossola - Arona - Gallarate - Milano;7;1393;GALLARATE
+R23;Domodossola - Arona - Gallarate - Milano;8;766;BUSTO ARSIZIO
+R23;Domodossola - Arona - Gallarate - Milano;16;3098;RHO FIERA
+R23;Domodossola - Arona - Gallarate - Milano;20;1715;MILANO PORTA GARIBALDI
+R23;Domodossola - Arona - Gallarate - Milano;1;1715;MILANO PORTA GARIBALDI
+R23;Domodossola - Arona - Gallarate - Milano;5;3098;RHO FIERA
+R23;Domodossola - Arona - Gallarate - Milano;12;766;BUSTO ARSIZIO
+R23;Domodossola - Arona - Gallarate - Milano;13;1393;GALLARATE
+R23;Domodossola - Arona - Gallarate - Milano;14;948;CASORATE SEMPIONE
+R23;Domodossola - Arona - Gallarate - Milano;15;2757;SOMMA LOMBARDO
+R23;Domodossola - Arona - Gallarate - Milano;16;3018;VERGIATE
+R23;Domodossola - Arona - Gallarate - Milano;17;2713;SESTO CALENDE
+R23;Domodossola - Arona - Gallarate - Milano;18;1259;DORMELLETTO
+R23;Domodossola - Arona - Gallarate - Milano;19;461;ARONA
+R23;Domodossola - Arona - Gallarate - Milano;11;2033;PARABIAGO
+R23;Domodossola - Arona - Gallarate - Milano;19;1715;MILANO PORTA GARIBALDI
+R23;Domodossola - Arona - Gallarate - Milano;15;3098;RHO FIERA
+R23;Domodossola - Arona - Gallarate - Milano;2;1686;MEINA
+R23;Domodossola - Arona - Gallarate - Milano;3;1562;LESA
+R23;Domodossola - Arona - Gallarate - Milano;4;616;BELGIRATE
+R23;Domodossola - Arona - Gallarate - Milano;5;2793;STRESA
+R23;Domodossola - Arona - Gallarate - Milano;6;610;BAVENO
+R23;Domodossola - Arona - Gallarate - Milano;7;3012;VERBANIA-PALLANZA
+R23;Domodossola - Arona - Gallarate - Milano;8;1697;MERGOZZO
+R23;Domodossola - Arona - Gallarate - Milano;9;1218;CUZZAGO
+R23;Domodossola - Arona - Gallarate - Milano;10;2290;PREMOSELLO CHIOVENDA
+R23;Domodossola - Arona - Gallarate - Milano;11;3125;VOGOGNA OSSOLA
+R23;Domodossola - Arona - Gallarate - Milano;14;1253;DOMODOSSOLA
+R25;Mortara-Novara;1;1917;NOVARA
+R25;Mortara-Novara;3;1404;GARBAGNA
+R25;Mortara-Novara;4;3032;VESPOLATE
+R25;Mortara-Novara;5;698;BORGO LAVEZZARO
+R25;Mortara-Novara;6;406;ALBONESE
+R25;Mortara-Novara;7;1858;MORTARA
+R25;Mortara-Novara;1;1858;MORTARA
+R25;Mortara-Novara;2;1936;OLEVANO
+R25;Mortara-Novara;3;2976;VALLE LOMELLINA
+R25;Mortara-Novara;4;2655;SARTIRANA
+R25;Mortara-Novara;5;2889;TORREBERETTI
+R25;Mortara-Novara;6;2973;VALENZA
+R25;Mortara-Novara;2;406;ALBONESE
+R25;Mortara-Novara;3;698;BORGO LAVEZZARO
+R25;Mortara-Novara;5;1404;GARBAGNA
+R25;Mortara-Novara;7;1917;NOVARA
+R25;Mortara-Novara;1;193;ALESSANDRIA
+R25;Mortara-Novara;4;2981;VALMADONNA
+R25;Mortara-Novara;5;2973;VALENZA
+R25;Mortara-Novara;6;2889;TORREBERETTI
+R25;Mortara-Novara;7;2655;SARTIRANA
+R25;Mortara-Novara;8;2976;VALLE LOMELLINA
+R25;Mortara-Novara;9;1936;OLEVANO
+R25;Mortara-Novara;10;1858;MORTARA
+R25;Mortara-Novara;11;406;ALBONESE
+R25;Mortara-Novara;12;698;BORGO LAVEZZARO
+R25;Mortara-Novara;13;3032;VESPOLATE
+R25;Mortara-Novara;14;1404;GARBAGNA
+R25;Mortara-Novara;16;1917;NOVARA
+R25;Mortara-Novara;7;2981;VALMADONNA
+R25;Mortara-Novara;10;193;ALESSANDRIA
+R27;Novara-Saronno-Milano;1;5053;MILANO CADORNA
+R27;Novara-Saronno-Milano;2;5054;MILANO DOMODOSSOLA
+R27;Novara-Saronno-Milano;3;1707;MILANO BOVISA FNM
+R27;Novara-Saronno-Milano;13;5048;SARONNO
+R27;Novara-Saronno-Milano;14;5262;RESCALDINA
+R27;Novara-Saronno-Milano;15;5263;CASTELLANZA
+R27;Novara-Saronno-Milano;16;5264;BUSTO ARSIZIO FN
+R27;Novara-Saronno-Milano;18;5334;VANZAGHELLO-MAGNAGO
+R27;Novara-Saronno-Milano;19;5333;CASTANO PRIMO
+R27;Novara-Saronno-Milano;20;5332;TURBIGO
+R27;Novara-Saronno-Milano;23;5329;GALLIATE
+R27;Novara-Saronno-Milano;24;3589;NOVARA FN
+R27;Novara-Saronno-Milano;1;3589;NOVARA FN
+R27;Novara-Saronno-Milano;2;5329;GALLIATE
+R27;Novara-Saronno-Milano;5;5332;TURBIGO
+R27;Novara-Saronno-Milano;6;5333;CASTANO PRIMO
+R27;Novara-Saronno-Milano;7;5334;VANZAGHELLO-MAGNAGO
+R27;Novara-Saronno-Milano;9;5264;BUSTO ARSIZIO FN
+R27;Novara-Saronno-Milano;10;5263;CASTELLANZA
+R27;Novara-Saronno-Milano;11;5262;RESCALDINA
+R27;Novara-Saronno-Milano;12;5048;SARONNO
+R27;Novara-Saronno-Milano;22;1707;MILANO BOVISA FNM
+R27;Novara-Saronno-Milano;23;5054;MILANO DOMODOSSOLA
+R27;Novara-Saronno-Milano;24;5053;MILANO CADORNA
+R27;Novara-Saronno-Milano;22;5330;PONTE TICINO
+R27;Novara-Saronno-Milano;3;5330;PONTE TICINO
+R28;Malpensa-Saronno-Milano Centrale;1;1707;MILANO BOVISA FNM
+R28;Malpensa-Saronno-Milano Centrale;11;5048;SARONNO
+R28;Malpensa-Saronno-Milano Centrale;12;5262;RESCALDINA
+R28;Malpensa-Saronno-Milano Centrale;13;5263;CASTELLANZA
+R28;Malpensa-Saronno-Milano Centrale;14;5264;BUSTO ARSIZIO FN
+R28;Malpensa-Saronno-Milano Centrale;16;5265;FERNO-LONATE POZZOLO
+R28;Malpensa-Saronno-Milano Centrale;17;5266;MALPENSA AEROPORTO T.1
+R28;Malpensa-Saronno-Milano Centrale;1;5266;MALPENSA AEROPORTO T.1
+R28;Malpensa-Saronno-Milano Centrale;2;5265;FERNO-LONATE POZZOLO
+R28;Malpensa-Saronno-Milano Centrale;4;5264;BUSTO ARSIZIO FN
+R28;Malpensa-Saronno-Milano Centrale;5;5263;CASTELLANZA
+R28;Malpensa-Saronno-Milano Centrale;6;5262;RESCALDINA
+R28;Malpensa-Saronno-Milano Centrale;7;5048;SARONNO
+R28;Malpensa-Saronno-Milano Centrale;17;1707;MILANO BOVISA FNM
+R28;Malpensa-Saronno-Milano Centrale;19;1715;MILANO PORTA GARIBALDI
+R28;Malpensa-Saronno-Milano Centrale;22;1728;MILANO CENTRALE
+R28;Malpensa-Saronno-Milano Centrale;1;1728;MILANO CENTRALE
+R28;Malpensa-Saronno-Milano Centrale;4;1715;MILANO PORTA GARIBALDI
+R28;Malpensa-Saronno-Milano Centrale;6;1707;MILANO BOVISA FNM
+R28;Malpensa-Saronno-Milano Centrale;16;5048;SARONNO
+R28;Malpensa-Saronno-Milano Centrale;17;5262;RESCALDINA
+R28;Malpensa-Saronno-Milano Centrale;18;5263;CASTELLANZA
+R28;Malpensa-Saronno-Milano Centrale;19;5264;BUSTO ARSIZIO FN
+R28;Malpensa-Saronno-Milano Centrale;21;5265;FERNO-LONATE POZZOLO
+R28;Malpensa-Saronno-Milano Centrale;22;5266;MALPENSA AEROPORTO T.1
+R28;Malpensa-Saronno-Milano Centrale;1;5048;SARONNO
+R28;Malpensa-Saronno-Milano Centrale;11;1707;MILANO BOVISA FNM
+R28;Malpensa-Saronno-Milano Centrale;13;1715;MILANO PORTA GARIBALDI
+R28;Malpensa-Saronno-Milano Centrale;16;1728;MILANO CENTRALE
+R3;Brescia-Iseo-Breno;1;5154;ISEO
+R3;Brescia-Iseo-Breno;2;5368;PROVAGLIO-TIMOLINE
+R3;Brescia-Iseo-Breno;3;5369;BORGONATO-ADRO
+R3;Brescia-Iseo-Breno;4;5370;BORNATO-CALINO
+R3;Brescia-Iseo-Breno;5;5374;PASSIRANO
+R3;Brescia-Iseo-Breno;6;5375;PADERNO
+R3;Brescia-Iseo-Breno;7;5376;CASTEGNATO
+R3;Brescia-Iseo-Breno;9;5378;BORGO S.GIOVANNI
+R3;Brescia-Iseo-Breno;10;734;BRESCIA
+R3;Brescia-Iseo-Breno;1;734;BRESCIA
+R3;Brescia-Iseo-Breno;2;5378;BORGO S.GIOVANNI
+R3;Brescia-Iseo-Breno;4;5376;CASTEGNATO
+R3;Brescia-Iseo-Breno;5;5375;PADERNO
+R3;Brescia-Iseo-Breno;6;5374;PASSIRANO
+R3;Brescia-Iseo-Breno;7;5370;BORNATO-CALINO
+R3;Brescia-Iseo-Breno;8;5369;BORGONATO-ADRO
+R3;Brescia-Iseo-Breno;9;5368;PROVAGLIO-TIMOLINE
+R3;Brescia-Iseo-Breno;10;5154;ISEO
+R3;Brescia-Iseo-Breno;11;5367;PILZONE
+R3;Brescia-Iseo-Breno;12;5366;SULZANO
+R3;Brescia-Iseo-Breno;13;5365;SALE MARASINO
+R3;Brescia-Iseo-Breno;14;5364;MARONE-ZONE
+R3;Brescia-Iseo-Breno;15;5363;VELLO
+R3;Brescia-Iseo-Breno;16;5362;TOLINE
+R3;Brescia-Iseo-Breno;17;5152;PISOGNE
+R3;Brescia-Iseo-Breno;18;5361;PIANCAMUNO-GRATACASOLO
+R3;Brescia-Iseo-Breno;20;5151;DARFO-CORNA
+R3;Brescia-Iseo-Breno;21;5359;BOARIO TERME
+R3;Brescia-Iseo-Breno;23;5357;PIAN DI BORNO
+R3;Brescia-Iseo-Breno;24;5356;COGNO-ESINE
+R3;Brescia-Iseo-Breno;25;5355;CIVIDATE-MALEGNO
+R3;Brescia-Iseo-Breno;26;5093;BRENO
+R3;Brescia-Iseo-Breno;1;5093;BRENO
+R3;Brescia-Iseo-Breno;2;5355;CIVIDATE-MALEGNO
+R3;Brescia-Iseo-Breno;3;5356;COGNO-ESINE
+R3;Brescia-Iseo-Breno;4;5357;PIAN DI BORNO
+R3;Brescia-Iseo-Breno;6;5359;BOARIO TERME
+R3;Brescia-Iseo-Breno;7;5151;DARFO-CORNA
+R3;Brescia-Iseo-Breno;9;5361;PIANCAMUNO-GRATACASOLO
+R3;Brescia-Iseo-Breno;10;5152;PISOGNE
+R3;Brescia-Iseo-Breno;11;5362;TOLINE
+R3;Brescia-Iseo-Breno;12;5363;VELLO
+R3;Brescia-Iseo-Breno;13;5364;MARONE-ZONE
+R3;Brescia-Iseo-Breno;14;5365;SALE MARASINO
+R3;Brescia-Iseo-Breno;15;5366;SULZANO
+R3;Brescia-Iseo-Breno;16;5367;PILZONE
+R3;Brescia-Iseo-Breno;17;5154;ISEO
+R3;Brescia-Iseo-Breno;18;5368;PROVAGLIO-TIMOLINE
+R3;Brescia-Iseo-Breno;19;5369;BORGONATO-ADRO
+R3;Brescia-Iseo-Breno;20;5370;BORNATO-CALINO
+R3;Brescia-Iseo-Breno;21;5374;PASSIRANO
+R3;Brescia-Iseo-Breno;22;5375;PADERNO
+R3;Brescia-Iseo-Breno;23;5376;CASTEGNATO
+R3;Brescia-Iseo-Breno;25;5378;BORGO S.GIOVANNI
+R3;Brescia-Iseo-Breno;26;734;BRESCIA
+R3;Brescia-Iseo-Breno;1;5152;PISOGNE
+R3;Brescia-Iseo-Breno;2;5362;TOLINE
+R3;Brescia-Iseo-Breno;3;5363;VELLO
+R3;Brescia-Iseo-Breno;4;5364;MARONE-ZONE
+R3;Brescia-Iseo-Breno;5;5365;SALE MARASINO
+R3;Brescia-Iseo-Breno;6;5366;SULZANO
+R3;Brescia-Iseo-Breno;7;5367;PILZONE
+R3;Brescia-Iseo-Breno;8;5154;ISEO
+R3;Brescia-Iseo-Breno;10;5369;BORGONATO-ADRO
+R3;Brescia-Iseo-Breno;11;5370;BORNATO-CALINO
+R3;Brescia-Iseo-Breno;12;5374;PASSIRANO
+R3;Brescia-Iseo-Breno;13;5375;PADERNO
+R3;Brescia-Iseo-Breno;14;5376;CASTEGNATO
+R3;Brescia-Iseo-Breno;16;5378;BORGO S.GIOVANNI
+R3;Brescia-Iseo-Breno;17;734;BRESCIA
+R3;Brescia-Iseo-Breno;3;5366;SULZANO
+R3;Brescia-Iseo-Breno;4;5365;SALE MARASINO
+R3;Brescia-Iseo-Breno;5;5364;MARONE-ZONE
+R3;Brescia-Iseo-Breno;8;5152;PISOGNE
+R3;Brescia-Iseo-Breno;11;5151;DARFO-CORNA
+R3;Brescia-Iseo-Breno;12;5359;BOARIO TERME
+R3;Brescia-Iseo-Breno;14;5357;PIAN DI BORNO
+R3;Brescia-Iseo-Breno;15;5356;COGNO-ESINE
+R3;Brescia-Iseo-Breno;16;5355;CIVIDATE-MALEGNO
+R3;Brescia-Iseo-Breno;17;5093;BRENO
+R3;Brescia-Iseo-Breno;1;5151;DARFO-CORNA
+R3;Brescia-Iseo-Breno;3;5361;PIANCAMUNO-GRATACASOLO
+R3;Brescia-Iseo-Breno;4;5152;PISOGNE
+R3;Brescia-Iseo-Breno;5;5362;TOLINE
+R3;Brescia-Iseo-Breno;6;5363;VELLO
+R3;Brescia-Iseo-Breno;7;5364;MARONE-ZONE
+R3;Brescia-Iseo-Breno;8;5365;SALE MARASINO
+R3;Brescia-Iseo-Breno;9;5366;SULZANO
+R3;Brescia-Iseo-Breno;10;5367;PILZONE
+R3;Brescia-Iseo-Breno;11;5154;ISEO
+R3;Brescia-Iseo-Breno;12;5368;PROVAGLIO-TIMOLINE
+R3;Brescia-Iseo-Breno;13;5369;BORGONATO-ADRO
+R3;Brescia-Iseo-Breno;14;5370;BORNATO-CALINO
+R3;Brescia-Iseo-Breno;15;5374;PASSIRANO
+R3;Brescia-Iseo-Breno;16;5375;PADERNO
+R3;Brescia-Iseo-Breno;17;5376;CASTEGNATO
+R3;Brescia-Iseo-Breno;19;5378;BORGO S.GIOVANNI
+R3;Brescia-Iseo-Breno;20;734;BRESCIA
+R31;Mortara-Milano;1;1716;MILANO PORTA GENOVA
+R31;Mortara-Milano;2;1721;MILANO S.CRISTOFORO
+R31;Mortara-Milano;8;779;ALBAIRATE-VERMEZZO
+R31;Mortara-Milano;9;367;ABBIATEGRASSO
+R31;Mortara-Milano;10;3053;VIGEVANO
+R31;Mortara-Milano;11;2036;PARONA LOMELLINA
+R31;Mortara-Milano;12;1858;MORTARA
+R31;Mortara-Milano;13;1936;OLEVANO
+R31;Mortara-Milano;14;2976;VALLE LOMELLINA
+R31;Mortara-Milano;15;2655;SARTIRANA
+R31;Mortara-Milano;16;2889;TORREBERETTI
+R31;Mortara-Milano;17;2973;VALENZA
+R31;Mortara-Milano;18;2981;VALMADONNA
+R31;Mortara-Milano;21;193;ALESSANDRIA
+R31;Mortara-Milano;1;1858;MORTARA
+R31;Mortara-Milano;2;2036;PARONA LOMELLINA
+R31;Mortara-Milano;3;3053;VIGEVANO
+R31;Mortara-Milano;4;367;ABBIATEGRASSO
+R31;Mortara-Milano;5;779;ALBAIRATE-VERMEZZO
+R31;Mortara-Milano;11;1721;MILANO S.CRISTOFORO
+R31;Mortara-Milano;12;1716;MILANO PORTA GENOVA
+R31;Mortara-Milano;1;193;ALESSANDRIA
+R31;Mortara-Milano;4;2981;VALMADONNA
+R31;Mortara-Milano;5;2973;VALENZA
+R31;Mortara-Milano;6;2889;TORREBERETTI
+R31;Mortara-Milano;7;2655;SARTIRANA
+R31;Mortara-Milano;8;2976;VALLE LOMELLINA
+R31;Mortara-Milano;9;1936;OLEVANO
+R31;Mortara-Milano;10;1858;MORTARA
+R31;Mortara-Milano;12;3053;VIGEVANO
+R31;Mortara-Milano;13;367;ABBIATEGRASSO
+R31;Mortara-Milano;14;779;ALBAIRATE-VERMEZZO
+R31;Mortara-Milano;20;1721;MILANO S.CRISTOFORO
+R31;Mortara-Milano;21;1716;MILANO PORTA GENOVA
+R31;Mortara-Milano;1;3053;VIGEVANO
+R31;Mortara-Milano;2;367;ABBIATEGRASSO
+R31;Mortara-Milano;9;1721;MILANO S.CRISTOFORO
+R31;Mortara-Milano;10;1716;MILANO PORTA GENOVA
+R31;Mortara-Milano;3;1187;CORSICO
+R31;Mortara-Milano;4;780;CESANO BOSCONE
+R31;Mortara-Milano;5;2923;TREZZANO SUL NAVIGLIO
+R31;Mortara-Milano;7;1386;GAGGIANO
+R34;Stradella-Pavia-Milano;1;1711;MILANO GRECO PIRELLI
+R34;Stradella-Pavia-Milano;3;1712;MILANO LAMBRATE
+R34;Stradella-Pavia-Milano;6;1720;MILANO ROGOREDO
+R34;Stradella-Pavia-Milano;11;2046;PAVIA
+R34;Stradella-Pavia-Milano;13;1039;S.MARTINO CAVA
+R34;Stradella-Pavia-Milano;14;737;BRESSANA BOTTARONE
+R34;Stradella-Pavia-Milano;15;736;BRESSANA ARGINE
+R34;Stradella-Pavia-Milano;16;2143;PINAROLO PO
+R34;Stradella-Pavia-Milano;17;588;BARBIANELLO
+R34;Stradella-Pavia-Milano;18;746;BRONI
+R34;Stradella-Pavia-Milano;19;2790;STRADELLA
+R34;Stradella-Pavia-Milano;20;457;ARENA PO
+R34;Stradella-Pavia-Milano;21;975;CASTEL S.GIOVANNI
+R34;Stradella-Pavia-Milano;22;2651;SARMATO
+R34;Stradella-Pavia-Milano;23;2435;ROTTOFRENO
+R34;Stradella-Pavia-Milano;24;2564;S.NICOLO
+R34;Stradella-Pavia-Milano;25;2111;PIACENZA
+R34;Stradella-Pavia-Milano;1;2790;STRADELLA
+R34;Stradella-Pavia-Milano;2;746;BRONI
+R34;Stradella-Pavia-Milano;3;588;BARBIANELLO
+R34;Stradella-Pavia-Milano;4;2143;PINAROLO PO
+R34;Stradella-Pavia-Milano;5;736;BRESSANA ARGINE
+R34;Stradella-Pavia-Milano;6;737;BRESSANA BOTTARONE
+R34;Stradella-Pavia-Milano;7;1039;S.MARTINO CAVA
+R34;Stradella-Pavia-Milano;9;2046;PAVIA
+R34;Stradella-Pavia-Milano;14;1720;MILANO ROGOREDO
+R34;Stradella-Pavia-Milano;17;1712;MILANO LAMBRATE
+R34;Stradella-Pavia-Milano;19;1711;MILANO GRECO PIRELLI
+R34;Stradella-Pavia-Milano;1;2111;PIACENZA
+R34;Stradella-Pavia-Milano;2;2564;S.NICOLO
+R34;Stradella-Pavia-Milano;3;2435;ROTTOFRENO
+R34;Stradella-Pavia-Milano;4;2651;SARMATO
+R34;Stradella-Pavia-Milano;5;975;CASTEL S.GIOVANNI
+R34;Stradella-Pavia-Milano;6;457;ARENA PO
+R34;Stradella-Pavia-Milano;7;2790;STRADELLA
+R34;Stradella-Pavia-Milano;8;746;BRONI
+R34;Stradella-Pavia-Milano;9;588;BARBIANELLO
+R34;Stradella-Pavia-Milano;10;2143;PINAROLO PO
+R34;Stradella-Pavia-Milano;11;736;BRESSANA ARGINE
+R34;Stradella-Pavia-Milano;12;737;BRESSANA BOTTARONE
+R34;Stradella-Pavia-Milano;15;2046;PAVIA
+R34;Stradella-Pavia-Milano;20;1720;MILANO ROGOREDO
+R34;Stradella-Pavia-Milano;23;1712;MILANO LAMBRATE
+R34;Stradella-Pavia-Milano;25;1711;MILANO GRECO PIRELLI
+R35;Pavia-Torreberetti-Alessandria;1;2046;PAVIA
+R35;Pavia-Torreberetti-Alessandria;3;3380;SAIRANO
+R35;Pavia-Torreberetti-Alessandria;4;2611;SAIRANO ZINASCO
+R35;Pavia-Torreberetti-Alessandria;5;3134;ZINASCO NUOVO
+R35;Pavia-Torreberetti-Alessandria;6;2138;PIEVE ALBIGNOLA
+R35;Pavia-Torreberetti-Alessandria;7;2640;SANNAZZARO
+R35;Pavia-Torreberetti-Alessandria;8;1311;FERRERA LOMELLINA
+R35;Pavia-Torreberetti-Alessandria;9;1585;LOMELLO
+R35;Pavia-Torreberetti-Alessandria;10;1682;MEDE
+R35;Pavia-Torreberetti-Alessandria;11;2889;TORREBERETTI
+R35;Pavia-Torreberetti-Alessandria;12;2973;VALENZA
+R35;Pavia-Torreberetti-Alessandria;1;193;ALESSANDRIA
+R35;Pavia-Torreberetti-Alessandria;4;2981;VALMADONNA
+R35;Pavia-Torreberetti-Alessandria;5;2973;VALENZA
+R35;Pavia-Torreberetti-Alessandria;6;2889;TORREBERETTI
+R35;Pavia-Torreberetti-Alessandria;7;1682;MEDE
+R35;Pavia-Torreberetti-Alessandria;8;1585;LOMELLO
+R35;Pavia-Torreberetti-Alessandria;9;1311;FERRERA LOMELLINA
+R35;Pavia-Torreberetti-Alessandria;10;2640;SANNAZZARO
+R35;Pavia-Torreberetti-Alessandria;11;2138;PIEVE ALBIGNOLA
+R35;Pavia-Torreberetti-Alessandria;12;3134;ZINASCO NUOVO
+R35;Pavia-Torreberetti-Alessandria;13;2611;SAIRANO ZINASCO
+R35;Pavia-Torreberetti-Alessandria;14;3380;SAIRANO
+R35;Pavia-Torreberetti-Alessandria;16;2046;PAVIA
+R35;Pavia-Torreberetti-Alessandria;13;2981;VALMADONNA
+R35;Pavia-Torreberetti-Alessandria;16;193;ALESSANDRIA
+R35;Pavia-Torreberetti-Alessandria;1;2889;TORREBERETTI
+R35;Pavia-Torreberetti-Alessandria;2;1682;MEDE
+R35;Pavia-Torreberetti-Alessandria;3;1585;LOMELLO
+R35;Pavia-Torreberetti-Alessandria;4;1311;FERRERA LOMELLINA
+R35;Pavia-Torreberetti-Alessandria;5;2640;SANNAZZARO
+R35;Pavia-Torreberetti-Alessandria;7;3134;ZINASCO NUOVO
+R35;Pavia-Torreberetti-Alessandria;8;2611;SAIRANO ZINASCO
+R35;Pavia-Torreberetti-Alessandria;9;3380;SAIRANO
+R35;Pavia-Torreberetti-Alessandria;11;2046;PAVIA
+R35;Pavia-Torreberetti-Alessandria;2;1037;CAVA CARBONARA
+R35;Pavia-Torreberetti-Alessandria;1;2973;VALENZA
+R35;Pavia-Torreberetti-Alessandria;2;2889;TORREBERETTI
+R35;Pavia-Torreberetti-Alessandria;3;1682;MEDE
+R35;Pavia-Torreberetti-Alessandria;4;1585;LOMELLO
+R35;Pavia-Torreberetti-Alessandria;5;1311;FERRERA LOMELLINA
+R35;Pavia-Torreberetti-Alessandria;6;2640;SANNAZZARO
+R35;Pavia-Torreberetti-Alessandria;7;2138;PIEVE ALBIGNOLA
+R35;Pavia-Torreberetti-Alessandria;8;3134;ZINASCO NUOVO
+R35;Pavia-Torreberetti-Alessandria;9;2611;SAIRANO ZINASCO
+R35;Pavia-Torreberetti-Alessandria;10;3380;SAIRANO
+R35;Pavia-Torreberetti-Alessandria;12;2046;PAVIA
+R35;Pavia-Torreberetti-Alessandria;15;1037;CAVA CARBONARA
+R36;Pavia-Mortara-Vercelli;1;2046;PAVIA
+R36;Pavia-Mortara-Vercelli;2;1037;CAVA CARBONARA
+R36;Pavia-Mortara-Vercelli;3;3095;VILLANOVA D'ARDENGHI
+R36;Pavia-Mortara-Vercelli;4;1467;GROPELLO CAIROLI
+R36;Pavia-Mortara-Vercelli;5;1407;GARLASCO
+R36;Pavia-Mortara-Vercelli;6;2934;TROMELLO
+R36;Pavia-Mortara-Vercelli;7;1402;GAMBOLO'-REMONDO'
+R36;Pavia-Mortara-Vercelli;8;1858;MORTARA
+R36;Pavia-Mortara-Vercelli;1;1858;MORTARA
+R36;Pavia-Mortara-Vercelli;2;1402;GAMBOLO'-REMONDO'
+R36;Pavia-Mortara-Vercelli;3;2934;TROMELLO
+R36;Pavia-Mortara-Vercelli;4;1407;GARLASCO
+R36;Pavia-Mortara-Vercelli;5;1467;GROPELLO CAIROLI
+R36;Pavia-Mortara-Vercelli;6;3095;VILLANOVA D'ARDENGHI
+R36;Pavia-Mortara-Vercelli;7;1037;CAVA CARBONARA
+R36;Pavia-Mortara-Vercelli;8;2046;PAVIA
+R36;Pavia-Mortara-Vercelli;9;1899;NICORVO
+R36;Pavia-Mortara-Vercelli;10;2391;ROBBIO
+R36;Pavia-Mortara-Vercelli;11;2019;PALESTRO
+R36;Pavia-Mortara-Vercelli;13;3014;VERCELLI
+R36;Pavia-Mortara-Vercelli;1;3014;VERCELLI
+R36;Pavia-Mortara-Vercelli;3;2019;PALESTRO
+R36;Pavia-Mortara-Vercelli;4;2391;ROBBIO
+R36;Pavia-Mortara-Vercelli;5;1899;NICORVO
+R36;Pavia-Mortara-Vercelli;6;1858;MORTARA
+R36;Pavia-Mortara-Vercelli;8;2934;TROMELLO
+R36;Pavia-Mortara-Vercelli;9;1407;GARLASCO
+R36;Pavia-Mortara-Vercelli;10;1467;GROPELLO CAIROLI
+R36;Pavia-Mortara-Vercelli;11;3095;VILLANOVA D'ARDENGHI
+R36;Pavia-Mortara-Vercelli;12;1037;CAVA CARBONARA
+R36;Pavia-Mortara-Vercelli;13;2046;PAVIA
+R36;Pavia-Mortara-Vercelli;2;1899;NICORVO
+R36;Pavia-Mortara-Vercelli;3;2391;ROBBIO
+R36;Pavia-Mortara-Vercelli;4;2019;PALESTRO
+R36;Pavia-Mortara-Vercelli;6;3014;VERCELLI
+R37;Pavia-Codogno;1;2046;PAVIA
+R37;Pavia-Codogno;2;2301;PAVIA PORTA GARIBALDI
+R37;Pavia-Codogno;3;1863;MOTTA S.DAMIANO
+R37;Pavia-Codogno;4;407;ALBUZZANO
+R37;Pavia-Codogno;5;615;BELGIOIOSO
+R37;Pavia-Codogno;6;1188;CORTEOLONA
+R37;Pavia-Codogno;7;2481;S.CRISTINA E BISSONE
+R37;Pavia-Codogno;8;1739;MIRADOLO TERME
+R37;Pavia-Codogno;9;1093;CHIGNOLO PO
+R37;Pavia-Codogno;10;1528;LAMBRINIA
+R37;Pavia-Codogno;11;1949;ORIO LITTA
+R37;Pavia-Codogno;12;1969;OSPEDALETTO LODIGIANO
+R37;Pavia-Codogno;13;937;CASALPUSTERLENGO
+R37;Pavia-Codogno;14;1134;CODOGNO
+R37;Pavia-Codogno;1;1134;CODOGNO
+R37;Pavia-Codogno;2;937;CASALPUSTERLENGO
+R37;Pavia-Codogno;3;1969;OSPEDALETTO LODIGIANO
+R37;Pavia-Codogno;4;1949;ORIO LITTA
+R37;Pavia-Codogno;5;1528;LAMBRINIA
+R37;Pavia-Codogno;6;1093;CHIGNOLO PO
+R37;Pavia-Codogno;7;1739;MIRADOLO TERME
+R37;Pavia-Codogno;8;2481;S.CRISTINA E BISSONE
+R37;Pavia-Codogno;9;1188;CORTEOLONA
+R37;Pavia-Codogno;10;615;BELGIOIOSO
+R37;Pavia-Codogno;11;407;ALBUZZANO
+R37;Pavia-Codogno;12;1863;MOTTA S.DAMIANO
+R37;Pavia-Codogno;13;2301;PAVIA PORTA GARIBALDI
+R37;Pavia-Codogno;14;2046;PAVIA
+R37;Pavia-Codogno;1;1202;CREMONA
+R37;Pavia-Codogno;2;1040;CAVA TIGOZZI
+R37;Pavia-Codogno;3;374;ACQUANEGRA CREMONESE
+R37;Pavia-Codogno;4;2211;PONTE D'ADDA
+R37;Pavia-Codogno;5;2164;PIZZIGHETTONE
+R37;Pavia-Codogno;6;1626;MALEO
+R37;Pavia-Codogno;7;1134;CODOGNO
+R37;Pavia-Codogno;8;937;CASALPUSTERLENGO
+R37;Pavia-Codogno;9;1969;OSPEDALETTO LODIGIANO
+R37;Pavia-Codogno;10;1949;ORIO LITTA
+R37;Pavia-Codogno;11;1528;LAMBRINIA
+R37;Pavia-Codogno;12;1093;CHIGNOLO PO
+R37;Pavia-Codogno;13;1739;MIRADOLO TERME
+R37;Pavia-Codogno;14;2481;S.CRISTINA E BISSONE
+R37;Pavia-Codogno;15;1188;CORTEOLONA
+R37;Pavia-Codogno;16;615;BELGIOIOSO
+R37;Pavia-Codogno;17;407;ALBUZZANO
+R37;Pavia-Codogno;18;1863;MOTTA S.DAMIANO
+R37;Pavia-Codogno;19;2301;PAVIA PORTA GARIBALDI
+R37;Pavia-Codogno;20;2046;PAVIA
+R37;Pavia-Codogno;15;1626;MALEO
+R37;Pavia-Codogno;16;2164;PIZZIGHETTONE
+R37;Pavia-Codogno;17;2211;PONTE D'ADDA
+R37;Pavia-Codogno;18;374;ACQUANEGRA CREMONESE
+R37;Pavia-Codogno;19;1040;CAVA TIGOZZI
+R37;Pavia-Codogno;20;1202;CREMONA
+R37;Pavia-Codogno;1;615;BELGIOIOSO
+R37;Pavia-Codogno;2;1188;CORTEOLONA
+R37;Pavia-Codogno;3;2481;S.CRISTINA E BISSONE
+R37;Pavia-Codogno;4;1739;MIRADOLO TERME
+R37;Pavia-Codogno;5;1093;CHIGNOLO PO
+R37;Pavia-Codogno;6;1528;LAMBRINIA
+R37;Pavia-Codogno;7;1949;ORIO LITTA
+R37;Pavia-Codogno;8;1969;OSPEDALETTO LODIGIANO
+R37;Pavia-Codogno;9;937;CASALPUSTERLENGO
+R37;Pavia-Codogno;10;1134;CODOGNO
+R38;Piacenza-Lodi-Milano;1;2111;PIACENZA
+R38;Piacenza-Lodi-Milano;3;2589;S.STEFANO LODIGIANO
+R38;Piacenza-Lodi-Milano;4;1134;CODOGNO
+R38;Piacenza-Lodi-Milano;5;937;CASALPUSTERLENGO
+R38;Piacenza-Lodi-Milano;6;2686;SECUGNAGO
+R38;Piacenza-Lodi-Milano;7;1584;LODI
+R38;Piacenza-Lodi-Milano;14;1720;MILANO ROGOREDO
+R38;Piacenza-Lodi-Milano;17;1712;MILANO LAMBRATE
+R38;Piacenza-Lodi-Milano;19;1711;MILANO GRECO PIRELLI
+R38;Piacenza-Lodi-Milano;1;1134;CODOGNO
+R38;Piacenza-Lodi-Milano;2;937;CASALPUSTERLENGO
+R38;Piacenza-Lodi-Milano;3;2686;SECUGNAGO
+R38;Piacenza-Lodi-Milano;4;1584;LODI
+R38;Piacenza-Lodi-Milano;11;1720;MILANO ROGOREDO
+R38;Piacenza-Lodi-Milano;14;1712;MILANO LAMBRATE
+R38;Piacenza-Lodi-Milano;16;1711;MILANO GRECO PIRELLI
+R38;Piacenza-Lodi-Milano;1;1711;MILANO GRECO PIRELLI
+R38;Piacenza-Lodi-Milano;3;1712;MILANO LAMBRATE
+R38;Piacenza-Lodi-Milano;6;1720;MILANO ROGOREDO
+R38;Piacenza-Lodi-Milano;13;1584;LODI
+R38;Piacenza-Lodi-Milano;14;2686;SECUGNAGO
+R38;Piacenza-Lodi-Milano;15;937;CASALPUSTERLENGO
+R38;Piacenza-Lodi-Milano;16;1134;CODOGNO
+R38;Piacenza-Lodi-Milano;17;2589;S.STEFANO LODIGIANO
+R38;Piacenza-Lodi-Milano;19;2111;PIACENZA
+R38;Piacenza-Lodi-Milano;21;1708;MILANO CERTOSA
+R38;Piacenza-Lodi-Milano;1;1708;MILANO CERTOSA
+R38;Piacenza-Lodi-Milano;5;1712;MILANO LAMBRATE
+R38;Piacenza-Lodi-Milano;7;1720;MILANO ROGOREDO
+R38;Piacenza-Lodi-Milano;10;1584;LODI
+R38;Piacenza-Lodi-Milano;11;2686;SECUGNAGO
+R38;Piacenza-Lodi-Milano;12;937;CASALPUSTERLENGO
+R38;Piacenza-Lodi-Milano;13;1134;CODOGNO
+R38;Piacenza-Lodi-Milano;16;2111;PIACENZA
+R39;Codogno-Cremona;1;1134;CODOGNO
+R39;Codogno-Cremona;2;1626;MALEO
+R39;Codogno-Cremona;3;2164;PIZZIGHETTONE
+R39;Codogno-Cremona;4;2211;PONTE D'ADDA
+R39;Codogno-Cremona;5;374;ACQUANEGRA CREMONESE
+R39;Codogno-Cremona;6;1040;CAVA TIGOZZI
+R39;Codogno-Cremona;7;1202;CREMONA
+R39;Codogno-Cremona;1;1202;CREMONA
+R39;Codogno-Cremona;2;1040;CAVA TIGOZZI
+R39;Codogno-Cremona;3;374;ACQUANEGRA CREMONESE
+R39;Codogno-Cremona;5;2164;PIZZIGHETTONE
+R39;Codogno-Cremona;6;1626;MALEO
+R39;Codogno-Cremona;7;1134;CODOGNO
+R4;Brescia-Treviglio-Milano;1;1711;MILANO GRECO PIRELLI
+R4;Brescia-Treviglio-Milano;3;1712;MILANO LAMBRATE
+R4;Brescia-Treviglio-Milano;5;2147;PIOLTELLO LIMITO
+R4;Brescia-Treviglio-Milano;9;2919;TREVIGLIO
+R4;Brescia-Treviglio-Milano;10;3048;VIDALENGO
+R4;Brescia-Treviglio-Milano;11;1848;MORENGO BARIANO
+R4;Brescia-Treviglio-Milano;12;2419;ROMANO
+R4;Brescia-Treviglio-Milano;13;799;CALCIO
+R4;Brescia-Treviglio-Milano;14;1085;CHIARI
+R4;Brescia-Treviglio-Milano;15;2437;ROVATO
+R4;Brescia-Treviglio-Milano;16;1974;OSPITALETTO TRAVAGLIATO
+R4;Brescia-Treviglio-Milano;18;734;BRESCIA
+R4;Brescia-Treviglio-Milano;1;734;BRESCIA
+R4;Brescia-Treviglio-Milano;3;1974;OSPITALETTO TRAVAGLIATO
+R4;Brescia-Treviglio-Milano;4;2437;ROVATO
+R4;Brescia-Treviglio-Milano;5;1085;CHIARI
+R4;Brescia-Treviglio-Milano;6;799;CALCIO
+R4;Brescia-Treviglio-Milano;7;2419;ROMANO
+R4;Brescia-Treviglio-Milano;8;1848;MORENGO BARIANO
+R4;Brescia-Treviglio-Milano;9;3048;VIDALENGO
+R4;Brescia-Treviglio-Milano;10;2919;TREVIGLIO
+R4;Brescia-Treviglio-Milano;12;951;CASSANO D'ADDA
+R4;Brescia-Treviglio-Milano;13;2910;TRECELLA
+R4;Brescia-Treviglio-Milano;14;380;POZZUOLO MARTESANA
+R4;Brescia-Treviglio-Milano;15;1690;MELZO
+R4;Brescia-Treviglio-Milano;17;3061;VIGNATE
+R4;Brescia-Treviglio-Milano;18;2147;PIOLTELLO LIMITO
+R4;Brescia-Treviglio-Milano;21;1712;MILANO LAMBRATE
+R4;Brescia-Treviglio-Milano;23;1711;MILANO GRECO PIRELLI
+R4;Brescia-Treviglio-Milano;14;2147;PIOLTELLO LIMITO
+R4;Brescia-Treviglio-Milano;16;1712;MILANO LAMBRATE
+R4;Brescia-Treviglio-Milano;18;1711;MILANO GRECO PIRELLI
+R4;Brescia-Treviglio-Milano;13;2919;TREVIGLIO
+R4;Brescia-Treviglio-Milano;14;3048;VIDALENGO
+R4;Brescia-Treviglio-Milano;15;1848;MORENGO BARIANO
+R4;Brescia-Treviglio-Milano;16;2419;ROMANO
+R4;Brescia-Treviglio-Milano;17;799;CALCIO
+R4;Brescia-Treviglio-Milano;18;1085;CHIARI
+R4;Brescia-Treviglio-Milano;19;2437;ROVATO
+R4;Brescia-Treviglio-Milano;20;1974;OSPITALETTO TRAVAGLIATO
+R4;Brescia-Treviglio-Milano;22;734;BRESCIA
+R4;Brescia-Treviglio-Milano;15;1712;MILANO LAMBRATE
+R4;Brescia-Treviglio-Milano;16;1728;MILANO CENTRALE
+R4;Brescia-Treviglio-Milano;1;1728;MILANO CENTRALE
+R4;Brescia-Treviglio-Milano;2;1712;MILANO LAMBRATE
+R4;Brescia-Treviglio-Milano;7;2919;TREVIGLIO
+R4;Brescia-Treviglio-Milano;10;2419;ROMANO
+R4;Brescia-Treviglio-Milano;13;2437;ROVATO
+R4;Brescia-Treviglio-Milano;16;734;BRESCIA
+R4;Brescia-Treviglio-Milano;8;1690;MELZO
+R4;Brescia-Treviglio-Milano;11;951;CASSANO D'ADDA
+R40;Cremona - Piadena - Mantova;1;1202;CREMONA
+R40;Cremona - Piadena - Mantova;2;3109;VILLETTA MALAGNINO
+R40;Cremona - Piadena - Mantova;3;1415;GAZZO PIEVE S.GIACOMO
+R40;Cremona - Piadena - Mantova;4;2881;TORRE DE' PICENARDI
+R40;Cremona - Piadena - Mantova;5;2112;PIADENA
+R40;Cremona - Piadena - Mantova;6;725;BOZZOLO
+R40;Cremona - Piadena - Mantova;7;1645;MARCARIA
+R40;Cremona - Piadena - Mantova;8;2557;S.MICHELE IN BOSCO
+R40;Cremona - Piadena - Mantova;9;1973;OSPITALETTO MANTOVANO
+R40;Cremona - Piadena - Mantova;10;1005;CASTELLUCCHIO
+R40;Cremona - Piadena - Mantova;11;1639;MANTOVA
+R40;Cremona - Piadena - Mantova;1;1639;MANTOVA
+R40;Cremona - Piadena - Mantova;2;1005;CASTELLUCCHIO
+R40;Cremona - Piadena - Mantova;3;1973;OSPITALETTO MANTOVANO
+R40;Cremona - Piadena - Mantova;4;2557;S.MICHELE IN BOSCO
+R40;Cremona - Piadena - Mantova;5;1645;MARCARIA
+R40;Cremona - Piadena - Mantova;7;2112;PIADENA
+R40;Cremona - Piadena - Mantova;8;2881;TORRE DE' PICENARDI
+R40;Cremona - Piadena - Mantova;9;1415;GAZZO PIEVE S.GIACOMO
+R40;Cremona - Piadena - Mantova;10;3109;VILLETTA MALAGNINO
+R40;Cremona - Piadena - Mantova;11;1202;CREMONA
+R40;Cremona - Piadena - Mantova;1;2112;PIADENA
+R40;Cremona - Piadena - Mantova;2;2881;TORRE DE' PICENARDI
+R40;Cremona - Piadena - Mantova;4;3109;VILLETTA MALAGNINO
+R40;Cremona - Piadena - Mantova;5;1202;CREMONA
+R41;Voghera-Piacenza;1;2111;PIACENZA
+R41;Voghera-Piacenza;2;2564;S.NICOLO
+R41;Voghera-Piacenza;3;2435;ROTTOFRENO
+R41;Voghera-Piacenza;4;2651;SARMATO
+R41;Voghera-Piacenza;5;975;CASTEL S.GIOVANNI
+R41;Voghera-Piacenza;6;457;ARENA PO
+R41;Voghera-Piacenza;7;2790;STRADELLA
+R41;Voghera-Piacenza;8;746;BRONI
+R41;Voghera-Piacenza;9;2518;S.GIULETTA
+R41;Voghera-Piacenza;10;964;CASTEGGIO
+R41;Voghera-Piacenza;11;3123;VOGHERA
+R41;Voghera-Piacenza;1;3123;VOGHERA
+R41;Voghera-Piacenza;2;964;CASTEGGIO
+R41;Voghera-Piacenza;3;2518;S.GIULETTA
+R41;Voghera-Piacenza;4;746;BRONI
+R41;Voghera-Piacenza;5;2790;STRADELLA
+R41;Voghera-Piacenza;7;975;CASTEL S.GIOVANNI
+R41;Voghera-Piacenza;8;2651;SARMATO
+R41;Voghera-Piacenza;9;2435;ROTTOFRENO
+R41;Voghera-Piacenza;10;2564;S.NICOLO
+R41;Voghera-Piacenza;11;2111;PIACENZA
+R5;Brescia-Cremona;1;734;BRESCIA
+R5;Brescia-Cremona;2;2603;S.ZENO FOLZANO
+R5;Brescia-Cremona;3;576;BAGNOLO MELLA
+R5;Brescia-Cremona;4;1634;MANERBIO
+R5;Brescia-Cremona;5;3022;VEROLANUOVA
+R5;Brescia-Cremona;6;2392;ROBECCO-PONTEVICO
+R5;Brescia-Cremona;7;1940;OLMENETA
+R5;Brescia-Cremona;9;1202;CREMONA
+R5;Brescia-Cremona;1;1202;CREMONA
+R5;Brescia-Cremona;3;1940;OLMENETA
+R5;Brescia-Cremona;4;2392;ROBECCO-PONTEVICO
+R5;Brescia-Cremona;6;1634;MANERBIO
+R5;Brescia-Cremona;7;576;BAGNOLO MELLA
+R5;Brescia-Cremona;8;2603;S.ZENO FOLZANO
+R5;Brescia-Cremona;9;734;BRESCIA
+R6;Cremona-Treviglio;1;1202;CREMONA
+R6;Cremona-Treviglio;3;1940;OLMENETA
+R6;Cremona-Treviglio;4;926;CASALBUTTANO
+R6;Cremona-Treviglio;5;2763;SORESINA
+R6;Cremona-Treviglio;6;997;CASTELLEONE
+R6;Cremona-Treviglio;7;3372;MADIGNANO
+R6;Cremona-Treviglio;8;1201;CREMA
+R6;Cremona-Treviglio;9;932;CASALETTO VAPRIO
+R6;Cremona-Treviglio;10;883;CAPRALBA
+R6;Cremona-Treviglio;11;892;CARAVAGGIO
+R6;Cremona-Treviglio;12;2919;TREVIGLIO
+R6;Cremona-Treviglio;1;1715;MILANO PORTA GARIBALDI
+R6;Cremona-Treviglio;3;3099;MILANO VILLAPIZZONE
+R6;Cremona-Treviglio;7;1712;MILANO LAMBRATE
+R6;Cremona-Treviglio;13;892;CARAVAGGIO
+R6;Cremona-Treviglio;14;883;CAPRALBA
+R6;Cremona-Treviglio;15;932;CASALETTO VAPRIO
+R6;Cremona-Treviglio;16;1201;CREMA
+R6;Cremona-Treviglio;17;3372;MADIGNANO
+R6;Cremona-Treviglio;18;997;CASTELLEONE
+R6;Cremona-Treviglio;19;2763;SORESINA
+R6;Cremona-Treviglio;20;926;CASALBUTTANO
+R6;Cremona-Treviglio;21;1940;OLMENETA
+R6;Cremona-Treviglio;23;1202;CREMONA
+R6;Cremona-Treviglio;1;2919;TREVIGLIO
+R6;Cremona-Treviglio;2;892;CARAVAGGIO
+R6;Cremona-Treviglio;3;883;CAPRALBA
+R6;Cremona-Treviglio;4;932;CASALETTO VAPRIO
+R6;Cremona-Treviglio;5;1201;CREMA
+R6;Cremona-Treviglio;6;3372;MADIGNANO
+R6;Cremona-Treviglio;7;997;CASTELLEONE
+R6;Cremona-Treviglio;8;2763;SORESINA
+R6;Cremona-Treviglio;9;926;CASALBUTTANO
+R6;Cremona-Treviglio;10;1940;OLMENETA
+R6;Cremona-Treviglio;12;1202;CREMONA
+R6;Cremona-Treviglio;17;1712;MILANO LAMBRATE
+R6;Cremona-Treviglio;23;1715;MILANO PORTA GARIBALDI
+R6;Cremona-Treviglio;14;2919;TREVIGLIO
+R6;Cremona-Treviglio;15;892;CARAVAGGIO
+R6;Cremona-Treviglio;16;883;CAPRALBA
+R6;Cremona-Treviglio;17;932;CASALETTO VAPRIO
+R6;Cremona-Treviglio;18;1201;CREMA
+R6;Cremona-Treviglio;19;3372;MADIGNANO
+R6;Cremona-Treviglio;20;997;CASTELLEONE
+R6;Cremona-Treviglio;21;2763;SORESINA
+R6;Cremona-Treviglio;22;926;CASALBUTTANO
+R6;Cremona-Treviglio;23;1940;OLMENETA
+R6;Cremona-Treviglio;25;1202;CREMONA
+R6;Cremona-Treviglio;13;2919;TREVIGLIO
+R6;Cremona-Treviglio;14;892;CARAVAGGIO
+R6;Cremona-Treviglio;15;883;CAPRALBA
+R6;Cremona-Treviglio;16;932;CASALETTO VAPRIO
+R6;Cremona-Treviglio;17;1201;CREMA
+R6;Cremona-Treviglio;18;3372;MADIGNANO
+R6;Cremona-Treviglio;19;997;CASTELLEONE
+R6;Cremona-Treviglio;20;2763;SORESINA
+R6;Cremona-Treviglio;21;926;CASALBUTTANO
+R6;Cremona-Treviglio;22;1940;OLMENETA
+R6;Cremona-Treviglio;24;1202;CREMONA
+R6;Cremona-Treviglio;18;1712;MILANO LAMBRATE
+R6;Cremona-Treviglio;22;3099;MILANO VILLAPIZZONE
+R6;Cremona-Treviglio;24;1715;MILANO PORTA GARIBALDI
+R6;Cremona-Treviglio;21;3099;MILANO VILLAPIZZONE
+R6;Cremona-Treviglio;21;1708;MILANO CERTOSA
+R7;Lecco-Bergamo;1;632;BERGAMO
+R7;Lecco-Bergamo;3;2223;PONTE S.PIETRO
+R7;Lecco-Bergamo;4;424;AMBIVERE MAPELLO
+R7;Lecco-Bergamo;5;2235;PONTIDA
+R7;Lecco-Bergamo;6;1111;CISANO CAPRINO BERGAMASCO
+R7;Lecco-Bergamo;7;807;CALOLZIOCORTE OLGINATE
+R7;Lecco-Bergamo;10;1550;LECCO
+R7;Lecco-Bergamo;8;3015;VERCURAGO S.GIROLAMO
+R7;Lecco-Bergamo;1;1550;LECCO
+R7;Lecco-Bergamo;3;3015;VERCURAGO S.GIROLAMO
+R7;Lecco-Bergamo;4;807;CALOLZIOCORTE OLGINATE
+R7;Lecco-Bergamo;5;1111;CISANO CAPRINO BERGAMASCO
+R7;Lecco-Bergamo;6;2235;PONTIDA
+R7;Lecco-Bergamo;7;424;AMBIVERE MAPELLO
+R7;Lecco-Bergamo;8;2223;PONTE S.PIETRO
+R7;Lecco-Bergamo;10;632;BERGAMO
+R7;Lecco-Bergamo;1;807;CALOLZIOCORTE OLGINATE
+R7;Lecco-Bergamo;2;1111;CISANO CAPRINO BERGAMASCO
+R7;Lecco-Bergamo;3;2235;PONTIDA
+R7;Lecco-Bergamo;5;2223;PONTE S.PIETRO
+R7;Lecco-Bergamo;7;632;BERGAMO
+R7;Lecco-Bergamo;1;3025;VERONA PORTA NUOVA
+R7;Lecco-Bergamo;5;2099;PESCHIERA DEL GARDA
+R7;Lecco-Bergamo;6;1229;DESENZANO DEL GARDA-SIRMIONE
+R7;Lecco-Bergamo;10;734;BRESCIA
+R7;Lecco-Bergamo;13;2437;ROVATO
+R7;Lecco-Bergamo;16;2015;PALAZZOLO SULL'OGLIO
+R7;Lecco-Bergamo;17;1473;GRUMELLO DEL MONTE
+R7;Lecco-Bergamo;19;1808;MONTELLO GORLAGO
+R7;Lecco-Bergamo;22;632;BERGAMO
+R7;Lecco-Bergamo;24;2223;PONTE S.PIETRO
+R7;Lecco-Bergamo;25;424;AMBIVERE MAPELLO
+R7;Lecco-Bergamo;27;1111;CISANO CAPRINO BERGAMASCO
+R7;Lecco-Bergamo;28;807;CALOLZIOCORTE OLGINATE
+R7;Lecco-Bergamo;31;1550;LECCO
+R7;Lecco-Bergamo;13;1808;MONTELLO GORLAGO
+R7;Lecco-Bergamo;15;1473;GRUMELLO DEL MONTE
+R7;Lecco-Bergamo;19;2437;ROVATO
+R7;Lecco-Bergamo;22;734;BRESCIA
+R7;Lecco-Bergamo;26;1229;DESENZANO DEL GARDA-SIRMIONE
+R7;Lecco-Bergamo;27;2099;PESCHIERA DEL GARDA
+R7;Lecco-Bergamo;31;3025;VERONA PORTA NUOVA
+R8;Brescia - Piadena - Parma ;1;734;BRESCIA
+R8;Brescia - Piadena - Parma ;2;2603;S.ZENO FOLZANO
+R8;Brescia - Piadena - Parma ;3;1835;MONTIRONE
+R8;Brescia - Piadena - Parma ;4;1425;GHEDI
+R8;Brescia - Piadena - Parma ;5;3038;VIADANA BRESCIANA
+R8;Brescia - Piadena - Parma ;6;813;CALVISANO
+R8;Brescia - Piadena - Parma ;7;3114;VISANO
+R8;Brescia - Piadena - Parma ;8;2335;REMEDELLO SOPRA
+R8;Brescia - Piadena - Parma ;9;2336;REMEDELLO SOTTO
+R8;Brescia - Piadena - Parma ;10;472;ASOLA
+R8;Brescia - Piadena - Parma ;11;866;CANNETO SULL'OGLIO
+R8;Brescia - Piadena - Parma ;12;2112;PIADENA
+R8;Brescia - Piadena - Parma ;13;2513;S.GIOVANNI IN CROCE
+R8;Brescia - Piadena - Parma ;14;934;CASALMAGGIORE
+R8;Brescia - Piadena - Parma ;15;1704;MEZZANI RONDANI
+R8;Brescia - Piadena - Parma ;16;1153;COLORNO
+R8;Brescia - Piadena - Parma ;17;2894;TORRILE S.POLO
+R8;Brescia - Piadena - Parma ;18;2035;PARMA
+R8;Brescia - Piadena - Parma ;1;2035;PARMA
+R8;Brescia - Piadena - Parma ;5;934;CASALMAGGIORE
+R8;Brescia - Piadena - Parma ;6;2513;S.GIOVANNI IN CROCE
+R8;Brescia - Piadena - Parma ;7;2112;PIADENA
+R8;Brescia - Piadena - Parma ;9;472;ASOLA
+R8;Brescia - Piadena - Parma ;11;2335;REMEDELLO SOPRA
+R8;Brescia - Piadena - Parma ;15;1425;GHEDI
+R8;Brescia - Piadena - Parma ;18;734;BRESCIA
+R8;Brescia - Piadena - Parma ;1;2112;PIADENA
+R8;Brescia - Piadena - Parma ;2;2513;S.GIOVANNI IN CROCE
+R8;Brescia - Piadena - Parma ;3;934;CASALMAGGIORE
+R8;Brescia - Piadena - Parma ;4;1704;MEZZANI RONDANI
+R8;Brescia - Piadena - Parma ;5;1153;COLORNO
+R8;Brescia - Piadena - Parma ;6;2894;TORRILE S.POLO
+R8;Brescia - Piadena - Parma ;7;2035;PARMA
+R8;Brescia - Piadena - Parma ;2;2894;TORRILE S.POLO
+R8;Brescia - Piadena - Parma ;3;1153;COLORNO
+R8;Brescia - Piadena - Parma ;8;866;CANNETO SULL'OGLIO
+R8;Brescia - Piadena - Parma ;10;2336;REMEDELLO SOTTO
+R8;Brescia - Piadena - Parma ;12;3114;VISANO
+R8;Brescia - Piadena - Parma ;13;813;CALVISANO
+R8;Brescia - Piadena - Parma ;14;3038;VIADANA BRESCIANA
+R8;Brescia - Piadena - Parma ;16;1835;MONTIRONE
+R8;Brescia - Piadena - Parma ;17;2603;S.ZENO FOLZANO
+RE1;Laveno-Varese-Saronno-Milano;1;5328;LAVENO MOMBELLO FN
+RE1;Laveno-Varese-Saronno-Milano;2;5327;CITTIGLIO
+RE1;Laveno-Varese-Saronno-Milano;3;5326;GEMONIO
+RE1;Laveno-Varese-Saronno-Milano;4;5325;COCQUIO-TREVISAGO
+RE1;Laveno-Varese-Saronno-Milano;6;5323;GAVIRATE
+RE1;Laveno-Varese-Saronno-Milano;7;5322;BARASSO-COMERIO
+RE1;Laveno-Varese-Saronno-Milano;8;5321;MOROSOLO-CASCIAGO
+RE1;Laveno-Varese-Saronno-Milano;9;5320;VARESE CASBENO
+RE1;Laveno-Varese-Saronno-Milano;10;5319;VARESE FN
+RE1;Laveno-Varese-Saronno-Milano;11;5318;MALNATE
+RE1;Laveno-Varese-Saronno-Milano;15;5314;TRADATE
+RE1;Laveno-Varese-Saronno-Milano;21;5048;SARONNO
+RE1;Laveno-Varese-Saronno-Milano;31;1707;MILANO BOVISA FNM
+RE1;Laveno-Varese-Saronno-Milano;32;5054;MILANO DOMODOSSOLA
+RE1;Laveno-Varese-Saronno-Milano;33;5053;MILANO CADORNA
+RE1;Laveno-Varese-Saronno-Milano;5;5324;GAVIRATE VERBANO
+RE1;Laveno-Varese-Saronno-Milano;1;5053;MILANO CADORNA
+RE1;Laveno-Varese-Saronno-Milano;2;5054;MILANO DOMODOSSOLA
+RE1;Laveno-Varese-Saronno-Milano;3;1707;MILANO BOVISA FNM
+RE1;Laveno-Varese-Saronno-Milano;13;5048;SARONNO
+RE1;Laveno-Varese-Saronno-Milano;19;5314;TRADATE
+RE1;Laveno-Varese-Saronno-Milano;23;5318;MALNATE
+RE1;Laveno-Varese-Saronno-Milano;24;5319;VARESE FN
+RE1;Laveno-Varese-Saronno-Milano;25;5320;VARESE CASBENO
+RE1;Laveno-Varese-Saronno-Milano;26;5321;MOROSOLO-CASCIAGO
+RE1;Laveno-Varese-Saronno-Milano;27;5322;BARASSO-COMERIO
+RE1;Laveno-Varese-Saronno-Milano;28;5323;GAVIRATE
+RE1;Laveno-Varese-Saronno-Milano;30;5325;COCQUIO-TREVISAGO
+RE1;Laveno-Varese-Saronno-Milano;31;5326;GEMONIO
+RE1;Laveno-Varese-Saronno-Milano;32;5327;CITTIGLIO
+RE1;Laveno-Varese-Saronno-Milano;33;5328;LAVENO MOMBELLO FN
+RE11;Mantova-Cremona-Codogno-Milano;1;1639;MANTOVA
+RE11;Mantova-Cremona-Codogno-Milano;2;1005;CASTELLUCCHIO
+RE11;Mantova-Cremona-Codogno-Milano;5;1645;MARCARIA
+RE11;Mantova-Cremona-Codogno-Milano;6;725;BOZZOLO
+RE11;Mantova-Cremona-Codogno-Milano;7;2112;PIADENA
+RE11;Mantova-Cremona-Codogno-Milano;8;2881;TORRE DE' PICENARDI
+RE11;Mantova-Cremona-Codogno-Milano;9;1415;GAZZO PIEVE S.GIACOMO
+RE11;Mantova-Cremona-Codogno-Milano;10;3109;VILLETTA MALAGNINO
+RE11;Mantova-Cremona-Codogno-Milano;11;1202;CREMONA
+RE11;Mantova-Cremona-Codogno-Milano;14;2211;PONTE D'ADDA
+RE11;Mantova-Cremona-Codogno-Milano;17;1134;CODOGNO
+RE11;Mantova-Cremona-Codogno-Milano;20;1584;LODI
+RE11;Mantova-Cremona-Codogno-Milano;23;1720;MILANO ROGOREDO
+RE11;Mantova-Cremona-Codogno-Milano;25;1712;MILANO LAMBRATE
+RE11;Mantova-Cremona-Codogno-Milano;26;1728;MILANO CENTRALE
+RE11;Mantova-Cremona-Codogno-Milano;1;1728;MILANO CENTRALE
+RE11;Mantova-Cremona-Codogno-Milano;2;1712;MILANO LAMBRATE
+RE11;Mantova-Cremona-Codogno-Milano;3;1720;MILANO ROGOREDO
+RE11;Mantova-Cremona-Codogno-Milano;6;1584;LODI
+RE11;Mantova-Cremona-Codogno-Milano;9;1134;CODOGNO
+RE11;Mantova-Cremona-Codogno-Milano;12;2211;PONTE D'ADDA
+RE11;Mantova-Cremona-Codogno-Milano;15;1202;CREMONA
+RE11;Mantova-Cremona-Codogno-Milano;19;2112;PIADENA
+RE11;Mantova-Cremona-Codogno-Milano;20;725;BOZZOLO
+RE11;Mantova-Cremona-Codogno-Milano;21;1645;MARCARIA
+RE11;Mantova-Cremona-Codogno-Milano;24;1005;CASTELLUCCHIO
+RE11;Mantova-Cremona-Codogno-Milano;25;1639;MANTOVA
+RE11;Mantova-Cremona-Codogno-Milano;24;1712;MILANO LAMBRATE
+RE11;Mantova-Cremona-Codogno-Milano;25;1728;MILANO CENTRALE
+RE11;Mantova-Cremona-Codogno-Milano;10;1584;LODI
+RE11;Mantova-Cremona-Codogno-Milano;13;1134;CODOGNO
+RE11;Mantova-Cremona-Codogno-Milano;16;2211;PONTE D'ADDA
+RE11;Mantova-Cremona-Codogno-Milano;19;1202;CREMONA
+RE11;Mantova-Cremona-Codogno-Milano;23;2112;PIADENA
+RE11;Mantova-Cremona-Codogno-Milano;24;725;BOZZOLO
+RE11;Mantova-Cremona-Codogno-Milano;25;1645;MARCARIA
+RE11;Mantova-Cremona-Codogno-Milano;28;1005;CASTELLUCCHIO
+RE11;Mantova-Cremona-Codogno-Milano;29;1639;MANTOVA
+RE11;Mantova-Cremona-Codogno-Milano;15;2164;PIZZIGHETTONE
+RE11;Mantova-Cremona-Codogno-Milano;11;2164;PIZZIGHETTONE
+RE11;Mantova-Cremona-Codogno-Milano;4;1720;MILANO ROGOREDO
+RE11;Mantova-Cremona-Codogno-Milano;7;1584;LODI
+RE11;Mantova-Cremona-Codogno-Milano;8;2686;SECUGNAGO
+RE11;Mantova-Cremona-Codogno-Milano;9;937;CASALPUSTERLENGO
+RE11;Mantova-Cremona-Codogno-Milano;10;1134;CODOGNO
+RE11;Mantova-Cremona-Codogno-Milano;11;1626;MALEO
+RE11;Mantova-Cremona-Codogno-Milano;12;2164;PIZZIGHETTONE
+RE11;Mantova-Cremona-Codogno-Milano;13;2211;PONTE D'ADDA
+RE11;Mantova-Cremona-Codogno-Milano;16;1202;CREMONA
+RE11;Mantova-Cremona-Codogno-Milano;8;937;CASALPUSTERLENGO
+RE13;Alessandria-Pavia-Milano;1;193;ALESSANDRIA
+RE13;Alessandria-Pavia-Milano;6;332;TORTONA
+RE13;Alessandria-Pavia-Milano;8;3123;VOGHERA
+RE13;Alessandria-Pavia-Milano;9;1596;PIZZALE-LUNGAVILLA
+RE13;Alessandria-Pavia-Milano;13;2046;PAVIA
+RE13;Alessandria-Pavia-Milano;18;1720;MILANO ROGOREDO
+RE13;Alessandria-Pavia-Milano;19;1712;MILANO LAMBRATE
+RE13;Alessandria-Pavia-Milano;20;1728;MILANO CENTRALE
+RE13;Alessandria-Pavia-Milano;1;1728;MILANO CENTRALE
+RE13;Alessandria-Pavia-Milano;2;1712;MILANO LAMBRATE
+RE13;Alessandria-Pavia-Milano;3;1720;MILANO ROGOREDO
+RE13;Alessandria-Pavia-Milano;8;2046;PAVIA
+RE13;Alessandria-Pavia-Milano;12;1596;PIZZALE-LUNGAVILLA
+RE13;Alessandria-Pavia-Milano;13;3123;VOGHERA
+RE13;Alessandria-Pavia-Milano;15;332;TORTONA
+RE13;Alessandria-Pavia-Milano;20;193;ALESSANDRIA
+RE13;Alessandria-Pavia-Milano;1;332;TORTONA
+RE13;Alessandria-Pavia-Milano;2;2228;PONTECURONE
+RE13;Alessandria-Pavia-Milano;3;3123;VOGHERA
+RE13;Alessandria-Pavia-Milano;4;1596;PIZZALE-LUNGAVILLA
+RE13;Alessandria-Pavia-Milano;13;1720;MILANO ROGOREDO
+RE13;Alessandria-Pavia-Milano;14;1712;MILANO LAMBRATE
+RE13;Alessandria-Pavia-Milano;15;1728;MILANO CENTRALE
+RE13;Alessandria-Pavia-Milano;1;3123;VOGHERA
+RE13;Alessandria-Pavia-Milano;2;1596;PIZZALE-LUNGAVILLA
+RE13;Alessandria-Pavia-Milano;6;2046;PAVIA
+RE13;Alessandria-Pavia-Milano;11;1720;MILANO ROGOREDO
+RE13;Alessandria-Pavia-Milano;12;1712;MILANO LAMBRATE
+RE13;Alessandria-Pavia-Milano;13;1728;MILANO CENTRALE
+RE13;Alessandria-Pavia-Milano;3;737;BRESSANA BOTTARONE
+RE13;Alessandria-Pavia-Milano;4;1039;S.MARTINO CAVA
+RE13;Alessandria-Pavia-Milano;18;1708;MILANO CERTOSA
+RE13;Alessandria-Pavia-Milano;10;1039;S.MARTINO CAVA
+RE13;Alessandria-Pavia-Milano;11;737;BRESSANA BOTTARONE
+RE13;Alessandria-Pavia-Milano;1;1715;MILANO PORTA GARIBALDI
+RE13;Alessandria-Pavia-Milano;7;1712;MILANO LAMBRATE
+RE13;Alessandria-Pavia-Milano;10;1720;MILANO ROGOREDO
+RE13;Alessandria-Pavia-Milano;15;2046;PAVIA
+RE13;Alessandria-Pavia-Milano;20;3123;VOGHERA
+RE13;Alessandria-Pavia-Milano;22;332;TORTONA
+RE13;Alessandria-Pavia-Milano;24;199;ARQUATA SCRIVIA
+RE13;Alessandria-Pavia-Milano;14;2228;PONTECURONE
+RE13;Alessandria-Pavia-Milano;17;199;ARQUATA SCRIVIA
+RE13;Alessandria-Pavia-Milano;4;1583;LOCATE TRIULZI
+RE13;Alessandria-Pavia-Milano;5;1749;PIEVE EMANUELE
+RE13;Alessandria-Pavia-Milano;6;3092;VILLAMAGGIORE
+RE13;Alessandria-Pavia-Milano;7;1069;CERTOSA DI PAVIA
+RE13;Alessandria-Pavia-Milano;1;199;ARQUATA SCRIVIA
+RE13;Alessandria-Pavia-Milano;3;332;TORTONA
+RE13;Alessandria-Pavia-Milano;4;2228;PONTECURONE
+RE13;Alessandria-Pavia-Milano;5;3123;VOGHERA
+RE13;Alessandria-Pavia-Milano;6;1596;PIZZALE-LUNGAVILLA
+RE13;Alessandria-Pavia-Milano;10;2046;PAVIA
+RE13;Alessandria-Pavia-Milano;15;1720;MILANO ROGOREDO
+RE13;Alessandria-Pavia-Milano;18;1712;MILANO LAMBRATE
+RE13;Alessandria-Pavia-Milano;22;1708;MILANO CERTOSA
+RE2;Bergamo-Milano (via Treviglio);1;632;BERGAMO
+RE2;Bergamo-Milano (via Treviglio);4;3016;VERDELLO DALMINE
+RE2;Bergamo-Milano (via Treviglio);6;2920;TREVIGLIO OVEST
+RE2;Bergamo-Milano (via Treviglio);10;2147;PIOLTELLO LIMITO
+RE2;Bergamo-Milano (via Treviglio);13;1712;MILANO LAMBRATE
+RE2;Bergamo-Milano (via Treviglio);17;3099;MILANO VILLAPIZZONE
+RE2;Bergamo-Milano (via Treviglio);19;1715;MILANO PORTA GARIBALDI
+RE2;Bergamo-Milano (via Treviglio);1;1715;MILANO PORTA GARIBALDI
+RE2;Bergamo-Milano (via Treviglio);3;3099;MILANO VILLAPIZZONE
+RE2;Bergamo-Milano (via Treviglio);7;1712;MILANO LAMBRATE
+RE2;Bergamo-Milano (via Treviglio);9;2147;PIOLTELLO LIMITO
+RE2;Bergamo-Milano (via Treviglio);13;2920;TREVIGLIO OVEST
+RE2;Bergamo-Milano (via Treviglio);15;3016;VERDELLO DALMINE
+RE2;Bergamo-Milano (via Treviglio);18;632;BERGAMO
+RE2;Bergamo-Milano (via Treviglio);15;1728;MILANO CENTRALE
+RE2;Bergamo-Milano (via Treviglio);1;1728;MILANO CENTRALE
+RE2;Bergamo-Milano (via Treviglio);3;1712;MILANO LAMBRATE
+RE2;Bergamo-Milano (via Treviglio);4;2147;PIOLTELLO LIMITO
+RE2;Bergamo-Milano (via Treviglio);10;3016;VERDELLO DALMINE
+RE2;Bergamo-Milano (via Treviglio);13;632;BERGAMO
+RE2;Bergamo-Milano (via Treviglio);11;1712;MILANO LAMBRATE
+RE2;Bergamo-Milano (via Treviglio);13;1728;MILANO CENTRALE
+RE2;Bergamo-Milano (via Treviglio);5;3061;VIGNATE
+RE2;Bergamo-Milano (via Treviglio);7;1690;MELZO
+RE2;Bergamo-Milano (via Treviglio);9;2910;TRECELLA
+RE2;Bergamo-Milano (via Treviglio);10;951;CASSANO D'ADDA
+RE2;Bergamo-Milano (via Treviglio);12;2920;TREVIGLIO OVEST
+RE2;Bergamo-Milano (via Treviglio);13;3594;ARCENE
+RE2;Bergamo-Milano (via Treviglio);14;3016;VERDELLO DALMINE
+RE2;Bergamo-Milano (via Treviglio);15;3595;LEVATE
+RE2;Bergamo-Milano (via Treviglio);16;3596;STEZZANO
+RE2;Bergamo-Milano (via Treviglio);17;632;BERGAMO
+RE2;Bergamo-Milano (via Treviglio);12;1712;MILANO LAMBRATE
+RE2;Bergamo-Milano (via Treviglio);14;1711;MILANO GRECO PIRELLI
+RE2;Bergamo-Milano (via Treviglio);2;1712;MILANO LAMBRATE
+RE2;Bergamo-Milano (via Treviglio);3;2147;PIOLTELLO LIMITO
+RE2;Bergamo-Milano (via Treviglio);9;3016;VERDELLO DALMINE
+RE2;Bergamo-Milano (via Treviglio);12;632;BERGAMO
+RE2;Bergamo-Milano (via Treviglio);7;2920;TREVIGLIO OVEST
+RE2;Bergamo-Milano (via Treviglio);14;2147;PIOLTELLO LIMITO
+RE2;Bergamo-Milano (via Treviglio);17;1712;MILANO LAMBRATE
+RE2;Bergamo-Milano (via Treviglio);18;1728;MILANO CENTRALE
+RE2;Bergamo-Milano (via Treviglio);15;3099;MILANO VILLAPIZZONE
+RE2;Bergamo-Milano (via Treviglio);17;1715;MILANO PORTA GARIBALDI
+RE2;Bergamo-Milano (via Treviglio);8;2147;PIOLTELLO LIMITO
+RE2;Bergamo-Milano (via Treviglio);1;3016;VERDELLO DALMINE
+RE2;Bergamo-Milano (via Treviglio);3;2920;TREVIGLIO OVEST
+RE2;Bergamo-Milano (via Treviglio);7;2147;PIOLTELLO LIMITO
+RE2;Bergamo-Milano (via Treviglio);10;1712;MILANO LAMBRATE
+RE2;Bergamo-Milano (via Treviglio);14;3099;MILANO VILLAPIZZONE
+RE2;Bergamo-Milano (via Treviglio);16;1715;MILANO PORTA GARIBALDI
+RE2;Bergamo-Milano (via Treviglio);8;1712;MILANO LAMBRATE
+RE2;Bergamo-Milano (via Treviglio);10;1728;MILANO CENTRALE
+RE3;Brescia-Iseo-Edolo;1;5350;CEDEGOLO
+RE3;Brescia-Iseo-Edolo;3;5352;CAPO DI PONTE
+RE3;Brescia-Iseo-Edolo;6;5093;BRENO
+RE3;Brescia-Iseo-Edolo;11;5359;BOARIO TERME
+RE3;Brescia-Iseo-Edolo;12;5151;DARFO-CORNA
+RE3;Brescia-Iseo-Edolo;15;5152;PISOGNE
+RE3;Brescia-Iseo-Edolo;18;5364;MARONE-ZONE
+RE3;Brescia-Iseo-Edolo;19;5365;SALE MARASINO
+RE3;Brescia-Iseo-Edolo;20;5366;SULZANO
+RE3;Brescia-Iseo-Edolo;22;5154;ISEO
+RE3;Brescia-Iseo-Edolo;31;734;BRESCIA
+RE3;Brescia-Iseo-Edolo;25;5370;BORNATO-CALINO
+RE3;Brescia-Iseo-Edolo;1;734;BRESCIA
+RE3;Brescia-Iseo-Edolo;10;5154;ISEO
+RE3;Brescia-Iseo-Edolo;12;5366;SULZANO
+RE3;Brescia-Iseo-Edolo;13;5365;SALE MARASINO
+RE3;Brescia-Iseo-Edolo;14;5364;MARONE-ZONE
+RE3;Brescia-Iseo-Edolo;17;5152;PISOGNE
+RE3;Brescia-Iseo-Edolo;20;5151;DARFO-CORNA
+RE3;Brescia-Iseo-Edolo;21;5359;BOARIO TERME
+RE3;Brescia-Iseo-Edolo;26;5093;BRENO
+RE3;Brescia-Iseo-Edolo;29;5352;CAPO DI PONTE
+RE3;Brescia-Iseo-Edolo;31;5350;CEDEGOLO
+RE3;Brescia-Iseo-Edolo;1;5093;BRENO
+RE3;Brescia-Iseo-Edolo;2;5355;CIVIDATE-MALEGNO
+RE3;Brescia-Iseo-Edolo;3;5356;COGNO-ESINE
+RE3;Brescia-Iseo-Edolo;4;5357;PIAN DI BORNO
+RE3;Brescia-Iseo-Edolo;6;5359;BOARIO TERME
+RE3;Brescia-Iseo-Edolo;7;5151;DARFO-CORNA
+RE3;Brescia-Iseo-Edolo;9;5361;PIANCAMUNO-GRATACASOLO
+RE3;Brescia-Iseo-Edolo;10;5152;PISOGNE
+RE3;Brescia-Iseo-Edolo;11;5362;TOLINE
+RE3;Brescia-Iseo-Edolo;12;5363;VELLO
+RE3;Brescia-Iseo-Edolo;13;5364;MARONE-ZONE
+RE3;Brescia-Iseo-Edolo;14;5365;SALE MARASINO
+RE3;Brescia-Iseo-Edolo;15;5366;SULZANO
+RE3;Brescia-Iseo-Edolo;16;5367;PILZONE
+RE3;Brescia-Iseo-Edolo;17;5154;ISEO
+RE3;Brescia-Iseo-Edolo;26;734;BRESCIA
+RE3;Brescia-Iseo-Edolo;7;5370;BORNATO-CALINO
+RE3;Brescia-Iseo-Edolo;20;5370;BORNATO-CALINO
+RE4;Domodossola-Milano;1;1728;MILANO CENTRALE
+RE4;Domodossola-Milano;4;3098;RHO FIERA
+RE4;Domodossola-Milano;12;766;BUSTO ARSIZIO
+RE4;Domodossola-Milano;13;1393;GALLARATE
+RE4;Domodossola-Milano;17;2713;SESTO CALENDE
+RE4;Domodossola-Milano;19;461;ARONA
+RE4;Domodossola-Milano;23;2793;STRESA
+RE4;Domodossola-Milano;25;3012;VERBANIA-PALLANZA
+RE4;Domodossola-Milano;32;1253;DOMODOSSOLA
+RE4;Domodossola-Milano;1;1253;DOMODOSSOLA
+RE4;Domodossola-Milano;8;3012;VERBANIA-PALLANZA
+RE4;Domodossola-Milano;10;2793;STRESA
+RE4;Domodossola-Milano;14;461;ARONA
+RE4;Domodossola-Milano;16;2713;SESTO CALENDE
+RE4;Domodossola-Milano;20;1393;GALLARATE
+RE4;Domodossola-Milano;21;766;BUSTO ARSIZIO
+RE4;Domodossola-Milano;28;3098;RHO FIERA
+RE4;Domodossola-Milano;31;1728;MILANO CENTRALE
+RE4;Domodossola-Milano;5;2290;PREMOSELLO CHIOVENDA
+RE5;Porto Ceresio - Varese - Gallarate - Milano;1;2250;PORTO CERESIO
+RE5;Porto Ceresio - Varese - Gallarate - Milano;2;654;BISUSCHIO-VIGGIU'
+RE5;Porto Ceresio - Varese - Gallarate - Milano;4;451;ARCISATE
+RE5;Porto Ceresio - Varese - Gallarate - Milano;5;1492;INDUNO OLONA
+RE5;Porto Ceresio - Varese - Gallarate - Milano;7;2994;VARESE
+RE5;Porto Ceresio - Varese - Gallarate - Milano;12;1393;GALLARATE
+RE5;Porto Ceresio - Varese - Gallarate - Milano;13;766;BUSTO ARSIZIO
+RE5;Porto Ceresio - Varese - Gallarate - Milano;14;1554;LEGNANO
+RE5;Porto Ceresio - Varese - Gallarate - Milano;21;3098;RHO FIERA
+RE5;Porto Ceresio - Varese - Gallarate - Milano;25;1715;MILANO PORTA GARIBALDI
+RE5;Porto Ceresio - Varese - Gallarate - Milano;1;1715;MILANO PORTA GARIBALDI
+RE5;Porto Ceresio - Varese - Gallarate - Milano;5;3098;RHO FIERA
+RE5;Porto Ceresio - Varese - Gallarate - Milano;12;1554;LEGNANO
+RE5;Porto Ceresio - Varese - Gallarate - Milano;14;1393;GALLARATE
+RE5;Porto Ceresio - Varese - Gallarate - Milano;19;2994;VARESE
+RE5;Porto Ceresio - Varese - Gallarate - Milano;21;1492;INDUNO OLONA
+RE5;Porto Ceresio - Varese - Gallarate - Milano;22;451;ARCISATE
+RE5;Porto Ceresio - Varese - Gallarate - Milano;24;654;BISUSCHIO-VIGGIU'
+RE5;Porto Ceresio - Varese - Gallarate - Milano;25;2250;PORTO CERESIO
+RE5;Porto Ceresio - Varese - Gallarate - Milano;1;2994;VARESE
+RE5;Porto Ceresio - Varese - Gallarate - Milano;3;1492;INDUNO OLONA
+RE5;Porto Ceresio - Varese - Gallarate - Milano;6;654;BISUSCHIO-VIGGIU'
+RE5;Porto Ceresio - Varese - Gallarate - Milano;7;2250;PORTO CERESIO
+RE5;Porto Ceresio - Varese - Gallarate - Milano;8;1413;GAZZADA SCHIANNO MORAZZONE
+RE5;Porto Ceresio - Varese - Gallarate - Milano;9;1029;CASTRONNO
+RE5;Porto Ceresio - Varese - Gallarate - Milano;10;405;ALBIZZATE SOLBIATE ARNO
+RE5;Porto Ceresio - Varese - Gallarate - Milano;11;1046;CAVARIA OGGIONA IERAGO
+RE5;Porto Ceresio - Varese - Gallarate - Milano;16;2033;PARABIAGO
+RE5;Porto Ceresio - Varese - Gallarate - Milano;17;2987;VANZAGO POGLIANO
+RE5;Porto Ceresio - Varese - Gallarate - Milano;20;3098;RHO FIERA
+RE5;Porto Ceresio - Varese - Gallarate - Milano;24;1715;MILANO PORTA GARIBALDI
+RE5;Porto Ceresio - Varese - Gallarate - Milano;6;1393;GALLARATE
+RE5;Porto Ceresio - Varese - Gallarate - Milano;7;766;BUSTO ARSIZIO
+RE5;Porto Ceresio - Varese - Gallarate - Milano;8;1554;LEGNANO
+RE5;Porto Ceresio - Varese - Gallarate - Milano;15;3098;RHO FIERA
+RE5;Porto Ceresio - Varese - Gallarate - Milano;19;1715;MILANO PORTA GARIBALDI
+RE6;Verona-Brescia-Milano;1;3025;VERONA PORTA NUOVA
+RE6;Verona-Brescia-Milano;5;2099;PESCHIERA DEL GARDA
+RE6;Verona-Brescia-Milano;6;1229;DESENZANO DEL GARDA-SIRMIONE
+RE6;Verona-Brescia-Milano;10;734;BRESCIA
+RE6;Verona-Brescia-Milano;13;2437;ROVATO
+RE6;Verona-Brescia-Milano;14;1085;CHIARI
+RE6;Verona-Brescia-Milano;16;2419;ROMANO
+RE6;Verona-Brescia-Milano;19;2919;TREVIGLIO
+RE6;Verona-Brescia-Milano;27;2147;PIOLTELLO LIMITO
+RE6;Verona-Brescia-Milano;30;1712;MILANO LAMBRATE
+RE6;Verona-Brescia-Milano;31;1728;MILANO CENTRALE
+RE6;Verona-Brescia-Milano;1;1728;MILANO CENTRALE
+RE6;Verona-Brescia-Milano;2;1712;MILANO LAMBRATE
+RE6;Verona-Brescia-Milano;3;2147;PIOLTELLO LIMITO
+RE6;Verona-Brescia-Milano;7;2919;TREVIGLIO
+RE6;Verona-Brescia-Milano;10;2419;ROMANO
+RE6;Verona-Brescia-Milano;12;1085;CHIARI
+RE6;Verona-Brescia-Milano;16;734;BRESCIA
+RE6;Verona-Brescia-Milano;20;1229;DESENZANO DEL GARDA-SIRMIONE
+RE6;Verona-Brescia-Milano;21;2099;PESCHIERA DEL GARDA
+RE6;Verona-Brescia-Milano;25;3025;VERONA PORTA NUOVA
+RE6;Verona-Brescia-Milano;1;734;BRESCIA
+RE6;Verona-Brescia-Milano;10;2919;TREVIGLIO
+RE6;Verona-Brescia-Milano;15;1712;MILANO LAMBRATE
+RE6;Verona-Brescia-Milano;17;1728;MILANO CENTRALE
+RE6;Verona-Brescia-Milano;3;1712;MILANO LAMBRATE
+RE6;Verona-Brescia-Milano;4;2147;PIOLTELLO LIMITO
+RE6;Verona-Brescia-Milano;8;2919;TREVIGLIO
+RE6;Verona-Brescia-Milano;11;2419;ROMANO
+RE6;Verona-Brescia-Milano;13;1085;CHIARI
+RE6;Verona-Brescia-Milano;14;2437;ROVATO
+RE6;Verona-Brescia-Milano;17;734;BRESCIA
+RE6;Verona-Brescia-Milano;21;1229;DESENZANO DEL GARDA-SIRMIONE
+RE6;Verona-Brescia-Milano;22;2099;PESCHIERA DEL GARDA
+RE6;Verona-Brescia-Milano;26;3025;VERONA PORTA NUOVA
+RE6;Verona-Brescia-Milano;6;2099;PESCHIERA DEL GARDA
+RE6;Verona-Brescia-Milano;7;1229;DESENZANO DEL GARDA-SIRMIONE
+RE6;Verona-Brescia-Milano;11;734;BRESCIA
+RE6;Verona-Brescia-Milano;15;1085;CHIARI
+RE6;Verona-Brescia-Milano;17;2419;ROMANO
+RE6;Verona-Brescia-Milano;20;2919;TREVIGLIO
+RE6;Verona-Brescia-Milano;24;2147;PIOLTELLO LIMITO
+RE6;Verona-Brescia-Milano;25;1712;MILANO LAMBRATE
+RE6;Verona-Brescia-Milano;27;1728;MILANO CENTRALE
+RE6;Verona-Brescia-Milano;28;1712;MILANO LAMBRATE
+RE6;Verona-Brescia-Milano;30;1728;MILANO CENTRALE
+RE6;Verona-Brescia-Milano;23;2147;PIOLTELLO LIMITO
+RE6;Verona-Brescia-Milano;24;1712;MILANO LAMBRATE
+RE6;Verona-Brescia-Milano;26;1728;MILANO CENTRALE
+RE6;Verona-Brescia-Milano;34;1708;MILANO CERTOSA
+RE6;Verona-Brescia-Milano;4;2437;ROVATO
+RE6;Verona-Brescia-Milano;5;1085;CHIARI
+RE6;Verona-Brescia-Milano;7;2419;ROMANO
+RE6;Verona-Brescia-Milano;32;1728;MILANO CENTRALE
+RE6;Verona-Brescia-Milano;18;2147;PIOLTELLO LIMITO
+RE6;Verona-Brescia-Milano;19;1712;MILANO LAMBRATE
+RE6;Verona-Brescia-Milano;21;1728;MILANO CENTRALE
+RE6;Verona-Brescia-Milano;21;1712;MILANO LAMBRATE
+RE6;Verona-Brescia-Milano;22;1728;MILANO CENTRALE
+RE6;Verona-Brescia-Milano;25;1728;MILANO CENTRALE
+RE7;Como-Saronno-Milano;1;5053;MILANO CADORNA
+RE7;Como-Saronno-Milano;2;5054;MILANO DOMODOSSOLA
+RE7;Como-Saronno-Milano;3;1707;MILANO BOVISA FNM
+RE7;Como-Saronno-Milano;13;5048;SARONNO
+RE7;Como-Saronno-Milano;16;5338;LOMAZZO
+RE7;Como-Saronno-Milano;21;5343;GRANDATE-BRECCIA
+RE7;Como-Saronno-Milano;22;5344;COMO CAMERLATA (FNM)
+RE7;Como-Saronno-Milano;23;5345;COMO BORGHI
+RE7;Como-Saronno-Milano;24;5346;COMO LAGO
+RE7;Como-Saronno-Milano;1;5346;COMO LAGO
+RE7;Como-Saronno-Milano;2;5345;COMO BORGHI
+RE7;Como-Saronno-Milano;3;5344;COMO CAMERLATA (FNM)
+RE7;Como-Saronno-Milano;4;5343;GRANDATE-BRECCIA
+RE7;Como-Saronno-Milano;9;5338;LOMAZZO
+RE7;Como-Saronno-Milano;12;5048;SARONNO
+RE7;Como-Saronno-Milano;22;1707;MILANO BOVISA FNM
+RE7;Como-Saronno-Milano;23;5054;MILANO DOMODOSSOLA
+RE7;Como-Saronno-Milano;24;5053;MILANO CADORNA
+RE7;Como-Saronno-Milano;1;5345;COMO BORGHI
+RE7;Como-Saronno-Milano;2;5344;COMO CAMERLATA (FNM)
+RE7;Como-Saronno-Milano;3;5343;GRANDATE-BRECCIA
+RE7;Como-Saronno-Milano;8;5338;LOMAZZO
+RE7;Como-Saronno-Milano;11;5048;SARONNO
+RE7;Como-Saronno-Milano;21;1707;MILANO BOVISA FNM
+RE7;Como-Saronno-Milano;22;5054;MILANO DOMODOSSOLA
+RE7;Como-Saronno-Milano;23;5053;MILANO CADORNA
+RE8;Tirano - Sondrio - Lecco - Milano;1;1139;COLICO
+RE8;Tirano - Sondrio - Lecco - Milano;2;2151;PIONA
+RE8;Tirano - Sondrio - Lecco - Milano;3;1258;DORIO
+RE8;Tirano - Sondrio - Lecco - Milano;4;1228;DERVIO
+RE8;Tirano - Sondrio - Lecco - Milano;5;618;BELLANO TARTAVALLE TERME
+RE8;Tirano - Sondrio - Lecco - Milano;6;2993;VARENNA ESINO
+RE8;Tirano - Sondrio - Lecco - Milano;7;1329;FIUMELATTE
+RE8;Tirano - Sondrio - Lecco - Milano;8;1575;LIERNA
+RE8;Tirano - Sondrio - Lecco - Milano;9;1934;OLCIO
+RE8;Tirano - Sondrio - Lecco - Milano;10;1632;MANDELLO DEL LARIO
+RE8;Tirano - Sondrio - Lecco - Milano;11;365;ABBADIA LARIANA
+RE8;Tirano - Sondrio - Lecco - Milano;12;1550;LECCO
+RE8;Tirano - Sondrio - Lecco - Milano;15;807;CALOLZIOCORTE OLGINATE
+RE8;Tirano - Sondrio - Lecco - Milano;18;1066;CERNUSCO-MERATE
+RE8;Tirano - Sondrio - Lecco - Milano;20;905;CARNATE USMATE
+RE8;Tirano - Sondrio - Lecco - Milano;22;1841;MONZA
+RE8;Tirano - Sondrio - Lecco - Milano;23;2716;SESTO S.GIOVANNI
+RE8;Tirano - Sondrio - Lecco - Milano;26;1712;MILANO LAMBRATE
+RE8;Tirano - Sondrio - Lecco - Milano;27;3169;MILANO FORLANINI
+RE8;Tirano - Sondrio - Lecco - Milano;30;1720;MILANO ROGOREDO
+RE8;Tirano - Sondrio - Lecco - Milano;1;1728;MILANO CENTRALE
+RE8;Tirano - Sondrio - Lecco - Milano;4;1841;MONZA
+RE8;Tirano - Sondrio - Lecco - Milano;14;1550;LECCO
+RE8;Tirano - Sondrio - Lecco - Milano;16;1632;MANDELLO DEL LARIO
+RE8;Tirano - Sondrio - Lecco - Milano;20;2993;VARENNA ESINO
+RE8;Tirano - Sondrio - Lecco - Milano;21;618;BELLANO TARTAVALLE TERME
+RE8;Tirano - Sondrio - Lecco - Milano;25;1139;COLICO
+RE8;Tirano - Sondrio - Lecco - Milano;28;1846;MORBEGNO
+RE8;Tirano - Sondrio - Lecco - Milano;33;2760;SONDRIO
+RE8;Tirano - Sondrio - Lecco - Milano;38;2916;TRESENDA-APRICA-TEGLIO
+RE8;Tirano - Sondrio - Lecco - Milano;41;2850;TIRANO
+RE8;Tirano - Sondrio - Lecco - Milano;11;807;CALOLZIOCORTE OLGINATE
+RE8;Tirano - Sondrio - Lecco - Milano;15;365;ABBADIA LARIANA
+RE8;Tirano - Sondrio - Lecco - Milano;18;1575;LIERNA
+RE8;Tirano - Sondrio - Lecco - Milano;22;1228;DERVIO
+RE8;Tirano - Sondrio - Lecco - Milano;1;2850;TIRANO
+RE8;Tirano - Sondrio - Lecco - Milano;4;2916;TRESENDA-APRICA-TEGLIO
+RE8;Tirano - Sondrio - Lecco - Milano;9;2760;SONDRIO
+RE8;Tirano - Sondrio - Lecco - Milano;14;1846;MORBEGNO
+RE8;Tirano - Sondrio - Lecco - Milano;17;1139;COLICO
+RE8;Tirano - Sondrio - Lecco - Milano;22;2993;VARENNA ESINO
+RE8;Tirano - Sondrio - Lecco - Milano;26;1632;MANDELLO DEL LARIO
+RE8;Tirano - Sondrio - Lecco - Milano;28;1550;LECCO
+RE8;Tirano - Sondrio - Lecco - Milano;38;1841;MONZA
+RE8;Tirano - Sondrio - Lecco - Milano;41;1728;MILANO CENTRALE
+RE8;Tirano - Sondrio - Lecco - Milano;7;2218;PONTE IN VALTELLINA
+RE8;Tirano - Sondrio - Lecco - Milano;1;2760;SONDRIO
+RE8;Tirano - Sondrio - Lecco - Milano;6;1846;MORBEGNO
+RE8;Tirano - Sondrio - Lecco - Milano;9;1139;COLICO
+RE8;Tirano - Sondrio - Lecco - Milano;13;618;BELLANO TARTAVALLE TERME
+RE8;Tirano - Sondrio - Lecco - Milano;14;2993;VARENNA ESINO
+RE8;Tirano - Sondrio - Lecco - Milano;18;1632;MANDELLO DEL LARIO
+RE8;Tirano - Sondrio - Lecco - Milano;20;1550;LECCO
+RE8;Tirano - Sondrio - Lecco - Milano;23;807;CALOLZIOCORTE OLGINATE
+RE8;Tirano - Sondrio - Lecco - Milano;28;905;CARNATE USMATE
+RE8;Tirano - Sondrio - Lecco - Milano;30;1841;MONZA
+RE8;Tirano - Sondrio - Lecco - Milano;33;1728;MILANO CENTRALE
+RE8;Tirano - Sondrio - Lecco - Milano;12;1228;DERVIO
+RE8;Tirano - Sondrio - Lecco - Milano;6;905;CARNATE USMATE
+RE8;Tirano - Sondrio - Lecco - Milano;8;1066;CERNUSCO-MERATE
+RE8;Tirano - Sondrio - Lecco - Milano;1;1550;LECCO
+RE8;Tirano - Sondrio - Lecco - Milano;4;807;CALOLZIOCORTE OLGINATE
+RE8;Tirano - Sondrio - Lecco - Milano;9;905;CARNATE USMATE
+RE8;Tirano - Sondrio - Lecco - Milano;11;1841;MONZA
+RE8;Tirano - Sondrio - Lecco - Milano;14;1728;MILANO CENTRALE
+RE8;Tirano - Sondrio - Lecco - Milano;2;3071;VILLA DI TIRANO
+RE8;Tirano - Sondrio - Lecco - Milano;3;641;BIANZONE
+RE8;Tirano - Sondrio - Lecco - Milano;5;2504;S.GIACOMO DI TEGLIO
+RE8;Tirano - Sondrio - Lecco - Milano;6;1100;CHIURO
+RE8;Tirano - Sondrio - Lecco - Milano;8;2195;POGGIRIDENTI-TRESIVIO-PIATEDA
+RE8;Tirano - Sondrio - Lecco - Milano;25;1937;OLGIATE-CALCO-BRIVIO
+RE8;Tirano - Sondrio - Lecco - Milano;26;1066;CERNUSCO-MERATE
+RE8;Tirano - Sondrio - Lecco - Milano;31;2716;SESTO S.GIOVANNI
+RE80;Locarno - Chiasso - Como - Milano;1;1728;MILANO CENTRALE
+RE80;Locarno - Chiasso - Como - Milano;4;1841;MONZA
+RE80;Locarno - Chiasso - Como - Milano;7;2696;SEREGNO
+RE80;Locarno - Chiasso - Como - Milano;14;3222;COMO CAMERLATA
+RE80;Locarno - Chiasso - Como - Milano;15;1158;COMO S.GIOVANNI
+RE80;Locarno - Chiasso - Como - Milano;17;1087;CHIASSO
+RE80;Locarno - Chiasso - Como - Milano;1;1087;CHIASSO
+RE80;Locarno - Chiasso - Como - Milano;3;1158;COMO S.GIOVANNI
+RE80;Locarno - Chiasso - Como - Milano;4;3222;COMO CAMERLATA
+RE80;Locarno - Chiasso - Como - Milano;11;2696;SEREGNO
+RE80;Locarno - Chiasso - Como - Milano;14;1841;MONZA
+RE80;Locarno - Chiasso - Como - Milano;17;1728;MILANO CENTRALE
+RE80;Locarno - Chiasso - Como - Milano;1;1158;COMO S.GIOVANNI
+RE80;Locarno - Chiasso - Como - Milano;6;873;CANTU'-CERMENATE
+RE80;Locarno - Chiasso - Como - Milano;9;2696;SEREGNO
+RE80;Locarno - Chiasso - Como - Milano;10;1230;DESIO
+RE80;Locarno - Chiasso - Como - Milano;12;1841;MONZA
+RE80;Locarno - Chiasso - Como - Milano;15;1728;MILANO CENTRALE
+RE80;Locarno - Chiasso - Como - Milano;3;1087;CHIASSO
+S1;Saronno-Milano Passante-Lodi;1;1584;LODI
+S1;Saronno-Milano Passante-Lodi;2;2820;TAVAZZANO
+S1;Saronno-Milano Passante-Lodi;3;2604;S.ZENONE AL LAMBRO
+S1;Saronno-Milano Passante-Lodi;4;1688;MELEGNANO
+S1;Saronno-Milano Passante-Lodi;5;2520;S.GIULIANO MILANESE
+S1;Saronno-Milano Passante-Lodi;6;710;BORGOLOMBARDO
+S1;Saronno-Milano Passante-Lodi;7;2487;S.DONATO MILANESE
+S1;Saronno-Milano Passante-Lodi;8;1720;MILANO ROGOREDO
+S1;Saronno-Milano Passante-Lodi;9;1718;MILANO PORTA VITTORIA
+S1;Saronno-Milano Passante-Lodi;10;3468;MILANO DATEO
+S1;Saronno-Milano Passante-Lodi;11;1723;MILANO PORTA VENEZIA
+S1;Saronno-Milano Passante-Lodi;12;1719;MILANO REPUBBLICA
+S1;Saronno-Milano Passante-Lodi;13;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S1;Saronno-Milano Passante-Lodi;14;1713;MILANO LANCETTI
+S1;Saronno-Milano Passante-Lodi;15;1707;MILANO BOVISA FNM
+S1;Saronno-Milano Passante-Lodi;16;5056;MILANO QUARTO OGGIARO
+S1;Saronno-Milano Passante-Lodi;17;5057;NOVATE MILANESE
+S1;Saronno-Milano Passante-Lodi;18;5058;BOLLATE CENTRO
+S1;Saronno-Milano Passante-Lodi;19;5059;BOLLATE NORD
+S1;Saronno-Milano Passante-Lodi;20;5060;GARBAGNATE PARCO GROANE
+S1;Saronno-Milano Passante-Lodi;21;5061;GARBAGNATE MILANESE
+S1;Saronno-Milano Passante-Lodi;22;5062;CESATE
+S1;Saronno-Milano Passante-Lodi;23;5063;CARONNO PERTUSELLA
+S1;Saronno-Milano Passante-Lodi;24;5064;SARONNO SUD
+S1;Saronno-Milano Passante-Lodi;25;5048;SARONNO
+S1;Saronno-Milano Passante-Lodi;1;5048;SARONNO
+S1;Saronno-Milano Passante-Lodi;2;5064;SARONNO SUD
+S1;Saronno-Milano Passante-Lodi;3;5063;CARONNO PERTUSELLA
+S1;Saronno-Milano Passante-Lodi;4;5062;CESATE
+S1;Saronno-Milano Passante-Lodi;5;5061;GARBAGNATE MILANESE
+S1;Saronno-Milano Passante-Lodi;6;5060;GARBAGNATE PARCO GROANE
+S1;Saronno-Milano Passante-Lodi;7;5059;BOLLATE NORD
+S1;Saronno-Milano Passante-Lodi;8;5058;BOLLATE CENTRO
+S1;Saronno-Milano Passante-Lodi;9;5057;NOVATE MILANESE
+S1;Saronno-Milano Passante-Lodi;10;5056;MILANO QUARTO OGGIARO
+S1;Saronno-Milano Passante-Lodi;11;1707;MILANO BOVISA FNM
+S1;Saronno-Milano Passante-Lodi;12;1713;MILANO LANCETTI
+S1;Saronno-Milano Passante-Lodi;14;1719;MILANO REPUBBLICA
+S1;Saronno-Milano Passante-Lodi;15;1723;MILANO PORTA VENEZIA
+S1;Saronno-Milano Passante-Lodi;16;3468;MILANO DATEO
+S1;Saronno-Milano Passante-Lodi;17;1718;MILANO PORTA VITTORIA
+S1;Saronno-Milano Passante-Lodi;18;1720;MILANO ROGOREDO
+S1;Saronno-Milano Passante-Lodi;19;2487;S.DONATO MILANESE
+S1;Saronno-Milano Passante-Lodi;20;710;BORGOLOMBARDO
+S1;Saronno-Milano Passante-Lodi;21;2520;S.GIULIANO MILANESE
+S1;Saronno-Milano Passante-Lodi;22;1688;MELEGNANO
+S1;Saronno-Milano Passante-Lodi;23;2604;S.ZENONE AL LAMBRO
+S1;Saronno-Milano Passante-Lodi;24;2820;TAVAZZANO
+S1;Saronno-Milano Passante-Lodi;25;1584;LODI
+S1;Saronno-Milano Passante-Lodi;1;1707;MILANO BOVISA FNM
+S1;Saronno-Milano Passante-Lodi;2;5056;MILANO QUARTO OGGIARO
+S1;Saronno-Milano Passante-Lodi;3;5057;NOVATE MILANESE
+S1;Saronno-Milano Passante-Lodi;4;5058;BOLLATE CENTRO
+S1;Saronno-Milano Passante-Lodi;5;5059;BOLLATE NORD
+S1;Saronno-Milano Passante-Lodi;7;5061;GARBAGNATE MILANESE
+S1;Saronno-Milano Passante-Lodi;8;5062;CESATE
+S1;Saronno-Milano Passante-Lodi;9;5063;CARONNO PERTUSELLA
+S1;Saronno-Milano Passante-Lodi;10;5064;SARONNO SUD
+S1;Saronno-Milano Passante-Lodi;11;5048;SARONNO
+S1;Saronno-Milano Passante-Lodi;2;1713;MILANO LANCETTI
+S1;Saronno-Milano Passante-Lodi;3;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S1;Saronno-Milano Passante-Lodi;4;1719;MILANO REPUBBLICA
+S1;Saronno-Milano Passante-Lodi;5;1723;MILANO PORTA VENEZIA
+S1;Saronno-Milano Passante-Lodi;6;3468;MILANO DATEO
+S1;Saronno-Milano Passante-Lodi;7;1718;MILANO PORTA VITTORIA
+S1;Saronno-Milano Passante-Lodi;9;2487;S.DONATO MILANESE
+S1;Saronno-Milano Passante-Lodi;10;710;BORGOLOMBARDO
+S1;Saronno-Milano Passante-Lodi;11;2520;S.GIULIANO MILANESE
+S1;Saronno-Milano Passante-Lodi;12;1688;MELEGNANO
+S1;Saronno-Milano Passante-Lodi;13;2604;S.ZENONE AL LAMBRO
+S1;Saronno-Milano Passante-Lodi;14;2820;TAVAZZANO
+S1;Saronno-Milano Passante-Lodi;15;1584;LODI
+S1;Saronno-Milano Passante-Lodi;1;1720;MILANO ROGOREDO
+S1;Saronno-Milano Passante-Lodi;2;2487;S.DONATO MILANESE
+S1;Saronno-Milano Passante-Lodi;3;710;BORGOLOMBARDO
+S1;Saronno-Milano Passante-Lodi;4;2520;S.GIULIANO MILANESE
+S1;Saronno-Milano Passante-Lodi;5;1688;MELEGNANO
+S1;Saronno-Milano Passante-Lodi;6;2604;S.ZENONE AL LAMBRO
+S1;Saronno-Milano Passante-Lodi;7;2820;TAVAZZANO
+S1;Saronno-Milano Passante-Lodi;8;1584;LODI
+S1;Saronno-Milano Passante-Lodi;2;1718;MILANO PORTA VITTORIA
+S1;Saronno-Milano Passante-Lodi;3;3468;MILANO DATEO
+S1;Saronno-Milano Passante-Lodi;4;1723;MILANO PORTA VENEZIA
+S1;Saronno-Milano Passante-Lodi;5;1719;MILANO REPUBBLICA
+S1;Saronno-Milano Passante-Lodi;6;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S1;Saronno-Milano Passante-Lodi;7;1713;MILANO LANCETTI
+S1;Saronno-Milano Passante-Lodi;8;1707;MILANO BOVISA FNM
+S10;Como Camerlata - Como S. Giovanni - Mendrisio - Bellinzona;1;1158;COMO S.GIOVANNI
+S10;Como Camerlata - Como S. Giovanni - Mendrisio - Bellinzona;3;1087;CHIASSO
+S10;Como Camerlata - Como S. Giovanni - Mendrisio - Bellinzona;1;1087;CHIASSO
+S10;Como Camerlata - Como S. Giovanni - Mendrisio - Bellinzona;3;1158;COMO S.GIOVANNI
+S10;Como Camerlata - Como S. Giovanni - Mendrisio - Bellinzona;4;3222;COMO CAMERLATA
+S10;Como Camerlata - Como S. Giovanni - Mendrisio - Bellinzona;5;400;ALBATE CAMERLATA
+S10;Como Camerlata - Como S. Giovanni - Mendrisio - Bellinzona;1;400;ALBATE CAMERLATA
+S10;Como Camerlata - Como S. Giovanni - Mendrisio - Bellinzona;2;3222;COMO CAMERLATA
+S10;Como Camerlata - Como S. Giovanni - Mendrisio - Bellinzona;5;1087;CHIASSO
+S11;Chiasso - Como - Milano - Rho;1;1158;COMO S.GIOVANNI
+S11;Chiasso - Como - Milano - Rho;2;3222;COMO CAMERLATA
+S11;Chiasso - Como - Milano - Rho;5;1208;CUCCIAGO
+S11;Chiasso - Como - Milano - Rho;6;873;CANTU'-CERMENATE
+S11;Chiasso - Como - Milano - Rho;7;899;CARIMATE
+S11;Chiasso - Como - Milano - Rho;8;819;CAMNAGO-LENTATE
+S11;Chiasso - Como - Milano - Rho;9;2696;SEREGNO
+S11;Chiasso - Como - Milano - Rho;10;1230;DESIO
+S11;Chiasso - Como - Milano - Rho;11;1581;LISSONE-MUGGIO'
+S11;Chiasso - Como - Milano - Rho;12;1841;MONZA
+S11;Chiasso - Como - Milano - Rho;13;2716;SESTO S.GIOVANNI
+S11;Chiasso - Como - Milano - Rho;14;1711;MILANO GRECO PIRELLI
+S11;Chiasso - Como - Milano - Rho;16;1715;MILANO PORTA GARIBALDI
+S11;Chiasso - Como - Milano - Rho;18;3099;MILANO VILLAPIZZONE
+S11;Chiasso - Como - Milano - Rho;19;1708;MILANO CERTOSA
+S11;Chiasso - Como - Milano - Rho;20;3098;RHO FIERA
+S11;Chiasso - Como - Milano - Rho;21;2345;RHO
+S11;Chiasso - Como - Milano - Rho;1;2345;RHO
+S11;Chiasso - Como - Milano - Rho;3;3098;RHO FIERA
+S11;Chiasso - Como - Milano - Rho;4;1708;MILANO CERTOSA
+S11;Chiasso - Como - Milano - Rho;5;3099;MILANO VILLAPIZZONE
+S11;Chiasso - Como - Milano - Rho;7;1715;MILANO PORTA GARIBALDI
+S11;Chiasso - Como - Milano - Rho;9;1711;MILANO GRECO PIRELLI
+S11;Chiasso - Como - Milano - Rho;10;2716;SESTO S.GIOVANNI
+S11;Chiasso - Como - Milano - Rho;11;1841;MONZA
+S11;Chiasso - Como - Milano - Rho;12;1581;LISSONE-MUGGIO'
+S11;Chiasso - Como - Milano - Rho;13;1230;DESIO
+S11;Chiasso - Como - Milano - Rho;14;2696;SEREGNO
+S11;Chiasso - Como - Milano - Rho;15;819;CAMNAGO-LENTATE
+S11;Chiasso - Como - Milano - Rho;16;899;CARIMATE
+S11;Chiasso - Como - Milano - Rho;17;873;CANTU'-CERMENATE
+S11;Chiasso - Como - Milano - Rho;18;1208;CUCCIAGO
+S11;Chiasso - Como - Milano - Rho;21;3222;COMO CAMERLATA
+S11;Chiasso - Como - Milano - Rho;22;1158;COMO S.GIOVANNI
+S11;Chiasso - Como - Milano - Rho;1;1087;CHIASSO
+S11;Chiasso - Como - Milano - Rho;3;1158;COMO S.GIOVANNI
+S11;Chiasso - Como - Milano - Rho;4;3222;COMO CAMERLATA
+S11;Chiasso - Como - Milano - Rho;7;1208;CUCCIAGO
+S11;Chiasso - Como - Milano - Rho;8;873;CANTU'-CERMENATE
+S11;Chiasso - Como - Milano - Rho;9;899;CARIMATE
+S11;Chiasso - Como - Milano - Rho;10;819;CAMNAGO-LENTATE
+S11;Chiasso - Como - Milano - Rho;11;2696;SEREGNO
+S11;Chiasso - Como - Milano - Rho;12;1230;DESIO
+S11;Chiasso - Como - Milano - Rho;13;1581;LISSONE-MUGGIO'
+S11;Chiasso - Como - Milano - Rho;14;1841;MONZA
+S11;Chiasso - Como - Milano - Rho;15;2716;SESTO S.GIOVANNI
+S11;Chiasso - Como - Milano - Rho;16;1711;MILANO GRECO PIRELLI
+S11;Chiasso - Como - Milano - Rho;18;1715;MILANO PORTA GARIBALDI
+S11;Chiasso - Como - Milano - Rho;1;1715;MILANO PORTA GARIBALDI
+S11;Chiasso - Como - Milano - Rho;3;1711;MILANO GRECO PIRELLI
+S11;Chiasso - Como - Milano - Rho;4;2716;SESTO S.GIOVANNI
+S11;Chiasso - Como - Milano - Rho;5;1841;MONZA
+S11;Chiasso - Como - Milano - Rho;6;1581;LISSONE-MUGGIO'
+S11;Chiasso - Como - Milano - Rho;7;1230;DESIO
+S11;Chiasso - Como - Milano - Rho;8;2696;SEREGNO
+S11;Chiasso - Como - Milano - Rho;9;819;CAMNAGO-LENTATE
+S11;Chiasso - Como - Milano - Rho;10;899;CARIMATE
+S11;Chiasso - Como - Milano - Rho;11;873;CANTU'-CERMENATE
+S11;Chiasso - Como - Milano - Rho;12;1208;CUCCIAGO
+S11;Chiasso - Como - Milano - Rho;15;3222;COMO CAMERLATA
+S11;Chiasso - Como - Milano - Rho;16;1158;COMO S.GIOVANNI
+S11;Chiasso - Como - Milano - Rho;18;1087;CHIASSO
+S11;Chiasso - Como - Milano - Rho;17;1728;MILANO CENTRALE
+S11;Chiasso - Como - Milano - Rho;1;1841;MONZA
+S11;Chiasso - Como - Milano - Rho;2;2716;SESTO S.GIOVANNI
+S11;Chiasso - Como - Milano - Rho;5;1715;MILANO PORTA GARIBALDI
+S11;Chiasso - Como - Milano - Rho;1;1708;MILANO CERTOSA
+S11;Chiasso - Como - Milano - Rho;2;3099;MILANO VILLAPIZZONE
+S11;Chiasso - Como - Milano - Rho;4;1715;MILANO PORTA GARIBALDI
+S11;Chiasso - Como - Milano - Rho;6;1711;MILANO GRECO PIRELLI
+S11;Chiasso - Como - Milano - Rho;7;2716;SESTO S.GIOVANNI
+S11;Chiasso - Como - Milano - Rho;8;1841;MONZA
+S11;Chiasso - Como - Milano - Rho;9;1581;LISSONE-MUGGIO'
+S11;Chiasso - Como - Milano - Rho;12;819;CAMNAGO-LENTATE
+S11;Chiasso - Como - Milano - Rho;13;899;CARIMATE
+S11;Chiasso - Como - Milano - Rho;14;873;CANTU'-CERMENATE
+S11;Chiasso - Como - Milano - Rho;15;1208;CUCCIAGO
+S11;Chiasso - Como - Milano - Rho;18;3222;COMO CAMERLATA
+S11;Chiasso - Como - Milano - Rho;19;1158;COMO S.GIOVANNI
+S13;Pavia-Milano Passante-Milano Bovisa;1;1707;MILANO BOVISA FNM
+S13;Pavia-Milano Passante-Milano Bovisa;2;1713;MILANO LANCETTI
+S13;Pavia-Milano Passante-Milano Bovisa;3;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S13;Pavia-Milano Passante-Milano Bovisa;4;1719;MILANO REPUBBLICA
+S13;Pavia-Milano Passante-Milano Bovisa;5;1723;MILANO PORTA VENEZIA
+S13;Pavia-Milano Passante-Milano Bovisa;6;3468;MILANO DATEO
+S13;Pavia-Milano Passante-Milano Bovisa;7;1718;MILANO PORTA VITTORIA
+S13;Pavia-Milano Passante-Milano Bovisa;8;1720;MILANO ROGOREDO
+S13;Pavia-Milano Passante-Milano Bovisa;9;1583;LOCATE TRIULZI
+S13;Pavia-Milano Passante-Milano Bovisa;10;1749;PIEVE EMANUELE
+S13;Pavia-Milano Passante-Milano Bovisa;11;3092;VILLAMAGGIORE
+S13;Pavia-Milano Passante-Milano Bovisa;12;1069;CERTOSA DI PAVIA
+S13;Pavia-Milano Passante-Milano Bovisa;13;2046;PAVIA
+S13;Pavia-Milano Passante-Milano Bovisa;1;2046;PAVIA
+S13;Pavia-Milano Passante-Milano Bovisa;2;1069;CERTOSA DI PAVIA
+S13;Pavia-Milano Passante-Milano Bovisa;3;3092;VILLAMAGGIORE
+S13;Pavia-Milano Passante-Milano Bovisa;4;1749;PIEVE EMANUELE
+S13;Pavia-Milano Passante-Milano Bovisa;5;1583;LOCATE TRIULZI
+S13;Pavia-Milano Passante-Milano Bovisa;6;1720;MILANO ROGOREDO
+S13;Pavia-Milano Passante-Milano Bovisa;8;3468;MILANO DATEO
+S13;Pavia-Milano Passante-Milano Bovisa;9;1723;MILANO PORTA VENEZIA
+S13;Pavia-Milano Passante-Milano Bovisa;10;1719;MILANO REPUBBLICA
+S13;Pavia-Milano Passante-Milano Bovisa;11;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S13;Pavia-Milano Passante-Milano Bovisa;12;1713;MILANO LANCETTI
+S13;Pavia-Milano Passante-Milano Bovisa;13;1707;MILANO BOVISA FNM
+S13;Pavia-Milano Passante-Milano Bovisa;1;1720;MILANO ROGOREDO
+S13;Pavia-Milano Passante-Milano Bovisa;2;1718;MILANO PORTA VITTORIA
+S13;Pavia-Milano Passante-Milano Bovisa;3;3468;MILANO DATEO
+S13;Pavia-Milano Passante-Milano Bovisa;4;1723;MILANO PORTA VENEZIA
+S13;Pavia-Milano Passante-Milano Bovisa;5;1719;MILANO REPUBBLICA
+S13;Pavia-Milano Passante-Milano Bovisa;6;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S13;Pavia-Milano Passante-Milano Bovisa;7;1713;MILANO LANCETTI
+S13;Pavia-Milano Passante-Milano Bovisa;8;1707;MILANO BOVISA FNM
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;1;5046;SEVESO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;2;5073;CESANO MADERNO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;3;5072;BOVISIO MASCIAGO-MOMBELLO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;4;5071;VAREDO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;5;5070;PALAZZOLO MILANESE
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;6;5069;PADERNO DUGNANO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;7;5409;CORMANO-CUSANO MILANINO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;8;5066;MILANO BRUZZANO PARCO NORD
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;9;5065;MILANO AFFORI
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;10;1707;MILANO BOVISA FNM
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;11;1713;MILANO LANCETTI
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;12;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;13;1719;MILANO REPUBBLICA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;14;1723;MILANO PORTA VENEZIA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;15;3468;MILANO DATEO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;16;1718;MILANO PORTA VITTORIA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;17;1720;MILANO ROGOREDO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;1;1720;MILANO ROGOREDO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;2;1718;MILANO PORTA VITTORIA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;3;3468;MILANO DATEO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;4;1723;MILANO PORTA VENEZIA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;5;1719;MILANO REPUBBLICA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;6;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;7;1713;MILANO LANCETTI
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;8;1707;MILANO BOVISA FNM
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;10;5066;MILANO BRUZZANO PARCO NORD
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;11;5409;CORMANO-CUSANO MILANINO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;12;5069;PADERNO DUGNANO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;13;5070;PALAZZOLO MILANESE
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;14;5071;VAREDO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;15;5072;BOVISIO MASCIAGO-MOMBELLO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;16;5073;CESANO MADERNO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;17;5046;SEVESO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;1;5086;MEDA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;2;5046;SEVESO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;3;5073;CESANO MADERNO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;4;5072;BOVISIO MASCIAGO-MOMBELLO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;5;5071;VAREDO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;6;5070;PALAZZOLO MILANESE
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;7;5069;PADERNO DUGNANO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;8;5409;CORMANO-CUSANO MILANINO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;9;5066;MILANO BRUZZANO PARCO NORD
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;10;5065;MILANO AFFORI
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;11;1707;MILANO BOVISA FNM
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;12;1713;MILANO LANCETTI
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;13;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;14;1719;MILANO REPUBBLICA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;15;1723;MILANO PORTA VENEZIA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;16;3468;MILANO DATEO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;17;1718;MILANO PORTA VITTORIA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;18;1720;MILANO ROGOREDO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;1;5088;MARIANO COMENSE
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;2;5087;CABIATE
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;3;5086;MEDA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;4;5046;SEVESO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;5;5073;CESANO MADERNO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;6;5072;BOVISIO MASCIAGO-MOMBELLO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;7;5071;VAREDO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;8;5070;PALAZZOLO MILANESE
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;9;5069;PADERNO DUGNANO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;10;5409;CORMANO-CUSANO MILANINO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;11;5066;MILANO BRUZZANO PARCO NORD
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;12;5065;MILANO AFFORI
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;13;1707;MILANO BOVISA FNM
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;14;1713;MILANO LANCETTI
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;15;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;16;1719;MILANO REPUBBLICA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;17;1723;MILANO PORTA VENEZIA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;18;3468;MILANO DATEO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;19;1718;MILANO PORTA VITTORIA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;20;1720;MILANO ROGOREDO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;1;1707;MILANO BOVISA FNM
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;2;5065;MILANO AFFORI
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;3;5066;MILANO BRUZZANO PARCO NORD
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;4;5409;CORMANO-CUSANO MILANINO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;5;5069;PADERNO DUGNANO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;8;5072;BOVISIO MASCIAGO-MOMBELLO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;9;5073;CESANO MADERNO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;10;5046;SEVESO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;11;5086;MEDA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;18;5086;MEDA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;2;1713;MILANO LANCETTI
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;3;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;4;1719;MILANO REPUBBLICA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;5;1723;MILANO PORTA VENEZIA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;6;3468;MILANO DATEO
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;7;1718;MILANO PORTA VITTORIA
+S2;Mariano Comense/Seveso - Milano Passante - Milano Rogoredo;8;1720;MILANO ROGOREDO
+S3;Saronno - Milano Bovisa - Milano Cadorna;1;5053;MILANO CADORNA
+S3;Saronno - Milano Bovisa - Milano Cadorna;2;5054;MILANO DOMODOSSOLA
+S3;Saronno - Milano Bovisa - Milano Cadorna;3;1707;MILANO BOVISA FNM
+S3;Saronno - Milano Bovisa - Milano Cadorna;4;5056;MILANO QUARTO OGGIARO
+S3;Saronno - Milano Bovisa - Milano Cadorna;5;5057;NOVATE MILANESE
+S3;Saronno - Milano Bovisa - Milano Cadorna;6;5058;BOLLATE CENTRO
+S3;Saronno - Milano Bovisa - Milano Cadorna;7;5059;BOLLATE NORD
+S3;Saronno - Milano Bovisa - Milano Cadorna;8;5060;GARBAGNATE PARCO GROANE
+S3;Saronno - Milano Bovisa - Milano Cadorna;9;5061;GARBAGNATE MILANESE
+S3;Saronno - Milano Bovisa - Milano Cadorna;10;5062;CESATE
+S3;Saronno - Milano Bovisa - Milano Cadorna;11;5063;CARONNO PERTUSELLA
+S3;Saronno - Milano Bovisa - Milano Cadorna;12;5064;SARONNO SUD
+S3;Saronno - Milano Bovisa - Milano Cadorna;13;5048;SARONNO
+S3;Saronno - Milano Bovisa - Milano Cadorna;1;5048;SARONNO
+S3;Saronno - Milano Bovisa - Milano Cadorna;2;5064;SARONNO SUD
+S3;Saronno - Milano Bovisa - Milano Cadorna;3;5063;CARONNO PERTUSELLA
+S3;Saronno - Milano Bovisa - Milano Cadorna;4;5062;CESATE
+S3;Saronno - Milano Bovisa - Milano Cadorna;5;5061;GARBAGNATE MILANESE
+S3;Saronno - Milano Bovisa - Milano Cadorna;6;5060;GARBAGNATE PARCO GROANE
+S3;Saronno - Milano Bovisa - Milano Cadorna;8;5058;BOLLATE CENTRO
+S3;Saronno - Milano Bovisa - Milano Cadorna;9;5057;NOVATE MILANESE
+S3;Saronno - Milano Bovisa - Milano Cadorna;10;5056;MILANO QUARTO OGGIARO
+S3;Saronno - Milano Bovisa - Milano Cadorna;11;1707;MILANO BOVISA FNM
+S3;Saronno - Milano Bovisa - Milano Cadorna;12;5054;MILANO DOMODOSSOLA
+S3;Saronno - Milano Bovisa - Milano Cadorna;13;5053;MILANO CADORNA
+S30;Cadenazzo - Luino - Gallarate;1;1593;LUINO
+S30;Cadenazzo - Luino - Gallarate;2;2260;PORTO VALTRAVAGLIA
+S30;Cadenazzo - Luino - Gallarate;3;801;CALDE'
+S30;Cadenazzo - Luino - Gallarate;4;1542;LAVENO MOMBELLO
+S30;Cadenazzo - Luino - Gallarate;5;2636;SANGIANO
+S30;Cadenazzo - Luino - Gallarate;6;636;BESOZZO
+S30;Cadenazzo - Luino - Gallarate;7;2906;TRAVEDONA BIANDRONNO
+S30;Cadenazzo - Luino - Gallarate;8;2833;TERNATE VARANO BORGHI
+S30;Cadenazzo - Luino - Gallarate;9;1853;MORNAGO CIMBRO
+S30;Cadenazzo - Luino - Gallarate;10;635;BESNATE
+S30;Cadenazzo - Luino - Gallarate;11;1393;GALLARATE
+S30;Cadenazzo - Luino - Gallarate;1;1393;GALLARATE
+S30;Cadenazzo - Luino - Gallarate;2;635;BESNATE
+S30;Cadenazzo - Luino - Gallarate;3;1853;MORNAGO CIMBRO
+S30;Cadenazzo - Luino - Gallarate;4;2833;TERNATE VARANO BORGHI
+S30;Cadenazzo - Luino - Gallarate;5;2906;TRAVEDONA BIANDRONNO
+S30;Cadenazzo - Luino - Gallarate;7;2636;SANGIANO
+S30;Cadenazzo - Luino - Gallarate;8;1542;LAVENO MOMBELLO
+S30;Cadenazzo - Luino - Gallarate;9;801;CALDE'
+S30;Cadenazzo - Luino - Gallarate;10;2260;PORTO VALTRAVAGLIA
+S30;Cadenazzo - Luino - Gallarate;11;1593;LUINO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;1;819;CAMNAGO-LENTATE
+S4;Camnago - Milano Bovisa - Milano Cadorna ;2;5046;SEVESO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;3;5073;CESANO MADERNO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;4;5072;BOVISIO MASCIAGO-MOMBELLO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;5;5071;VAREDO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;6;5070;PALAZZOLO MILANESE
+S4;Camnago - Milano Bovisa - Milano Cadorna ;7;5069;PADERNO DUGNANO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;8;5409;CORMANO-CUSANO MILANINO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;9;5066;MILANO BRUZZANO PARCO NORD
+S4;Camnago - Milano Bovisa - Milano Cadorna ;10;5065;MILANO AFFORI
+S4;Camnago - Milano Bovisa - Milano Cadorna ;11;1707;MILANO BOVISA FNM
+S4;Camnago - Milano Bovisa - Milano Cadorna ;12;5054;MILANO DOMODOSSOLA
+S4;Camnago - Milano Bovisa - Milano Cadorna ;13;5053;MILANO CADORNA
+S4;Camnago - Milano Bovisa - Milano Cadorna ;1;5046;SEVESO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;2;5073;CESANO MADERNO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;3;5072;BOVISIO MASCIAGO-MOMBELLO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;4;5071;VAREDO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;5;5070;PALAZZOLO MILANESE
+S4;Camnago - Milano Bovisa - Milano Cadorna ;6;5069;PADERNO DUGNANO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;7;5409;CORMANO-CUSANO MILANINO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;8;5066;MILANO BRUZZANO PARCO NORD
+S4;Camnago - Milano Bovisa - Milano Cadorna ;9;5065;MILANO AFFORI
+S4;Camnago - Milano Bovisa - Milano Cadorna ;10;1707;MILANO BOVISA FNM
+S4;Camnago - Milano Bovisa - Milano Cadorna ;11;5054;MILANO DOMODOSSOLA
+S4;Camnago - Milano Bovisa - Milano Cadorna ;12;5053;MILANO CADORNA
+S4;Camnago - Milano Bovisa - Milano Cadorna ;1;5053;MILANO CADORNA
+S4;Camnago - Milano Bovisa - Milano Cadorna ;2;5054;MILANO DOMODOSSOLA
+S4;Camnago - Milano Bovisa - Milano Cadorna ;3;1707;MILANO BOVISA FNM
+S4;Camnago - Milano Bovisa - Milano Cadorna ;4;5065;MILANO AFFORI
+S4;Camnago - Milano Bovisa - Milano Cadorna ;5;5066;MILANO BRUZZANO PARCO NORD
+S4;Camnago - Milano Bovisa - Milano Cadorna ;6;5409;CORMANO-CUSANO MILANINO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;8;5070;PALAZZOLO MILANESE
+S4;Camnago - Milano Bovisa - Milano Cadorna ;9;5071;VAREDO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;10;5072;BOVISIO MASCIAGO-MOMBELLO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;11;5073;CESANO MADERNO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;12;5046;SEVESO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;13;819;CAMNAGO-LENTATE
+S4;Camnago - Milano Bovisa - Milano Cadorna ;1;5088;MARIANO COMENSE
+S4;Camnago - Milano Bovisa - Milano Cadorna ;2;5087;CABIATE
+S4;Camnago - Milano Bovisa - Milano Cadorna ;3;5086;MEDA
+S4;Camnago - Milano Bovisa - Milano Cadorna ;4;5046;SEVESO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;5;5073;CESANO MADERNO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;6;5072;BOVISIO MASCIAGO-MOMBELLO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;7;5071;VAREDO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;9;5069;PADERNO DUGNANO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;10;5409;CORMANO-CUSANO MILANINO
+S4;Camnago - Milano Bovisa - Milano Cadorna ;11;5066;MILANO BRUZZANO PARCO NORD
+S4;Camnago - Milano Bovisa - Milano Cadorna ;12;5065;MILANO AFFORI
+S4;Camnago - Milano Bovisa - Milano Cadorna ;13;1707;MILANO BOVISA FNM
+S4;Camnago - Milano Bovisa - Milano Cadorna ;14;5054;MILANO DOMODOSSOLA
+S4;Camnago - Milano Bovisa - Milano Cadorna ;15;5053;MILANO CADORNA
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;1;1158;COMO S.GIOVANNI
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;3;1087;CHIASSO
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;4;85053;BALERNA
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;5;85033;MENDRISIO
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;6;85099;STABIO
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;8;2974;CANTELLO GAGGIOLO
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;10;451;ARCISATE
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;11;1492;INDUNO OLONA
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;13;2994;VARESE
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;1;2994;VARESE
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;3;1492;INDUNO OLONA
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;4;451;ARCISATE
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;6;2974;CANTELLO GAGGIOLO
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;8;85099;STABIO
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;9;85033;MENDRISIO
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;10;85053;BALERNA
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;11;1087;CHIASSO
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;13;1158;COMO S.GIOVANNI
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;1;400;ALBATE CAMERLATA
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;2;3222;COMO CAMERLATA
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;3;1158;COMO S.GIOVANNI
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;5;1087;CHIASSO
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;6;85053;BALERNA
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;7;85033;MENDRISIO
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;10;2974;CANTELLO GAGGIOLO
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;12;451;ARCISATE
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;13;1492;INDUNO OLONA
+S40;Como Camerlata - Como S. Giovanni - Chiasso - Mendrisio - Varese FS;15;2994;VARESE
+S5;Varese-Milano Passante-Treviglio;1;2994;VARESE
+S5;Varese-Milano Passante-Treviglio;2;1413;GAZZADA SCHIANNO MORAZZONE
+S5;Varese-Milano Passante-Treviglio;3;1029;CASTRONNO
+S5;Varese-Milano Passante-Treviglio;4;405;ALBIZZATE SOLBIATE ARNO
+S5;Varese-Milano Passante-Treviglio;5;1046;CAVARIA OGGIONA IERAGO
+S5;Varese-Milano Passante-Treviglio;6;1393;GALLARATE
+S5;Varese-Milano Passante-Treviglio;7;766;BUSTO ARSIZIO
+S5;Varese-Milano Passante-Treviglio;8;1554;LEGNANO
+S5;Varese-Milano Passante-Treviglio;9;858;CANEGRATE
+S5;Varese-Milano Passante-Treviglio;10;2033;PARABIAGO
+S5;Varese-Milano Passante-Treviglio;11;2987;VANZAGO POGLIANO
+S5;Varese-Milano Passante-Treviglio;13;2345;RHO
+S5;Varese-Milano Passante-Treviglio;14;3098;RHO FIERA
+S5;Varese-Milano Passante-Treviglio;15;1708;MILANO CERTOSA
+S5;Varese-Milano Passante-Treviglio;16;3099;MILANO VILLAPIZZONE
+S5;Varese-Milano Passante-Treviglio;17;1713;MILANO LANCETTI
+S5;Varese-Milano Passante-Treviglio;18;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S5;Varese-Milano Passante-Treviglio;19;1719;MILANO REPUBBLICA
+S5;Varese-Milano Passante-Treviglio;20;1723;MILANO PORTA VENEZIA
+S5;Varese-Milano Passante-Treviglio;21;3468;MILANO DATEO
+S5;Varese-Milano Passante-Treviglio;22;1718;MILANO PORTA VITTORIA
+S5;Varese-Milano Passante-Treviglio;23;3169;MILANO FORLANINI
+S5;Varese-Milano Passante-Treviglio;25;3507;SEGRATE
+S5;Varese-Milano Passante-Treviglio;26;2147;PIOLTELLO LIMITO
+S5;Varese-Milano Passante-Treviglio;27;3061;VIGNATE
+S5;Varese-Milano Passante-Treviglio;29;1690;MELZO
+S5;Varese-Milano Passante-Treviglio;30;380;POZZUOLO MARTESANA
+S5;Varese-Milano Passante-Treviglio;31;2910;TRECELLA
+S5;Varese-Milano Passante-Treviglio;32;951;CASSANO D'ADDA
+S5;Varese-Milano Passante-Treviglio;34;2919;TREVIGLIO
+S5;Varese-Milano Passante-Treviglio;1;2919;TREVIGLIO
+S5;Varese-Milano Passante-Treviglio;3;951;CASSANO D'ADDA
+S5;Varese-Milano Passante-Treviglio;4;2910;TRECELLA
+S5;Varese-Milano Passante-Treviglio;5;380;POZZUOLO MARTESANA
+S5;Varese-Milano Passante-Treviglio;6;1690;MELZO
+S5;Varese-Milano Passante-Treviglio;8;3061;VIGNATE
+S5;Varese-Milano Passante-Treviglio;9;2147;PIOLTELLO LIMITO
+S5;Varese-Milano Passante-Treviglio;10;3507;SEGRATE
+S5;Varese-Milano Passante-Treviglio;12;3169;MILANO FORLANINI
+S5;Varese-Milano Passante-Treviglio;13;1718;MILANO PORTA VITTORIA
+S5;Varese-Milano Passante-Treviglio;14;3468;MILANO DATEO
+S5;Varese-Milano Passante-Treviglio;15;1723;MILANO PORTA VENEZIA
+S5;Varese-Milano Passante-Treviglio;16;1719;MILANO REPUBBLICA
+S5;Varese-Milano Passante-Treviglio;17;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S5;Varese-Milano Passante-Treviglio;18;1713;MILANO LANCETTI
+S5;Varese-Milano Passante-Treviglio;19;3099;MILANO VILLAPIZZONE
+S5;Varese-Milano Passante-Treviglio;20;1708;MILANO CERTOSA
+S5;Varese-Milano Passante-Treviglio;21;3098;RHO FIERA
+S5;Varese-Milano Passante-Treviglio;22;2345;RHO
+S5;Varese-Milano Passante-Treviglio;24;2987;VANZAGO POGLIANO
+S5;Varese-Milano Passante-Treviglio;25;2033;PARABIAGO
+S5;Varese-Milano Passante-Treviglio;26;858;CANEGRATE
+S5;Varese-Milano Passante-Treviglio;27;1554;LEGNANO
+S5;Varese-Milano Passante-Treviglio;28;766;BUSTO ARSIZIO
+S5;Varese-Milano Passante-Treviglio;29;1393;GALLARATE
+S5;Varese-Milano Passante-Treviglio;30;1046;CAVARIA OGGIONA IERAGO
+S5;Varese-Milano Passante-Treviglio;31;405;ALBIZZATE SOLBIATE ARNO
+S5;Varese-Milano Passante-Treviglio;32;1029;CASTRONNO
+S5;Varese-Milano Passante-Treviglio;33;1413;GAZZADA SCHIANNO MORAZZONE
+S5;Varese-Milano Passante-Treviglio;34;2994;VARESE
+S5;Varese-Milano Passante-Treviglio;1;1393;GALLARATE
+S5;Varese-Milano Passante-Treviglio;2;1046;CAVARIA OGGIONA IERAGO
+S5;Varese-Milano Passante-Treviglio;3;405;ALBIZZATE SOLBIATE ARNO
+S5;Varese-Milano Passante-Treviglio;4;1029;CASTRONNO
+S5;Varese-Milano Passante-Treviglio;5;1413;GAZZADA SCHIANNO MORAZZONE
+S5;Varese-Milano Passante-Treviglio;6;2994;VARESE
+S5;Varese-Milano Passante-Treviglio;1;1708;MILANO CERTOSA
+S5;Varese-Milano Passante-Treviglio;2;3099;MILANO VILLAPIZZONE
+S5;Varese-Milano Passante-Treviglio;3;1713;MILANO LANCETTI
+S5;Varese-Milano Passante-Treviglio;4;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S5;Varese-Milano Passante-Treviglio;5;1719;MILANO REPUBBLICA
+S5;Varese-Milano Passante-Treviglio;6;1723;MILANO PORTA VENEZIA
+S5;Varese-Milano Passante-Treviglio;7;3468;MILANO DATEO
+S5;Varese-Milano Passante-Treviglio;8;1718;MILANO PORTA VITTORIA
+S5;Varese-Milano Passante-Treviglio;9;3169;MILANO FORLANINI
+S5;Varese-Milano Passante-Treviglio;11;3507;SEGRATE
+S5;Varese-Milano Passante-Treviglio;12;2147;PIOLTELLO LIMITO
+S5;Varese-Milano Passante-Treviglio;13;3061;VIGNATE
+S5;Varese-Milano Passante-Treviglio;15;1690;MELZO
+S5;Varese-Milano Passante-Treviglio;16;380;POZZUOLO MARTESANA
+S5;Varese-Milano Passante-Treviglio;17;2910;TRECELLA
+S5;Varese-Milano Passante-Treviglio;18;951;CASSANO D'ADDA
+S5;Varese-Milano Passante-Treviglio;20;2919;TREVIGLIO
+S5;Varese-Milano Passante-Treviglio;2;766;BUSTO ARSIZIO
+S5;Varese-Milano Passante-Treviglio;3;1554;LEGNANO
+S5;Varese-Milano Passante-Treviglio;4;858;CANEGRATE
+S5;Varese-Milano Passante-Treviglio;5;2033;PARABIAGO
+S5;Varese-Milano Passante-Treviglio;6;2987;VANZAGO POGLIANO
+S5;Varese-Milano Passante-Treviglio;8;2345;RHO
+S5;Varese-Milano Passante-Treviglio;9;3098;RHO FIERA
+S5;Varese-Milano Passante-Treviglio;10;1708;MILANO CERTOSA
+S5;Varese-Milano Passante-Treviglio;11;3099;MILANO VILLAPIZZONE
+S5;Varese-Milano Passante-Treviglio;12;1713;MILANO LANCETTI
+S5;Varese-Milano Passante-Treviglio;13;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S5;Varese-Milano Passante-Treviglio;14;1719;MILANO REPUBBLICA
+S5;Varese-Milano Passante-Treviglio;16;3468;MILANO DATEO
+S5;Varese-Milano Passante-Treviglio;17;1718;MILANO PORTA VITTORIA
+S5;Varese-Milano Passante-Treviglio;18;3169;MILANO FORLANINI
+S5;Varese-Milano Passante-Treviglio;20;3507;SEGRATE
+S5;Varese-Milano Passante-Treviglio;21;2147;PIOLTELLO LIMITO
+S5;Varese-Milano Passante-Treviglio;22;3061;VIGNATE
+S5;Varese-Milano Passante-Treviglio;24;1690;MELZO
+S5;Varese-Milano Passante-Treviglio;25;380;POZZUOLO MARTESANA
+S5;Varese-Milano Passante-Treviglio;26;2910;TRECELLA
+S5;Varese-Milano Passante-Treviglio;27;951;CASSANO D'ADDA
+S5;Varese-Milano Passante-Treviglio;29;2919;TREVIGLIO
+S5;Varese-Milano Passante-Treviglio;1;2147;PIOLTELLO LIMITO
+S5;Varese-Milano Passante-Treviglio;2;3507;SEGRATE
+S5;Varese-Milano Passante-Treviglio;4;3169;MILANO FORLANINI
+S5;Varese-Milano Passante-Treviglio;5;1718;MILANO PORTA VITTORIA
+S5;Varese-Milano Passante-Treviglio;6;3468;MILANO DATEO
+S5;Varese-Milano Passante-Treviglio;7;1723;MILANO PORTA VENEZIA
+S5;Varese-Milano Passante-Treviglio;8;1719;MILANO REPUBBLICA
+S5;Varese-Milano Passante-Treviglio;9;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S5;Varese-Milano Passante-Treviglio;10;1713;MILANO LANCETTI
+S5;Varese-Milano Passante-Treviglio;12;1708;MILANO CERTOSA
+S5;Varese-Milano Passante-Treviglio;13;3098;RHO FIERA
+S5;Varese-Milano Passante-Treviglio;14;2345;RHO
+S5;Varese-Milano Passante-Treviglio;16;2987;VANZAGO POGLIANO
+S5;Varese-Milano Passante-Treviglio;17;2033;PARABIAGO
+S5;Varese-Milano Passante-Treviglio;18;858;CANEGRATE
+S5;Varese-Milano Passante-Treviglio;19;1554;LEGNANO
+S5;Varese-Milano Passante-Treviglio;20;766;BUSTO ARSIZIO
+S5;Varese-Milano Passante-Treviglio;21;1393;GALLARATE
+S5;Varese-Milano Passante-Treviglio;22;1046;CAVARIA OGGIONA IERAGO
+S5;Varese-Milano Passante-Treviglio;23;405;ALBIZZATE SOLBIATE ARNO
+S5;Varese-Milano Passante-Treviglio;24;1029;CASTRONNO
+S5;Varese-Milano Passante-Treviglio;25;1413;GAZZADA SCHIANNO MORAZZONE
+S5;Varese-Milano Passante-Treviglio;26;2994;VARESE
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;1;85099;STABIO
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;3;2974;CANTELLO GAGGIOLO
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;5;451;ARCISATE
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;6;1492;INDUNO OLONA
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;8;2994;VARESE
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;1;5276;MALPENSA AEROPORTO T.2
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;2;5266;MALPENSA AEROPORTO T.1
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;3;5265;FERNO-LONATE POZZOLO
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;5;5264;BUSTO ARSIZIO FN
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;6;766;BUSTO ARSIZIO
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;1;5266;MALPENSA AEROPORTO T.1
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;2;5265;FERNO-LONATE POZZOLO
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;4;5264;BUSTO ARSIZIO FN
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;5;766;BUSTO ARSIZIO
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;6;1393;GALLARATE
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;11;2994;VARESE
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;13;1492;INDUNO OLONA
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;14;451;ARCISATE
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;16;2974;CANTELLO GAGGIOLO
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;18;85099;STABIO
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;13;1393;GALLARATE
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;14;766;BUSTO ARSIZIO
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;15;5264;BUSTO ARSIZIO FN
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;17;5265;FERNO-LONATE POZZOLO
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;18;5266;MALPENSA AEROPORTO T.1
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;1;2994;VARESE
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;3;1492;INDUNO OLONA
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;4;451;ARCISATE
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;6;2974;CANTELLO GAGGIOLO
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;8;85099;STABIO
+S50;Malpensa - Varese FS - Mendrisio - Bellinzona;10;1413;GAZZADA SCHIANNO MORAZZONE
+S6;Novara-Milano Passante-Treviglio;1;2147;PIOLTELLO LIMITO
+S6;Novara-Milano Passante-Treviglio;2;3507;SEGRATE
+S6;Novara-Milano Passante-Treviglio;4;3169;MILANO FORLANINI
+S6;Novara-Milano Passante-Treviglio;5;1718;MILANO PORTA VITTORIA
+S6;Novara-Milano Passante-Treviglio;6;3468;MILANO DATEO
+S6;Novara-Milano Passante-Treviglio;7;1723;MILANO PORTA VENEZIA
+S6;Novara-Milano Passante-Treviglio;8;1719;MILANO REPUBBLICA
+S6;Novara-Milano Passante-Treviglio;9;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S6;Novara-Milano Passante-Treviglio;10;1713;MILANO LANCETTI
+S6;Novara-Milano Passante-Treviglio;11;3099;MILANO VILLAPIZZONE
+S6;Novara-Milano Passante-Treviglio;12;1708;MILANO CERTOSA
+S6;Novara-Milano Passante-Treviglio;13;3098;RHO FIERA
+S6;Novara-Milano Passante-Treviglio;14;2345;RHO
+S6;Novara-Milano Passante-Treviglio;16;381;PREGNANA MILANESE
+S6;Novara-Milano Passante-Treviglio;17;3119;VITTUONE ARLUNO
+S6;Novara-Milano Passante-Treviglio;18;1174;CORBETTA-S.STEFANO TICINO
+S6;Novara-Milano Passante-Treviglio;19;1618;MAGENTA
+S6;Novara-Milano Passante-Treviglio;20;2909;TRECATE
+S6;Novara-Milano Passante-Treviglio;22;1917;NOVARA
+S6;Novara-Milano Passante-Treviglio;1;1917;NOVARA
+S6;Novara-Milano Passante-Treviglio;3;2909;TRECATE
+S6;Novara-Milano Passante-Treviglio;4;1618;MAGENTA
+S6;Novara-Milano Passante-Treviglio;5;1174;CORBETTA-S.STEFANO TICINO
+S6;Novara-Milano Passante-Treviglio;6;3119;VITTUONE ARLUNO
+S6;Novara-Milano Passante-Treviglio;7;381;PREGNANA MILANESE
+S6;Novara-Milano Passante-Treviglio;9;2345;RHO
+S6;Novara-Milano Passante-Treviglio;10;3098;RHO FIERA
+S6;Novara-Milano Passante-Treviglio;11;1708;MILANO CERTOSA
+S6;Novara-Milano Passante-Treviglio;12;3099;MILANO VILLAPIZZONE
+S6;Novara-Milano Passante-Treviglio;13;1713;MILANO LANCETTI
+S6;Novara-Milano Passante-Treviglio;14;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S6;Novara-Milano Passante-Treviglio;15;1719;MILANO REPUBBLICA
+S6;Novara-Milano Passante-Treviglio;16;1723;MILANO PORTA VENEZIA
+S6;Novara-Milano Passante-Treviglio;17;3468;MILANO DATEO
+S6;Novara-Milano Passante-Treviglio;18;1718;MILANO PORTA VITTORIA
+S6;Novara-Milano Passante-Treviglio;19;3169;MILANO FORLANINI
+S6;Novara-Milano Passante-Treviglio;21;3507;SEGRATE
+S6;Novara-Milano Passante-Treviglio;22;2147;PIOLTELLO LIMITO
+S6;Novara-Milano Passante-Treviglio;23;3061;VIGNATE
+S6;Novara-Milano Passante-Treviglio;25;1690;MELZO
+S6;Novara-Milano Passante-Treviglio;26;380;POZZUOLO MARTESANA
+S6;Novara-Milano Passante-Treviglio;27;2910;TRECELLA
+S6;Novara-Milano Passante-Treviglio;28;951;CASSANO D'ADDA
+S6;Novara-Milano Passante-Treviglio;30;2919;TREVIGLIO
+S6;Novara-Milano Passante-Treviglio;1;2919;TREVIGLIO
+S6;Novara-Milano Passante-Treviglio;3;951;CASSANO D'ADDA
+S6;Novara-Milano Passante-Treviglio;4;2910;TRECELLA
+S6;Novara-Milano Passante-Treviglio;5;380;POZZUOLO MARTESANA
+S6;Novara-Milano Passante-Treviglio;6;1690;MELZO
+S6;Novara-Milano Passante-Treviglio;8;3061;VIGNATE
+S6;Novara-Milano Passante-Treviglio;9;2147;PIOLTELLO LIMITO
+S6;Novara-Milano Passante-Treviglio;10;3507;SEGRATE
+S6;Novara-Milano Passante-Treviglio;12;3169;MILANO FORLANINI
+S6;Novara-Milano Passante-Treviglio;13;1718;MILANO PORTA VITTORIA
+S6;Novara-Milano Passante-Treviglio;14;3468;MILANO DATEO
+S6;Novara-Milano Passante-Treviglio;15;1723;MILANO PORTA VENEZIA
+S6;Novara-Milano Passante-Treviglio;16;1719;MILANO REPUBBLICA
+S6;Novara-Milano Passante-Treviglio;17;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S6;Novara-Milano Passante-Treviglio;18;1713;MILANO LANCETTI
+S6;Novara-Milano Passante-Treviglio;19;3099;MILANO VILLAPIZZONE
+S6;Novara-Milano Passante-Treviglio;20;1708;MILANO CERTOSA
+S6;Novara-Milano Passante-Treviglio;21;3098;RHO FIERA
+S6;Novara-Milano Passante-Treviglio;22;2345;RHO
+S6;Novara-Milano Passante-Treviglio;24;381;PREGNANA MILANESE
+S6;Novara-Milano Passante-Treviglio;25;3119;VITTUONE ARLUNO
+S6;Novara-Milano Passante-Treviglio;26;1174;CORBETTA-S.STEFANO TICINO
+S6;Novara-Milano Passante-Treviglio;27;1618;MAGENTA
+S6;Novara-Milano Passante-Treviglio;28;2909;TRECATE
+S6;Novara-Milano Passante-Treviglio;30;1917;NOVARA
+S6;Novara-Milano Passante-Treviglio;1;1715;MILANO PORTA GARIBALDI
+S6;Novara-Milano Passante-Treviglio;3;3099;MILANO VILLAPIZZONE
+S6;Novara-Milano Passante-Treviglio;4;1708;MILANO CERTOSA
+S6;Novara-Milano Passante-Treviglio;5;3098;RHO FIERA
+S6;Novara-Milano Passante-Treviglio;7;2345;RHO
+S6;Novara-Milano Passante-Treviglio;9;381;PREGNANA MILANESE
+S6;Novara-Milano Passante-Treviglio;10;3119;VITTUONE ARLUNO
+S6;Novara-Milano Passante-Treviglio;11;1174;CORBETTA-S.STEFANO TICINO
+S6;Novara-Milano Passante-Treviglio;12;1618;MAGENTA
+S6;Novara-Milano Passante-Treviglio;13;2909;TRECATE
+S6;Novara-Milano Passante-Treviglio;15;1917;NOVARA
+S6;Novara-Milano Passante-Treviglio;1;1708;MILANO CERTOSA
+S6;Novara-Milano Passante-Treviglio;2;3099;MILANO VILLAPIZZONE
+S6;Novara-Milano Passante-Treviglio;3;1713;MILANO LANCETTI
+S6;Novara-Milano Passante-Treviglio;4;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S6;Novara-Milano Passante-Treviglio;5;1719;MILANO REPUBBLICA
+S6;Novara-Milano Passante-Treviglio;6;1723;MILANO PORTA VENEZIA
+S6;Novara-Milano Passante-Treviglio;7;3468;MILANO DATEO
+S6;Novara-Milano Passante-Treviglio;8;1718;MILANO PORTA VITTORIA
+S6;Novara-Milano Passante-Treviglio;9;3169;MILANO FORLANINI
+S6;Novara-Milano Passante-Treviglio;11;3507;SEGRATE
+S6;Novara-Milano Passante-Treviglio;12;2147;PIOLTELLO LIMITO
+S6;Novara-Milano Passante-Treviglio;2;3098;RHO FIERA
+S6;Novara-Milano Passante-Treviglio;3;2345;RHO
+S6;Novara-Milano Passante-Treviglio;5;381;PREGNANA MILANESE
+S6;Novara-Milano Passante-Treviglio;7;1174;CORBETTA-S.STEFANO TICINO
+S6;Novara-Milano Passante-Treviglio;8;1618;MAGENTA
+S6;Novara-Milano Passante-Treviglio;9;2909;TRECATE
+S6;Novara-Milano Passante-Treviglio;11;1917;NOVARA
+S6;Novara-Milano Passante-Treviglio;11;3098;RHO FIERA
+S6;Novara-Milano Passante-Treviglio;13;3099;MILANO VILLAPIZZONE
+S6;Novara-Milano Passante-Treviglio;15;1715;MILANO PORTA GARIBALDI
+S6;Novara-Milano Passante-Treviglio;6;2345;RHO
+S6;Novara-Milano Passante-Treviglio;8;381;PREGNANA MILANESE
+S6;Novara-Milano Passante-Treviglio;9;3119;VITTUONE ARLUNO
+S6;Novara-Milano Passante-Treviglio;10;1174;CORBETTA-S.STEFANO TICINO
+S6;Novara-Milano Passante-Treviglio;11;1618;MAGENTA
+S6;Novara-Milano Passante-Treviglio;12;2909;TRECATE
+S6;Novara-Milano Passante-Treviglio;14;1917;NOVARA
+S6;Novara-Milano Passante-Treviglio;1;2345;RHO
+S6;Novara-Milano Passante-Treviglio;3;1708;MILANO CERTOSA
+S6;Novara-Milano Passante-Treviglio;4;3099;MILANO VILLAPIZZONE
+S6;Novara-Milano Passante-Treviglio;5;1713;MILANO LANCETTI
+S6;Novara-Milano Passante-Treviglio;6;1714;MILANO PORTA GARIBALDI SOTTERRANEA
+S6;Novara-Milano Passante-Treviglio;7;1719;MILANO REPUBBLICA
+S6;Novara-Milano Passante-Treviglio;8;1723;MILANO PORTA VENEZIA
+S6;Novara-Milano Passante-Treviglio;9;3468;MILANO DATEO
+S6;Novara-Milano Passante-Treviglio;10;1718;MILANO PORTA VITTORIA
+S6;Novara-Milano Passante-Treviglio;11;3169;MILANO FORLANINI
+S6;Novara-Milano Passante-Treviglio;13;3507;SEGRATE
+S6;Novara-Milano Passante-Treviglio;14;2147;PIOLTELLO LIMITO
+S7;Lecco-Molteno-Monza-Milano;1;1761;MOLTENO
+S7;Lecco-Molteno-Monza-Milano;2;1193;COSTA MASNAGA
+S7;Lecco-Molteno-Monza-Milano;3;950;CASSAGO-NIBIONNO-BULCIAGO
+S7;Lecco-Molteno-Monza-Milano;4;2337;RENATE-VEDUGGIO
+S7;Lecco-Molteno-Monza-Milano;5;634;BESANA
+S7;Lecco-Molteno-Monza-Milano;6;3074;VILLA RAVERIO
+S7;Lecco-Molteno-Monza-Milano;7;891;CARATE-CALO'
+S7;Lecco-Molteno-Monza-Milano;8;2930;TRIUGGIO-PONTE ALBIATE
+S7;Lecco-Molteno-Monza-Milano;9;1604;MACHERIO-CANONICA
+S7;Lecco-Molteno-Monza-Milano;10;642;BIASSONO-LESMO PARCO
+S7;Lecco-Molteno-Monza-Milano;11;768;BUTTAFAVA
+S7;Lecco-Molteno-Monza-Milano;12;3101;VILLASANTA
+S7;Lecco-Molteno-Monza-Milano;13;1842;MONZA SOBBORGHI
+S7;Lecco-Molteno-Monza-Milano;14;1841;MONZA
+S7;Lecco-Molteno-Monza-Milano;15;2716;SESTO S.GIOVANNI
+S7;Lecco-Molteno-Monza-Milano;16;1711;MILANO GRECO PIRELLI
+S7;Lecco-Molteno-Monza-Milano;18;1715;MILANO PORTA GARIBALDI
+S7;Lecco-Molteno-Monza-Milano;1;1550;LECCO
+S7;Lecco-Molteno-Monza-Milano;2;2982;VALMADRERA
+S7;Lecco-Molteno-Monza-Milano;3;1119;CIVATE
+S7;Lecco-Molteno-Monza-Milano;4;2612;SALA AL BARRO-GALBIATE
+S7;Lecco-Molteno-Monza-Milano;5;1930;OGGIONO
+S7;Lecco-Molteno-Monza-Milano;6;1761;MOLTENO
+S7;Lecco-Molteno-Monza-Milano;7;1193;COSTA MASNAGA
+S7;Lecco-Molteno-Monza-Milano;8;950;CASSAGO-NIBIONNO-BULCIAGO
+S7;Lecco-Molteno-Monza-Milano;9;2337;RENATE-VEDUGGIO
+S7;Lecco-Molteno-Monza-Milano;10;634;BESANA
+S7;Lecco-Molteno-Monza-Milano;11;3074;VILLA RAVERIO
+S7;Lecco-Molteno-Monza-Milano;12;891;CARATE-CALO'
+S7;Lecco-Molteno-Monza-Milano;13;2930;TRIUGGIO-PONTE ALBIATE
+S7;Lecco-Molteno-Monza-Milano;14;1604;MACHERIO-CANONICA
+S7;Lecco-Molteno-Monza-Milano;15;642;BIASSONO-LESMO PARCO
+S7;Lecco-Molteno-Monza-Milano;16;768;BUTTAFAVA
+S7;Lecco-Molteno-Monza-Milano;17;3101;VILLASANTA
+S7;Lecco-Molteno-Monza-Milano;18;1842;MONZA SOBBORGHI
+S7;Lecco-Molteno-Monza-Milano;19;1841;MONZA
+S7;Lecco-Molteno-Monza-Milano;20;2716;SESTO S.GIOVANNI
+S7;Lecco-Molteno-Monza-Milano;21;1711;MILANO GRECO PIRELLI
+S7;Lecco-Molteno-Monza-Milano;23;1715;MILANO PORTA GARIBALDI
+S7;Lecco-Molteno-Monza-Milano;1;1715;MILANO PORTA GARIBALDI
+S7;Lecco-Molteno-Monza-Milano;3;1711;MILANO GRECO PIRELLI
+S7;Lecco-Molteno-Monza-Milano;4;2716;SESTO S.GIOVANNI
+S7;Lecco-Molteno-Monza-Milano;5;1841;MONZA
+S7;Lecco-Molteno-Monza-Milano;6;1842;MONZA SOBBORGHI
+S7;Lecco-Molteno-Monza-Milano;7;3101;VILLASANTA
+S7;Lecco-Molteno-Monza-Milano;8;768;BUTTAFAVA
+S7;Lecco-Molteno-Monza-Milano;9;642;BIASSONO-LESMO PARCO
+S7;Lecco-Molteno-Monza-Milano;10;1604;MACHERIO-CANONICA
+S7;Lecco-Molteno-Monza-Milano;11;2930;TRIUGGIO-PONTE ALBIATE
+S7;Lecco-Molteno-Monza-Milano;13;3074;VILLA RAVERIO
+S7;Lecco-Molteno-Monza-Milano;14;634;BESANA
+S7;Lecco-Molteno-Monza-Milano;15;2337;RENATE-VEDUGGIO
+S7;Lecco-Molteno-Monza-Milano;16;950;CASSAGO-NIBIONNO-BULCIAGO
+S7;Lecco-Molteno-Monza-Milano;17;1193;COSTA MASNAGA
+S7;Lecco-Molteno-Monza-Milano;18;1761;MOLTENO
+S7;Lecco-Molteno-Monza-Milano;19;1930;OGGIONO
+S7;Lecco-Molteno-Monza-Milano;20;2612;SALA AL BARRO-GALBIATE
+S7;Lecco-Molteno-Monza-Milano;21;1119;CIVATE
+S7;Lecco-Molteno-Monza-Milano;22;2982;VALMADRERA
+S7;Lecco-Molteno-Monza-Milano;23;1550;LECCO
+S7;Lecco-Molteno-Monza-Milano;1;634;BESANA
+S7;Lecco-Molteno-Monza-Milano;2;3074;VILLA RAVERIO
+S7;Lecco-Molteno-Monza-Milano;3;891;CARATE-CALO'
+S7;Lecco-Molteno-Monza-Milano;4;2930;TRIUGGIO-PONTE ALBIATE
+S7;Lecco-Molteno-Monza-Milano;5;1604;MACHERIO-CANONICA
+S7;Lecco-Molteno-Monza-Milano;6;642;BIASSONO-LESMO PARCO
+S7;Lecco-Molteno-Monza-Milano;7;768;BUTTAFAVA
+S7;Lecco-Molteno-Monza-Milano;8;3101;VILLASANTA
+S7;Lecco-Molteno-Monza-Milano;9;1842;MONZA SOBBORGHI
+S7;Lecco-Molteno-Monza-Milano;10;1841;MONZA
+S7;Lecco-Molteno-Monza-Milano;11;2716;SESTO S.GIOVANNI
+S7;Lecco-Molteno-Monza-Milano;12;1711;MILANO GRECO PIRELLI
+S7;Lecco-Molteno-Monza-Milano;14;1715;MILANO PORTA GARIBALDI
+S7;Lecco-Molteno-Monza-Milano;1;1841;MONZA
+S7;Lecco-Molteno-Monza-Milano;2;1842;MONZA SOBBORGHI
+S7;Lecco-Molteno-Monza-Milano;3;3101;VILLASANTA
+S7;Lecco-Molteno-Monza-Milano;4;768;BUTTAFAVA
+S7;Lecco-Molteno-Monza-Milano;5;642;BIASSONO-LESMO PARCO
+S7;Lecco-Molteno-Monza-Milano;6;1604;MACHERIO-CANONICA
+S7;Lecco-Molteno-Monza-Milano;7;2930;TRIUGGIO-PONTE ALBIATE
+S7;Lecco-Molteno-Monza-Milano;8;891;CARATE-CALO'
+S7;Lecco-Molteno-Monza-Milano;9;3074;VILLA RAVERIO
+S7;Lecco-Molteno-Monza-Milano;11;2337;RENATE-VEDUGGIO
+S7;Lecco-Molteno-Monza-Milano;12;950;CASSAGO-NIBIONNO-BULCIAGO
+S7;Lecco-Molteno-Monza-Milano;13;1193;COSTA MASNAGA
+S7;Lecco-Molteno-Monza-Milano;14;1761;MOLTENO
+S7;Lecco-Molteno-Monza-Milano;15;1930;OGGIONO
+S7;Lecco-Molteno-Monza-Milano;16;2612;SALA AL BARRO-GALBIATE
+S7;Lecco-Molteno-Monza-Milano;18;2982;VALMADRERA
+S7;Lecco-Molteno-Monza-Milano;19;1550;LECCO
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;1;1550;LECCO
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;2;1551;LECCO MAGGIANICO
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;4;807;CALOLZIOCORTE OLGINATE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;5;388;AIRUNO
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;6;1937;OLGIATE-CALCO-BRIVIO
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;7;1066;CERNUSCO-MERATE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;8;1964;OSNAGO
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;9;905;CARNATE USMATE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;10;453;ARCORE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;11;1841;MONZA
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;12;2716;SESTO S.GIOVANNI
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;13;1711;MILANO GRECO PIRELLI
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;15;1715;MILANO PORTA GARIBALDI
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;1;1715;MILANO PORTA GARIBALDI
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;3;1711;MILANO GRECO PIRELLI
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;4;2716;SESTO S.GIOVANNI
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;5;1841;MONZA
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;6;453;ARCORE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;7;905;CARNATE USMATE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;9;1066;CERNUSCO-MERATE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;10;1937;OLGIATE-CALCO-BRIVIO
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;11;388;AIRUNO
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;12;807;CALOLZIOCORTE OLGINATE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;14;1551;LECCO MAGGIANICO
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;15;1550;LECCO
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;6;1711;MILANO GRECO PIRELLI
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;8;1841;MONZA
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;10;905;CARNATE USMATE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;1;905;CARNATE USMATE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;2;453;ARCORE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;3;1841;MONZA
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;5;1711;MILANO GRECO PIRELLI
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;7;1715;MILANO PORTA GARIBALDI
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;1;1728;MILANO CENTRALE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;2;1711;MILANO GRECO PIRELLI
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;3;2716;SESTO S.GIOVANNI
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;4;1841;MONZA
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;5;453;ARCORE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;6;905;CARNATE USMATE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;7;1964;OSNAGO
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;8;1066;CERNUSCO-MERATE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;9;1937;OLGIATE-CALCO-BRIVIO
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;10;388;AIRUNO
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;11;807;CALOLZIOCORTE OLGINATE
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;13;1551;LECCO MAGGIANICO
+S8;Lecco - Carnate - Monza - Milano Porta Garibaldi;14;1550;LECCO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;1;5048;SARONNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;2;5064;SARONNO SUD
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;3;5049;CERIANO LAGHETTO-SOLARO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;7;5073;CESANO MADERNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;8;5052;SEVESO-BARUCCANA
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;9;2696;SEREGNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;10;1230;DESIO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;11;1581;LISSONE-MUGGIO'
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;12;1841;MONZA
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;13;2716;SESTO S.GIOVANNI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;14;1711;MILANO GRECO PIRELLI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;16;1712;MILANO LAMBRATE
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;17;3169;MILANO FORLANINI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;22;1717;MILANO PORTA ROMANA
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;23;58;MILANO ROMOLO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;24;1721;MILANO S.CRISTOFORO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;25;1187;CORSICO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;26;780;CESANO BOSCONE
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;27;2923;TREZZANO SUL NAVIGLIO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;29;1386;GAGGIANO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;30;779;ALBAIRATE-VERMEZZO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;1;779;ALBAIRATE-VERMEZZO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;2;1386;GAGGIANO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;4;2923;TREZZANO SUL NAVIGLIO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;5;780;CESANO BOSCONE
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;6;1187;CORSICO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;7;1721;MILANO S.CRISTOFORO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;8;58;MILANO ROMOLO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;9;1717;MILANO PORTA ROMANA
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;14;3169;MILANO FORLANINI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;15;1712;MILANO LAMBRATE
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;17;1711;MILANO GRECO PIRELLI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;18;2716;SESTO S.GIOVANNI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;19;1841;MONZA
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;20;1581;LISSONE-MUGGIO'
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;21;1230;DESIO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;22;2696;SEREGNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;23;5052;SEVESO-BARUCCANA
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;24;5073;CESANO MADERNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;28;5049;CERIANO LAGHETTO-SOLARO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;29;5064;SARONNO SUD
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;30;5048;SARONNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;1;2696;SEREGNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;2;5052;SEVESO-BARUCCANA
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;3;5073;CESANO MADERNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;7;5049;CERIANO LAGHETTO-SOLARO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;8;5064;SARONNO SUD
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;9;5048;SARONNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;18;1715;MILANO PORTA GARIBALDI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;1;1715;MILANO PORTA GARIBALDI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;4;1712;MILANO LAMBRATE
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;5;3169;MILANO FORLANINI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;10;1717;MILANO PORTA ROMANA
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;11;58;MILANO ROMOLO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;12;1721;MILANO S.CRISTOFORO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;13;1187;CORSICO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;14;780;CESANO BOSCONE
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;15;2923;TREZZANO SUL NAVIGLIO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;17;1386;GAGGIANO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;18;779;ALBAIRATE-VERMEZZO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;3;1711;MILANO GRECO PIRELLI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;4;2716;SESTO S.GIOVANNI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;5;1841;MONZA
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;6;1581;LISSONE-MUGGIO'
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;7;1230;DESIO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;8;2696;SEREGNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;9;5052;SEVESO-BARUCCANA
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;10;5073;CESANO MADERNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;14;5049;CERIANO LAGHETTO-SOLARO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;15;5064;SARONNO SUD
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;16;5048;SARONNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;16;1715;MILANO PORTA GARIBALDI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;6;1711;MILANO GRECO PIRELLI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;7;2716;SESTO S.GIOVANNI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;8;1841;MONZA
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;9;1581;LISSONE-MUGGIO'
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;11;2696;SEREGNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;12;5052;SEVESO-BARUCCANA
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;13;5073;CESANO MADERNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;17;5049;CERIANO LAGHETTO-SOLARO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;18;5064;SARONNO SUD
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;19;5048;SARONNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;21;1715;MILANO PORTA GARIBALDI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;1;1711;MILANO GRECO PIRELLI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;2;2716;SESTO S.GIOVANNI
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;3;1841;MONZA
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;4;1581;LISSONE-MUGGIO'
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;5;1230;DESIO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;6;2696;SEREGNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;7;5052;SEVESO-BARUCCANA
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;8;5073;CESANO MADERNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;12;5049;CERIANO LAGHETTO-SOLARO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;13;5064;SARONNO SUD
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;14;5048;SARONNO
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;4;5050;CERIANO LAGHETTO-GROANE
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;6;5050;CERIANO LAGHETTO-GROANE
+S9;Saronno-Seregno-Milano S.Cristoforo-Albairate;27;5050;CERIANO LAGHETTO-GROANE
+XP1;Malpensa-Milano Cadorna;1;5053;MILANO CADORNA
+XP1;Malpensa-Milano Cadorna;3;1707;MILANO BOVISA FNM
+XP1;Malpensa-Milano Cadorna;13;5048;SARONNO
+XP1;Malpensa-Milano Cadorna;16;5264;BUSTO ARSIZIO FN
+XP1;Malpensa-Milano Cadorna;19;5266;MALPENSA AEROPORTO T.1
+XP1;Malpensa-Milano Cadorna;1;5266;MALPENSA AEROPORTO T.1
+XP1;Malpensa-Milano Cadorna;4;5264;BUSTO ARSIZIO FN
+XP1;Malpensa-Milano Cadorna;7;5048;SARONNO
+XP1;Malpensa-Milano Cadorna;17;1707;MILANO BOVISA FNM
+XP1;Malpensa-Milano Cadorna;19;5053;MILANO CADORNA
+XP2;Malpensa-Milano Centrale;1;1707;MILANO BOVISA FNM
+XP2;Malpensa-Milano Centrale;11;5048;SARONNO
+XP2;Malpensa-Milano Centrale;14;5264;BUSTO ARSIZIO FN
+XP2;Malpensa-Milano Centrale;17;5266;MALPENSA AEROPORTO T.1
+XP2;Malpensa-Milano Centrale;1;5266;MALPENSA AEROPORTO T.1
+XP2;Malpensa-Milano Centrale;4;5264;BUSTO ARSIZIO FN
+XP2;Malpensa-Milano Centrale;7;5048;SARONNO
+XP2;Malpensa-Milano Centrale;17;1707;MILANO BOVISA FNM
+XP2;Malpensa-Milano Centrale;1;1728;MILANO CENTRALE
+XP2;Malpensa-Milano Centrale;4;1715;MILANO PORTA GARIBALDI
+XP2;Malpensa-Milano Centrale;6;1707;MILANO BOVISA FNM
+XP2;Malpensa-Milano Centrale;16;5048;SARONNO
+XP2;Malpensa-Milano Centrale;19;5264;BUSTO ARSIZIO FN
+XP2;Malpensa-Milano Centrale;22;5266;MALPENSA AEROPORTO T.1
+XP2;Malpensa-Milano Centrale;19;1715;MILANO PORTA GARIBALDI
+XP2;Malpensa-Milano Centrale;22;1728;MILANO CENTRALE
