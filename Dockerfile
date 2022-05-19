@@ -1,9 +1,9 @@
 FROM jupyter/scipy-notebook:latest
 
-COPY requirements.txt requirements.txt
+COPY --chown=${NB_UID}:${NB_GID} requirements.txt /tmp/
 
-RUN pip install -r requirements.txt
-
-RUN git config --global --add safe.directory /workspaces/data-analytics-project-21-22
+RUN pip install --quiet --no-cache-dir --requirement /tmp/requirements.txt && \
+    fix-permissions "${CONDA_DIR}" && \
+    fix-permissions "/home/${NB_USER}"
 
 EXPOSE 5000
