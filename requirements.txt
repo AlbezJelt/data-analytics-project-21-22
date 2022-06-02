@@ -3,3 +3,5 @@ cairosvg
 igraph==0.9.8
 more-itertools
 autopep8
+chart-studio
+dash
