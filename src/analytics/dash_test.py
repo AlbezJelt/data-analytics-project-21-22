@@ -4,21 +4,21 @@ import utils
 from dash import Dash, dcc, html
 from plotly.graph_objs import *
 
-g = ig.Graph.Read('../../data/graphs/april2022.graphml')
-layout = utils.layout_geo(g)
+g = ig.Graph.Read('../../data/graphs/april2022_Lspace.graphml')
+ly = utils.layout_geo(g)
 labels = list(g.vs['label'])
 N = len(labels)
-E = [e.tuple for e in G.es]  # list of edges
+E = [e.tuple for e in g.es]  # list of edges
 
 app = Dash(__name__)
 
-Xn=[layt[k][0] for k in range(N)]
-Yn=[layt[k][1] for k in range(N)]
+Xn=[ly[k][0] for k in range(N)]
+Yn=[ly[k][1] for k in range(N)]
 Xe=[]
 Ye=[]
 for e in E:
-    Xe+=[layt[e[0]][0],layt[e[1]][0], None]
-    Ye+=[layt[e[0]][1],layt[e[1]][1], None]
+    Xe+=[ly[e[0]][0],ly[e[1]][0], None]
+    Ye+=[ly[e[0]][1],ly[e[1]][1], None]
 
 trace1=Scatter(x=Xe,
                y=Ye,
