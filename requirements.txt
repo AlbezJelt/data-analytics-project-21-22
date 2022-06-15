@@ -5,3 +5,4 @@ more-itertools
 autopep8
 chart-studio
 dash
+xlwt
