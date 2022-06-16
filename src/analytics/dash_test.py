@@ -1,85 +1,56 @@
-import igraph as ig
 import chart_studio.plotly as py
+import igraph as ig
 import utils
-from dash import Dash, dcc, html
+from dash import Dash, dcc, html, Input, Output
 from plotly.graph_objs import *
+import pickle
+from copy import deepcopy
+from sklearn.preprocessing import minmax_scale
 
-g = ig.Graph.Read('../../data/graphs/april2022_Lspace.graphml')
-ly = utils.layout_geo(g)
-labels = list(g.vs['label'])
-N = len(labels)
-E = [e.tuple for e in g.es]  # list of edges
+# Load data
+g = ig.Graph.Read('./data/graphs/april2022_Lspace.graphml')
+with open('./data/plots/april2022_Lspace_robustness.pickle', 'rb') as f:
+    robustness_data = pickle.load(f)
+centrality_measures = {
+    'degree': lambda x: x.degree(),
+    'betweennes': lambda x: x.strength(weights='num_train'),
+    'closeness': lambda x: x.betweenness(),
+    'pagerank': lambda x: x.closeness(),
+    'strength_num_train': lambda x: x.pagerank(),
+    'pagerank_num_train': lambda x: x.pagerank(weights='num_train')
+}
 
 app = Dash(__name__)
 
-Xn=[ly[k][0] for k in range(N)]
-Yn=[ly[k][1] for k in range(N)]
-Xe=[]
-Ye=[]
-for e in E:
-    Xe+=[ly[e[0]][0],ly[e[1]][0], None]
-    Ye+=[ly[e[0]][1],ly[e[1]][1], None]
-
-trace1=Scatter(x=Xe,
-               y=Ye,
-               mode='lines',
-               line= dict(color='rgb(210,210,210)', width=1),
-               hoverinfo='none'
-               )
-trace2=Scatter(x=Xn,
-               y=Yn,
-               mode='markers',
-               name='ntw',
-               marker=dict(symbol='circle-dot',
-                                        size=5,
-                                        color='#6959CD',
-                                        line=dict(color='rgb(50,50,50)', width=0.5)
-                                        ),
-               text=labels,
-               hoverinfo='text'
-               )
-
-axis=dict(showline=False, # hide axis line, grid, ticklabels and  title
-          zeroline=False,
-          showgrid=False,
-          showticklabels=False,
-          title=''
-          )
-
-width=800
-height=800
-layout=Layout(title= "Trenord public transportation network",
-    font= dict(size=12),
-    showlegend=False,
-    autosize=False,
-    width=width,
-    height=height,
-    xaxis=layout.XAxis(axis),
-    yaxis=layout.YAxis(axis),
-    margin=layout.Margin(
-        l=40,
-        r=40,
-        b=85,
-        t=100,
-    ),
-    hovermode='closest',
-    )
-
-data=[trace1, trace2]
-fig=Figure(data=data, layout=layout)
-
-app.layout = html.Div(children=[
+app.layout = html.Div(class='container', children=[
     html.H1(children='Trenord public transportation network'),
 
-    html.Div(children='''
-        Dash: A web application framework for your data.
-    '''),
+    html.Div(children=[
+        dcc.Dropdown(list(centrality_measures.keys()), list(centrality_measures.keys())[0], id='centrality_measures_dropdown'),
+        html.Div(children=[
+            dcc.Graph(id='example-graph'),
+            dcc.Graph(
+                id='robustness',
+                figure=utils.robustness_figure(robustness_data)
+            )
+        ])
+    ]),
 
-    dcc.Graph(
-        id='example-graph',
-        figure=fig
-    )
+
 ])
+
+
+@app.callback(
+    Output(component_id='example-graph', component_property='figure'),
+    Input(component_id='centrality_measures_dropdown', component_property='value')
+)
+def centrality_measures_dropdown_value_change(value) -> Figure:
+    new_g = deepcopy(g)
+    new_g.vs['vertex_size'] = minmax_scale(centrality_measures[value](new_g))
+    fig = utils.graph_figure(new_g)
+    fig.update_layout(transition_duration=500)
+    return fig
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)

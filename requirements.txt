@@ -5,4 +5,5 @@ more-itertools
 autopep8
 chart-studio
 dash
+dash-bootstrap-components
 xlwt
