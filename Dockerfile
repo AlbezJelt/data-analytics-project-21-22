@@ -34,4 +34,6 @@ RUN chown -R jovyan /var/log/supervisor
 
 USER jovyan
 
+RUN git config --global --add safe.directory /workspaces/data-analytics-project-21-22
+
 CMD ["/usr/bin/supervisord"]
