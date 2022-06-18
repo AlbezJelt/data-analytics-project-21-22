@@ -65,7 +65,7 @@ def graph_figure(g: ig.Graph) -> plotly.graph_objs.Figure:
                                  color='#6959CD',
                                  line=dict(color='rgb(50,50,50)', width=0.5)
                                  ),
-                     marker_size=markers['vertex_size'] * 10,
+                     marker_size=(markers['vertex_size'] + 0) * 10,
                      text=labels,
                      hoverinfo='text'
                      )
@@ -79,7 +79,7 @@ def graph_figure(g: ig.Graph) -> plotly.graph_objs.Figure:
     
     width = 800
     height = 800
-    layout = plotly.graph_objs.Layout(title="Trenord public transportation network",
+    layout = plotly.graph_objs.Layout(
                     font=dict(size=12),
                     showlegend=False,
                     autosize=False,

@@ -1,9 +1,11 @@
 cairocffi
 cairosvg
 igraph==0.9.8
+py4cytoscape
 more-itertools
 autopep8
 chart-studio
 dash
 dash-bootstrap-components
+dash-cytoscape
 xlwt
