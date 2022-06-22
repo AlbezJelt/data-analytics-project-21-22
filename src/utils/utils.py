@@ -82,17 +82,11 @@ def graph_figure(g: ig.Graph) -> plotly.graph_objs.Figure:
     layout = plotly.graph_objs.Layout(
                     font=dict(size=12),
                     showlegend=False,
-                    autosize=False,
+                    autosize=True,
                     width=width,
                     height=height,
                     xaxis=plotly.graph_objs.layout.XAxis(axis),
                     yaxis=plotly.graph_objs.layout.YAxis(axis),
-                    margin=plotly.graph_objs.layout.Margin(
-                        l=40,
-                        r=40,
-                        b=85,
-                        t=100,
-                    ),
                     hovermode='closest',
                     )
 

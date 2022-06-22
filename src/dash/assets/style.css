@@ -1,0 +1,19 @@
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 16rem;
+  height: 100%;
+  z-index: 1;
+  overflow-x: hidden;
+  padding: 0.5rem 1rem;
+  background-color: #f8f9fa;
+}
+
+#_pages_content {
+  margin-left: 18rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  background-color: #f8f9fa;
+}

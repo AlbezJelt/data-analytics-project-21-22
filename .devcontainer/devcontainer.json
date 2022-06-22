@@ -19,7 +19,7 @@
 		"ms-toolsai.jupyter", 
 		"christian-kohler.path-intellisense", 
 		"eamodio.gitlens"
-	],
+	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
@@ -28,7 +28,7 @@
 	// "postCreateCommand": "apt-get update && apt-get install -y curl",
 
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
-	"runArgs": ["--user", "root", "-e", "GRANT_SUDO=yes"]
+	//"runArgs": ["--user", "root", "-e", "GRANT_SUDO=yes"]
 
 	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
 	// "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
