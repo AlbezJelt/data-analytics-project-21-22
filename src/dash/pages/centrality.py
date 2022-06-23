@@ -29,7 +29,7 @@ with open('./data/plots/april2022_Lspace_robustness.pickle', 'rb') as f:
 
 centrality_measures = {
     'degree': lambda x: x.degree(),
-    'betweennes': lambda x: x.strength(weights='num_train'),
+    'betweennes': lambda x: x.betweenness(directed = True),
     'closeness': lambda x: x.betweenness(),
     'pagerank': lambda x: x.closeness(),
     'strength_num_train': lambda x: x.pagerank(),
