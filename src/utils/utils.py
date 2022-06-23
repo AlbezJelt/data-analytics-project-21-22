@@ -33,7 +33,7 @@ def robustness_figure(df: pd.DataFrame) -> plotly.graph_objs.Figure:
     return fig
 
 
-def graph_figure(g: ig.Graph) -> plotly.graph_objs.Figure:
+def graph_figure(g: ig.Graph, color=None) -> plotly.graph_objs.Figure:
     ly = layout_geo(g)
     labels = list(g.vs['label'])
     N = len(labels)
@@ -62,7 +62,7 @@ def graph_figure(g: ig.Graph) -> plotly.graph_objs.Figure:
                      mode='markers',
                      name='ntw',
                      marker=dict(symbol='circle-dot',
-                                 color='#6959CD',
+                                 color='#6959CD' if color is None else color,
                                  line=dict(color='rgb(50,50,50)', width=0.5)
                                  ),
                      marker_size=(markers['vertex_size'] + 0) * 10,
