@@ -1,10 +1,9 @@
 from copy import deepcopy
-from hashlib import new
 import dash
 from dash import html, dcc, dash_table, callback, Input, Output, callback_context, State
 import igraph as ig
 import dash_bootstrap_components as dbc
-import utils, pickle
+import utils
 import pandas as pd
 from dash.exceptions import PreventUpdate
 
@@ -28,11 +27,16 @@ dash.register_page(__name__, name='Network properties')
 
 main_container = html.Div(className='container-fluid page-container', children=[
     dbc.Container([
-        html.Div(id='test'),
         dcc.Graph(id='graph', responsive=False),
+        html.P("Find the shortest path", className="lead"),
+        dcc.Input(id='input-1', type='text', placeholder="Source name..."),
+        dcc.Input(id='input-2', type='text', placeholder="Destination name..."),
+        dbc.Button(id='submit-button', n_clicks=0, children='Submit', outline=True, color="success", className="me-1"),
+        html.Div(id='output-state'),
+        html.Hr(),
         dash_table.DataTable(
             id='table',
-            columns=[{"name": i, "id": i, "hideable":False} for i in df.columns if i != 'id' and i != 'name'],
+            columns=[{"name": i, "id": i, "hideable":False} for i in df.columns if i != 'name'],
             data=df.to_dict('records'),
             page_size=25,
             fixed_rows={'headers': True},
@@ -64,9 +68,13 @@ layout = html.Div(children=[
     Output(component_id='graph', component_property='figure'),
     Input('table', 'derived_virtual_row_ids'),
     Input('table', 'selected_row_ids'),
-    Input('graph', 'clickData')
+    Input('graph', 'clickData'),
+    #Input('table', 'data')
+    Input('submit-button', 'n_clicks'),
+    State('input-1', 'value'),
+    State('input-2', 'value')
 )
-def on_table_change(row_ids, selected_row_ids, clickData):
+def on_table_change(row_ids, selected_row_ids, clickData, n_clicks, input1, input2):
     new_g = deepcopy(g)
     triggered_id = callback_context.triggered[0]['prop_id']
     vertex_size = []
@@ -85,13 +93,9 @@ def on_table_change(row_ids, selected_row_ids, clickData):
         vertex_size = [1.5 if v['id'] in selected_id_set else .5 for v in new_g.vs]   
     elif triggered_id == 'graph.clickData': # Show neighbors
         colors = list()
-        print("clickData: ", clickData)
         station = clickData['points'][0]['text']
         station_id = clickData['points'][0]['pointNumber']
-        print('station: ', station)
-        print(new_g.vs(station_id)['id'])
         vicini = ['n' + str(g) for g in new_g.neighborhood(station_id, 1)]
-        print("vicini: ", vicini)
         for v in new_g.vs:
             if v['label'] == station: 
                 colors.append('#CC3BB8')
@@ -99,6 +103,30 @@ def on_table_change(row_ids, selected_row_ids, clickData):
                 colors.append('#C08EF2')
             else: colors.append('#6959CD')
         vertex_size = [1.5 if v['label'] == station or v['id'] in vicini else .5 for v in new_g.vs]
+    elif triggered_id == 'submit-button.n_clicks':  # Show shortest-path
+        if input1 is not None and input2 is not None and input1 != input2:
+            try:
+                vertex_path = new_g.vs[new_g.get_shortest_paths(v=int(input1.replace('n', '')), to=int(input2.replace('n', '')), output='vpath')[0]]
+                indices = ['n' + str(i) for i in vertex_path.indices]
+                print('The shortest path connects {}'.
+                    format([new_g.vs['label'][i] for i in vertex_path.indices]))
+                colors = [
+                    '#57E234' if v['id'] in indices
+                    else '#6959CD'
+                    for v in new_g.vs
+                ]
+                vertex_size = [2 if v['id'] in indices else .5 for v in new_g.vs]
+            except Exception as e:
+                print(e)
+                raise PreventUpdate
+    #elif triggered_id == 'table.data':
+    #    set_df = set([i for i in data['name']])
+    #    set_g = set(new_g.vs['name'])
+    #    diff = set_g - set_df
+    #    if len(diff) > 0:
+    #        for elem in diff:
+    #            new_g.delete_vertices(elem)
+    #    vertex_size = [.5 for _ in new_g.vs]
     else:
         vertex_size = [.5 for _ in new_g.vs]
 
@@ -137,3 +165,20 @@ def on_table_change(row_ids, selected_row_ids, clickData):
 #                #fig = utils.graph_figure(new_g)
 #                #fig.update_layout(transition_duration=500)
 #    return dff.to_dict('records')
+
+@callback(
+    Output('output-state', 'children'),
+    Input('submit-button', 'n_clicks'),
+    State('input-1', 'value'),
+    State('input-2', 'value')
+)
+def update_output(n_clicks, input1, input2):
+    new_g = deepcopy(g)
+    if input1 is not None and input2 is not None and input1 != input2:
+        try:
+            vertex_path = new_g.vs[new_g.get_shortest_paths(v=int(input1.replace('n', '')), to=int(input2.replace('n', '')), output='vpath')[0]]
+            print(vertex_path.indices)
+            return 'The shortest path connects: {}'.format([new_g.vs['label'][i] for i in vertex_path.indices])
+        except Exception as e:
+            print(e)
+            raise PreventUpdate
