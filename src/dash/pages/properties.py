@@ -1,18 +1,17 @@
 from copy import deepcopy
+from hashlib import new
 import dash
 from dash import html, dcc, dash_table, callback, Input, Output, callback_context, State
 import igraph as ig
 import dash_bootstrap_components as dbc
 import utils, pickle
 import pandas as pd
-#import numpy as np
-#from dash.exceptions import PreventUpdate
+from dash.exceptions import PreventUpdate
 
 # Load data
 g = ig.Graph.Read('./data/graphs/april2022_Lspace.graphml')
 
 df = pd.DataFrame({attr: g.vs[attr] for attr in g.vertex_attributes()})
-
 centrality_measures = {
     'degree': lambda x: x.degree(),
     'in-degree': lambda x: x.degree(mode="in-degree"),
@@ -23,24 +22,13 @@ centrality_measures = {
     #'strength_num_train': lambda x: x.pagerank(),
     #'pagerank_num_train': lambda x: x.pagerank(weights='num_train')
 }
-
-for x in list(centrality_measures.keys()):
-    df.insert(len(df.columns), x, centrality_measures[x](g))
+for x in list(centrality_measures.keys()): df.insert(len(df.columns), x, centrality_measures[x](g))
 
 dash.register_page(__name__, name='Network properties')
 
 main_container = html.Div(className='container-fluid page-container', children=[
-    #dbc.Container(dcc.Graph(id='graph', responsive=False)),
     dbc.Container([
-        #dbc.Alert(id='tbl_out'),
-        #dbc.Button(
-        #    "Analyze Network",
-        #    color="info",
-        #    outline=True,
-        #    id="analyze",
-        #    className="mb-3",
-        #    disabled=False
-        #),
+        html.Div(id='test'),
         dcc.Graph(id='graph', responsive=False),
         dash_table.DataTable(
             id='table',
@@ -72,60 +60,13 @@ layout = html.Div(children=[
 ])
 
 
-#@callback(
-#    [Output(component_id='table', component_property='columns'),
-#    Output(component_id='table', component_property='data'),
-#    Output('analyze','disabled')],
-#    Input(component_id='analyze', component_property='n_clicks'),
-#    [State('table', 'derived_virtual_row_ids'),
-#    State('table', 'columns'),
-#    State('table', 'data')]
-#)
-#def displayClick(btn1, row_ids, columns, data):
-#    print("callback_context.triggered][0]: ", callback_context.triggered[0]['prop_id'])
-#    changed_id = [p['prop_id'] for p in callback_context.triggered][0]
-#    print("changed_id: ", changed_id)
-#    #print("row_ids: ", row_ids)
-#    if 'analyze.n_clicks' in changed_id:
-#        if row_ids is None or columns is None:
-#            raise PreventUpdate
-#        print('Analyzing...')
-#        print("existing_columns: ", columns)
-#        existing_columns = any(c.get('id') in list(centrality_measures.keys()) for c in columns)
-#        if existing_columns == True:
-#            raise PreventUpdate
-#        #for k in centrality_measures.keys():
-#        #    print(k)
-#        #    columns.append(
-#        #        {
-#        #            'name': k, 'id': k,
-#        #        }
-#        #    )
-#        columns.append(
-#            {
-#                'id': '1', 'name': '1', 'renamable': True
-#            }
-#        )
-#        columns.append(
-#            {
-#                'id': '2', 'name': '2', 'renamable': True
-#            }
-#        )
-#        #data.append({c['id']: 'cacca' for c in columns})
-#        print("existing_columns: ", columns)
-#        return columns, data, True
-#    else:
-#        print('No buttons have been clicked yet')
-#        return columns, data, False
-
-
-
 @callback(
     Output(component_id='graph', component_property='figure'),
     Input('table', 'derived_virtual_row_ids'),
-    Input('table', 'selected_row_ids')
+    Input('table', 'selected_row_ids'),
+    Input('graph', 'clickData')
 )
-def on_table_change(row_ids, selected_row_ids):
+def on_table_change(row_ids, selected_row_ids, clickData):
     new_g = deepcopy(g)
     triggered_id = callback_context.triggered[0]['prop_id']
     vertex_size = []
@@ -134,25 +75,65 @@ def on_table_change(row_ids, selected_row_ids):
     if triggered_id == "table.selected_row_ids": 
         selected_id_set = set(selected_row_ids or [])
         if row_ids is None:
-            dff = pd.DataFrame({attr: new_g.vs[attr] for attr in new_g.vertex_attributes()})
+            dff = df
             row_ids = dff
-        #'n352' in g.vs.find(label=station)['id']
-        #g.vs.find(id=selected_row_ids)
         colors = [
             '#F92104' if v['id'] in selected_id_set
             else '#6959CD'
             for v in new_g.vs
         ]
-        vertex_size = [1.5 if v['id'] in selected_id_set else .5 for v in new_g.vs]
+        vertex_size = [1.5 if v['id'] in selected_id_set else .5 for v in new_g.vs]   
+    elif triggered_id == 'graph.clickData': # Show neighbors
+        colors = list()
+        print("clickData: ", clickData)
+        station = clickData['points'][0]['text']
+        station_id = clickData['points'][0]['pointNumber']
+        print('station: ', station)
+        print(new_g.vs(station_id)['id'])
+        vicini = ['n' + str(g) for g in new_g.neighborhood(station_id, 1)]
+        print("vicini: ", vicini)
+        for v in new_g.vs:
+            if v['label'] == station: 
+                colors.append('#CC3BB8')
+            elif v['id'] in vicini: 
+                colors.append('#C08EF2')
+            else: colors.append('#6959CD')
+        vertex_size = [1.5 if v['label'] == station or v['id'] in vicini else .5 for v in new_g.vs]
     else:
-        vertex_size = [.5 for v in new_g.vs]
+        vertex_size = [.5 for _ in new_g.vs]
 
     new_g.vs['vertex_size'] = vertex_size
     fig = utils.graph_figure(new_g, colors)
     fig.update_layout(transition_duration=500)
     return fig
 
-
-#@callback(Output('tbl_out', 'children'), Input('table', 'active_cell'))
-#def update_graphs(active_cell):
-#    return str(active_cell) if active_cell else ""
+# TODO: Non riesco ad aggiornare la tabella quando rimuovo una entry, perchè all'eliminazione successiva, quello precedente ricompare...
+        # penso sia dovuto al fatto che all'iterazione successiva il dataframe viene ricalcolato da 0
+        # P.S. in teoria mi sarebbe piaciuto anche aggionare il grafo una volta eliminata l'entry...
+#@callback(
+#    Output('table', 'data'),
+#    Input('table', 'data_previous'),
+#    State('table', 'data')
+#)
+#def on_remove_update(previous, current):
+#    new_g = deepcopy(g)
+#    dff = df
+#    if previous is not None:
+#        print("hola")
+#        s1 = set([i['name'] for i in current])
+#        s2 = set([i['name'] for i in previous])
+#        diff = s2 - s1
+#        print('s2-s1: ', diff)
+#        if len(diff) > 0:
+#            for elem in diff:
+#                print(elem)
+#                new_g.delete_vertices(elem)
+#                # TODO: da fare tramite callback
+#                dff = dff[dff["name"].str.contains(str(elem)) == False]
+#                for x in list(centrality_measures.keys()):
+#                    del dff[x]
+#                    dff.insert(len(dff.columns), x, centrality_measures[x](new_g))
+#                #new_g.vs['vertex_size'] = [.5 for _ in new_g.vs]
+#                #fig = utils.graph_figure(new_g)
+#                #fig.update_layout(transition_duration=500)
+#    return dff.to_dict('records')
