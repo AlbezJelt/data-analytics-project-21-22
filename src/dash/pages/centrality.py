@@ -1,23 +1,20 @@
-import itertools
 import pickle
 from collections import defaultdict
 from copy import deepcopy
 
-import chart_studio.plotly as py
 import plotly.express as ex
 import plotly.figure_factory as ff
 
 import dash
 import dash_bootstrap_components as dbc
-from fsspec import Callback
 import igraph as ig
 import numpy as np
-from sqlalchemy import column
 import utils
-from dash import Dash, Input, Output, callback_context, dcc, html, callback
+from dash import  Input, Output, callback_context, dcc, html, callback
 from plotly.graph_objs import *
-from sklearn.preprocessing import minmax_scale, StandardScaler
+from sklearn.preprocessing import minmax_scale
 import pandas as pd
+from scipy.stats import gaussian_kde
 
 # Load data
 g = ig.Graph.Read('./data/graphs/april2022_Lspace.graphml')
@@ -29,10 +26,10 @@ with open('./data/plots/april2022_Lspace_robustness.pickle', 'rb') as f:
 
 centrality_measures = {
     'degree': lambda x: x.degree(),
-    'betweennes': lambda x: x.strength(weights='num_train'),
-    'closeness': lambda x: x.betweenness(),
-    'pagerank': lambda x: x.closeness(),
-    'strength_num_train': lambda x: x.pagerank(),
+    'betweennes': lambda x: x.betweenness(directed=True),
+    'closeness': lambda x: x.closeness(),
+    'pagerank': lambda x: x.pagerank(),
+    'strength_num_train': lambda x: x.strength(weights='num_train'),
     'pagerank_num_train': lambda x: x.pagerank(weights='num_train')
 }
 
@@ -49,35 +46,17 @@ def layout():
         children=[
             html.H1(children='Centrality analysis'),
             dbc.Row(dcc.Graph(id='trenord-graph')),
-            dbc.Row(centrality_col),
-            dbc.Row(dcc.Graph(id='robustness', figure=utils.robustness_figure(robustness_data))),
+            dbc.Row(centrality_col)
         ]
     )
 
 @callback(
-    Output(component_id='trenord-graph', component_property='figure'),
-    Input(component_id='centrality_measures_dropdown', component_property='value'),
-    Input('robustness', 'clickData')
+    Output('trenord-graph', 'figure'),
+    Input('centrality_measures_dropdown', 'value')
 )
-def centrality_measures_dropdown_value_change(dropDown_value, clickData) -> Figure:
+def centrality_measures_dropdown_value_change(dropDown_value) -> Figure:
     new_g = deepcopy(g)
-    centrality_measure = centrality_measures[dropDown_value]
-    triggered_id = callback_context.triggered[0]['prop_id']
-    vertex_size = []
-    if 'robustness.clickData' == triggered_id:
-        centrality_measure_name = list(centrality_measures.keys())[clickData['points'][0]['curveNumber']]
-        rem_perc = clickData['points'][0]['x']
-        removed_labels = robustness_data.loc[(robustness_data['rem_perc'] <= rem_perc) & (robustness_data['centrality_measure'] == centrality_measure_name), ['removed']].to_numpy()
-        removed_labels = np.hstack(np.ravel(removed_labels))
-        removed_ids = [v.index for v in g.vs if v['name'] in removed_labels]
-        tmp_g = deepcopy(g)
-        tmp_g.delete_vertices(removed_ids)
-        cent = defaultdict(lambda: 0.0, zip(tmp_g.vs['name'], minmax_scale(centrality_measure(tmp_g))))
-        vertex_size = [cent[v['name']] for v in g.vs]
-
-    else:
-        vertex_size = minmax_scale(centrality_measure(g))
-
+    vertex_size = minmax_scale(g.vs[dropDown_value])
     new_g.vs['vertex_size'] = vertex_size
     fig = utils.graph_figure(new_g)
     fig.update_layout(transition_duration=500)
@@ -88,8 +67,7 @@ def centrality_measures_dropdown_value_change(dropDown_value, clickData) -> Figu
     Input('centrality_measures_dropdown', 'value')
 )
 def top_15_by_centrality(dropDown_value) -> Figure:
-    #centrality = StandardScaler().fit_transform(np.array(centrality_measures[dropDown_value](g)).reshape(-1,1)).T.ravel()
-    centrality = np.array(centrality_measures[dropDown_value](g))
+    centrality = np.array(g.vs[dropDown_value])
     centrality_indexes = utils.top_n_indices(centrality, 15)
     centrality_data = (centrality[i] for i in centrality_indexes)
     centrality_label = (g.vs[i]['label'] for i in centrality_indexes)
@@ -104,9 +82,9 @@ def top_15_by_centrality(dropDown_value) -> Figure:
     Output('density', 'figure'),
     Input('centrality_measures_dropdown', 'value')
 )
-def top_15_by_centrality(dropDown_value) -> Figure:
-    #centrality = StandardScaler().fit_transform(np.array(centrality_measures[dropDown_value](g)).reshape(-1,1)).T.ravel()
-    centrality = np.array(centrality_measures[dropDown_value](g))
-    fig = ff.create_distplot([centrality], [dropDown_value])
+def centrality_distplot(dropDown_value) -> Figure:
+    centrality = np.array(g.vs[dropDown_value])
+    fig = ff.create_distplot([centrality], [dropDown_value], bin_size=.1, histnorm='probability')
+    fig.data[1].y = minmax_scale(fig.data[1].y) / centrality.shape[0]
     fig.update_layout(title_text=f'{dropDown_value} distribution')
     return fig

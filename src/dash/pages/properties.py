@@ -24,8 +24,8 @@ centrality_measures = {
     #'pagerank_num_train': lambda x: x.pagerank(weights='num_train')
 }
 
-for x in list(centrality_measures.keys()):
-    df.insert(len(df.columns), x, centrality_measures[x](g))
+# for x in list(centrality_measures.keys()):
+#     df.insert(len(df.columns), x, centrality_measures[x](g))
 
 dash.register_page(__name__, name='Network properties')
 

@@ -1,4 +1,5 @@
 import itertools as it
+from statistics import mean
 
 import igraph as ig
 import numpy as np
@@ -6,7 +7,7 @@ import pandas as pd
 import plotly
 import plotly.express as px
 from plotly.graph_objs import *
-
+import plotly.graph_objects as go
 
 def layout_geo(g: ig.Graph) -> ig.Layout:
     return ig.Layout(it.zip_longest(g.vs['lat'], g.vs['lon']))
@@ -92,3 +93,29 @@ def graph_figure(g: ig.Graph, color=None) -> plotly.graph_objs.Figure:
 
     data = [trace1, trace2]
     return Figure(data=data, layout=layout)
+
+def mapbox(g: ig.Graph, color=None) -> plotly.graph_objs.Figure:
+    ly = layout_geo(g)
+    E = [e.tuple for e in g.es]  # list of edges
+
+    def fXe(e): yield ly[e[0]][1]; yield ly[e[1]][1]; yield None
+    def fYe(e): yield ly[e[0]][0]; yield ly[e[1]][0]; yield None
+    Xe = list(it.chain.from_iterable(fXe(e) for e in E))
+    Ye = list(it.chain.from_iterable(fYe(e) for e in E))
+
+    fig = go.Figure(go.Scattermapbox(
+        mode = "markers+lines",
+        lon = Xe,
+        lat = Ye,
+        marker = {'size': 5},
+        line = {'width': 1, 'color': 'red'})
+    )
+
+    fig.update_layout(
+        margin ={'l':0,'t':0,'b':0,'r':0},
+        mapbox = {
+            'style': "open-street-map",
+            'center': {'lon': mean(g.vs['lon']), 'lat': mean(g.vs['lat'])},
+            'zoom': 7})
+
+    return fig
