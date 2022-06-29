@@ -9,6 +9,7 @@ import plotly.express as px
 from plotly.graph_objs import *
 import plotly.graph_objects as go
 
+
 def layout_geo(g: ig.Graph) -> ig.Layout:
     return ig.Layout(it.zip_longest(g.vs['lat'], g.vs['lon']))
 
@@ -34,10 +35,11 @@ def robustness_figure(df: pd.DataFrame) -> plotly.graph_objs.Figure:
     return fig
 
 
-def graph_figure(g: ig.Graph, color=None) -> plotly.graph_objs.Figure:
+def graph_figure(g: ig.Graph, color=None, paths=None) -> plotly.graph_objs.Figure:
     ly = layout_geo(g)
     labels = list(g.vs['label'])
     N = len(labels)
+    if paths is not None: labels = list(zip(labels, paths))
     E = [e.tuple for e in g.es]  # list of edges
 
     markers = {
