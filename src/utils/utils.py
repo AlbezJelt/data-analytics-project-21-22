@@ -13,7 +13,6 @@ import plotly.graph_objects as go
 def layout_geo(g: ig.Graph) -> ig.Layout:
     return ig.Layout(it.zip_longest(g.vs['lat'], g.vs['lon']))
 
-
 def top_n_indices(arr: np.ndarray, n: int, sort: bool = True) -> np.ndarray:
     top_n = np.argpartition(arr, -n)[-n:]
     if sort:
@@ -21,19 +20,13 @@ def top_n_indices(arr: np.ndarray, n: int, sort: bool = True) -> np.ndarray:
     else:
         return top_n
 
-
 def robustness_figure(df: pd.DataFrame) -> plotly.graph_objs.Figure:
-    fig = px.line(df, x="rem_perc", y="S", color="centrality_measure", line_dash="centrality_measure")
-    fig.update_xaxes(
-        range=[0,100],  # sets the range of xaxis
-        constrain="domain",  # meanwhile compresses the xaxis by decreasing its "domain"
-    )
-    fig.update_yaxes(
-        scaleanchor = "x",
-        scaleratio = 1,
-    )
+    fig = px.line(df, x="rem_perc", y="S", color="centrality_measure", line_dash="centrality_measure", hover_data=['removed'])
     return fig
 
+def average_path_length_robustness_figure(df: pd.DataFrame) -> plotly.graph_objs.Figure:
+    fig = px.line(df, x="rem_perc", y="average_path_length", color="centrality_measure", line_dash="centrality_measure", hover_data=['removed'])
+    return fig
 
 def graph_figure(g: ig.Graph, color=None, paths=None) -> plotly.graph_objs.Figure:
     ly = layout_geo(g)
@@ -121,3 +114,9 @@ def mapbox(g: ig.Graph, color=None) -> plotly.graph_objs.Figure:
             'zoom': 7})
 
     return fig
+
+def populate_rank(g, measures_value):
+    top = [top_n_indices(ms, ms.shape[0]) for ms in measures_value]
+    for i, _ in enumerate(measures_value):
+        measures_value[i][top[i]] = (top[i].shape[0] + 1 - np.array(range(1, top[i].shape[0] + 1))) / top[i].shape[0]
+    return np.sum(measures_value, axis=0) 

@@ -36,16 +36,22 @@ centrality_measures = {
 def layout():
 
     centrality_col = [
-        dbc.Row(dcc.Dropdown(list(centrality_measures.keys()), list(centrality_measures.keys())[0], id='centrality_measures_dropdown')),
-        dbc.Col(dcc.Graph(id='top-15', responsive=True)),
-        dbc.Col(dcc.Graph(id='density', responsive=True))
+        dbc.Col(dcc.Graph(id='density', figure=centrality_distplot(), responsive=True))
+    ]
+
+    graph_col = [
+        dbc.Col(dcc.Graph(id='trenord-graph')),
+        dbc.Col([
+            dbc.Row(dcc.Dropdown(list(centrality_measures.keys()), list(centrality_measures.keys())[0], id='centrality_measures_dropdown')),
+            dbc.Row(dcc.Graph(id='top-15', responsive=True))
+        ])
     ]
 
     return html.Div(
         className='container-fluid page-container',
         children=[
             html.H1(children='Centrality analysis'),
-            dbc.Row(dcc.Graph(id='trenord-graph')),
+            dbc.Row(graph_col),
             dbc.Row(centrality_col)
         ]
     )
@@ -78,13 +84,17 @@ def top_15_by_centrality(dropDown_value) -> Figure:
     fig = ex.bar(df, x='station', y=dropDown_value, title=f'Top 15 station by {dropDown_value} centrality')
     return fig
 
-@callback(
-    Output('density', 'figure'),
-    Input('centrality_measures_dropdown', 'value')
-)
-def centrality_distplot(dropDown_value) -> Figure:
-    centrality = np.array(g.vs[dropDown_value])
-    fig = ff.create_distplot([centrality], [dropDown_value], bin_size=.1, histnorm='probability')
-    fig.data[1].y = minmax_scale(fig.data[1].y) / centrality.shape[0]
-    fig.update_layout(title_text=f'{dropDown_value} distribution')
+def centrality_distplot() -> Figure:   
+    # centralities = pd.DataFrame(
+    #     ((measure, value) for measure in centrality_measures.keys() for value in g.vs[measure]),
+    #     columns=['centrality', 'value']
+    # )
+    #fig = ex.histogram(centralities, x="value", color="centrality", histnorm='probability')
+    fig = fig = ff.create_distplot(
+        [g.vs[measure] for measure in centrality_measures.keys()], 
+        list(centrality_measures.keys()),
+        rug_text=[g.vs['label'] for measure in centrality_measures.keys()], 
+        bin_size=.01, 
+        histnorm='probability')
+    fig.update_layout(title_text=f'Centrality distributions')
     return fig
