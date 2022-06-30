@@ -43,7 +43,7 @@ def layout():
         dbc.Col(dcc.Graph(id='trenord-graph')),
         dbc.Col([
             dbc.Row(dcc.Dropdown(list(centrality_measures.keys()), list(centrality_measures.keys())[0], id='centrality_measures_dropdown')),
-            dbc.Row(dcc.Graph(id='top-15', responsive=True))
+            dbc.Row(dcc.Graph(id='top-15', responsive=True, style={'padding-top': '20px'}))
         ])
     ]
 
