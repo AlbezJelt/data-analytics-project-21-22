@@ -1,5 +1,4 @@
 from copy import deepcopy
-import enum
 import dash
 from dash import html, dcc, dash_table, callback, Input, Output, callback_context, State
 import igraph as ig
@@ -12,18 +11,6 @@ from dash.exceptions import PreventUpdate
 g = ig.Graph.Read('./data/graphs/april2022_Lspace.graphml')
 
 df = pd.DataFrame({attr: g.vs[attr] for attr in g.vertex_attributes()})
-centrality_measures = {
-    'degree': lambda x: x.degree(),
-    'in-degree': lambda x: x.degree(mode="in-degree"),
-    'out-degree': lambda x: x.degree(mode="out-degree"),
-    'betweennes': lambda x: x.betweenness(directed=True),
-    'closeness': lambda x: x.closeness(),
-    'pagerank': lambda x: x.pagerank(directed=True),
-    #'strength_num_train': lambda x: x.pagerank(),
-    #'pagerank_num_train': lambda x: x.pagerank(weights='num_train')
-}
-
-# for x in list(centrality_measures.keys()): df.insert(len(df.columns), x, centrality_measures[x](g))
 
 dash.register_page(__name__, name='Network properties')
 
@@ -71,7 +58,6 @@ layout = html.Div(children=[
     Input('table', 'derived_virtual_row_ids'),
     Input('table', 'selected_row_ids'),
     Input('graph_prop', 'clickData'),
-    #Input('table', 'data')
     Input('submit-button', 'n_clicks'),
     State('drop1', 'value'),
     State('drop2', 'value')
@@ -107,7 +93,7 @@ def on_table_change(row_ids, selected_row_ids, clickData, n_clicks, drop1, drop2
             else: colors.append('#6959CD')
         vertex_size = [1.5 if v['label'] == station or v['id'] in vicini else .5 for v in new_g.vs]
     elif triggered_id == 'submit-button.n_clicks':  # Show shortest-path
-        if drop1 is not None and drop2 is not None and drop1 != drop2:
+        if drop1 is not None and drop2 is not None:
             try:
                 node1 = new_g.vs.select(label=drop1)[0]['id']
                 node2 = new_g.vs.select(label=drop2)[0]['id']
@@ -129,14 +115,6 @@ def on_table_change(row_ids, selected_row_ids, clickData, n_clicks, drop1, drop2
             except Exception as e:
                 print(e)
                 raise PreventUpdate
-    #elif triggered_id == 'table.data':
-    #    set_df = set([i for i in data['name']])
-    #    set_g = set(new_g.vs['name'])
-    #    diff = set_g - set_df
-    #    if len(diff) > 0:
-    #        for elem in diff:
-    #            new_g.delete_vertices(elem)
-    #    vertex_size = [.5 for _ in new_g.vs]
     else:
         vertex_size = [.5 for _ in new_g.vs]
 
@@ -145,36 +123,6 @@ def on_table_change(row_ids, selected_row_ids, clickData, n_clicks, drop1, drop2
     fig.update_layout(transition_duration=500)
     return fig
 
-# TODO: Non riesco ad aggiornare la tabella quando rimuovo una entry, perchè all'eliminazione successiva, quello precedente ricompare...
-        # penso sia dovuto al fatto che all'iterazione successiva il dataframe viene ricalcolato da 0
-        # P.S. in teoria mi sarebbe piaciuto anche aggionare il grafo una volta eliminata l'entry...
-#@callback(
-#    Output('table', 'data'),
-#    Input('table', 'data_previous'),
-#    State('table', 'data')
-#)
-#def on_remove_update(previous, current):
-#    new_g = deepcopy(g)
-#    dff = df
-#    if previous is not None:
-#        print("hola")
-#        s1 = set([i['name'] for i in current])
-#        s2 = set([i['name'] for i in previous])
-#        diff = s2 - s1
-#        print('s2-s1: ', diff)
-#        if len(diff) > 0:
-#            for elem in diff:
-#                print(elem)
-#                new_g.delete_vertices(elem)
-#                # TODO: da fare tramite callback
-#                dff = dff[dff["name"].str.contains(str(elem)) == False]
-#                for x in list(centrality_measures.keys()):
-#                    del dff[x]
-#                    dff.insert(len(dff.columns), x, centrality_measures[x](new_g))
-#                #new_g.vs['vertex_size'] = [.5 for _ in new_g.vs]
-#                #fig = utils.graph_figure(new_g)
-#                #fig.update_layout(transition_duration=500)
-#    return dff.to_dict('records')
 
 @callback(
     Output('output-state', 'children'),
