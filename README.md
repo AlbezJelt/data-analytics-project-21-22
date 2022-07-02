@@ -15,7 +15,7 @@ It doesn't require to manually install any python package (even python itself is
     * Or build and run the docker image manually.
       ```bash
       docker build -t data-analytics-project-21-22 .
-      docker run --gpus all -it --rm data-analytics-project-21-22
+      docker run -it --rm data-analytics-project-21-22
       ```
       In the terminal you should be prompted to open a link in the browser that redirect to a Jupyter Notebook environment.
 
