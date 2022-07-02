@@ -17,7 +17,8 @@ sidebar = html.Div(
         html.P("Transportation network analysis", className="lead"),
         html.Hr(),
         dbc.Nav(
-            [dbc.NavLink(page['name'], href=page['path'], active="exact") for page in dash.page_registry.values()],
+            [
+                dbc.NavLink(page['name'], href=page['path'], active="exact") for page in dash.page_registry.values()],
             vertical=True,
             pills=True,
         ),
