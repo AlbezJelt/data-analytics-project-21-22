@@ -56,10 +56,13 @@ def layout():
                 It has been observed in the literature that the behavior of a complex network under an attack that removes nodes or links 
                 randomly can differ drastically from a scenario in which attacks are carried out according to certain criteria (measure).
 
-                ### Resilience of the giant component
+                ### Trenord network graph
                 Click anywhere on the charts below to see the effect of nodes removal on the graph.
             """),
             dcc.Graph(id='graph_v', responsive=False, style={'padding': '20px'}),
+            dcc.Markdown("""
+                ### Resilience of the giant component
+            """),
             dcc.Graph(
                 id='robustness_figure', 
                 figure=utils.robustness_figure(robustness), 
