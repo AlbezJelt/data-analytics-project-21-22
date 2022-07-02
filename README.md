@@ -3,6 +3,8 @@
 Analisis of the rail transport network of Trenord, i.e., the network of the Lombardy region, to study its characteristics and find possible critical points in case of malfunctions, 
 through the activities of Network Analysis and Vulnerability Detection.
 
+Link to the dataset: [Transitfeeds](https://transitfeeds.com/p/trenord/724)
+
 # Development environment setup
 
 The development environment is provided with a docker image based on [jupyter/scipy-notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-scipy-notebook).
