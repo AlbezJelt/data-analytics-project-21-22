@@ -16,7 +16,86 @@ dash.register_page(__name__, name='Network properties')
 
 main_container = html.Div(className='container-fluid page-container', children=[
     dbc.Container([
-        dcc.Graph(id='graph_prop', responsive=False),
+        dbc.Row(
+        [
+            dbc.Col(dcc.Graph(id='graph_prop', responsive=False)),
+            dbc.Col(
+                html.Div([
+                    dbc.Row(dcc.Markdown("### Network's general properties")),
+                    dbc.Card(
+                        dbc.CardBody(
+                            [
+                                html.H5("Number of nodes", className="card-title"),
+                                dcc.Markdown(
+                                    "Trenord network is composed of **428** nodes."
+                                )
+                            ]
+                        ), color="light"
+                    ),
+                    dbc.Card(
+                        dbc.CardBody(
+                            [
+                                html.H5("Number of edges", className="card-title"),
+                                dcc.Markdown(
+                                    "Trenord network is composed of **1173** edges."
+                                )
+                            ]
+                        ), color="light"
+                    ),
+                    dbc.Card(
+                        dbc.CardBody(
+                            [
+                                html.H5("Diameter", className="card-title"),
+                                dcc.Markdown(
+                                    "The biggest distance between stations in the network is **26**."
+                                )
+                            ]
+                        ), color="light"
+                    ),
+                    dbc.Card(
+                        dbc.CardBody(
+                            [
+                                html.H5("Average shortest path", className="card-title"),
+                                dcc.Markdown(
+                                    "The average shortest path between nodes in the network is **9.52**."
+                                )
+                            ]
+                        ), color="light"
+                    ),
+                    dbc.Card(
+                        dbc.CardBody(
+                            [
+                                html.H5("Average Degree", className="card-title"),
+                                dcc.Markdown(
+                                    "The average degree of the nodes is **5.48**."
+                                )
+                            ]
+                        ), color="light"
+                    ),
+                    dbc.Card(
+                        dbc.CardBody(
+                            [
+                                html.H5("Assortativity degree", className="card-title"),
+                                dcc.Markdown(
+                                    "Trenord network tends to be an assortative network, with a degree of **0.23**."
+                                )
+                            ]
+                        ), color="light"
+                    ),
+                    dbc.Card(
+                        dbc.CardBody(
+                            [
+                                html.H5("Average Clustering coefficient", className="card-title"),
+                                dcc.Markdown(
+                                    "The probability that two neighbors of a randomly selected node link to each other is **0.22**."
+                                )
+                            ]
+                        ), color="light"
+                    ),
+                    ])
+                #)
+            )
+        ]),
         html.P("Find the shortest path", className="lead"),
         dcc.Dropdown(g.vs['label'], placeholder="Select a station", id='drop1'),
         dcc.Dropdown(g.vs['label'], placeholder="Select a station", id='drop2'),
